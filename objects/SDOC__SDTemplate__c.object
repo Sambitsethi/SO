@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OUV_Document_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Template</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Document_Template</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Loan_Agreement_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>VLA Template (PDF Only)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Loan_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Loan_Agreement_Language__c</fullName>
+        <externalId>false</externalId>
+        <label>VLA Email &amp; Instructions Language (HTML)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Language</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Template_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Template Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Market</valueSetName>
+        </valueSet>
+    </fields>
+    <webLinks>
+        <fullName>Template_Editor_New</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Template Editor (New)</masterLabel>
+        <openType>noSidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDTemplateEditor?id={!SDOC__SDTemplate__c.Id}&amp;Field=Template_XML__c&amp;linebreak=paragraph</url>
+    </webLinks>
+</CustomObject>

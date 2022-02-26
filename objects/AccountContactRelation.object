@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>SO_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Corporate</fullName>
+                    <default>false</default>
+                    <label>Corporate</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>Retailer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Relationship__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Same person</fullName>
+                    <default>false</default>
+                    <label>Same person</label>
+                </value>
+                <value>
+                    <fullName>Household member</fullName>
+                    <default>false</default>
+                    <label>Household member</label>
+                </value>
+                <value>
+                    <fullName>Business Partner</fullName>
+                    <default>false</default>
+                    <label>Business Partner</label>
+                </value>
+                <value>
+                    <fullName>Broker</fullName>
+                    <default>false</default>
+                    <label>Broker</label>
+                </value>
+                <value>
+                    <fullName>Referral Contact</fullName>
+                    <default>false</default>
+                    <label>Referral Contact</label>
+                </value>
+                <value>
+                    <fullName>Contact Person</fullName>
+                    <default>false</default>
+                    <label>Contact Person (e.g. PA)</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Director</fullName>
+                    <default>false</default>
+                    <label>Director</label>
+                </value>
+                <value>
+                    <fullName>Owner</fullName>
+                    <default>false</default>
+                    <label>Owner</label>
+                </value>
+                <value>
+                    <fullName>Employee</fullName>
+                    <default>false</default>
+                    <label>Employee</label>
+                </value>
+                <value>
+                    <fullName>Retailer Contact</fullName>
+                    <default>false</default>
+                    <label>Retailer Contact</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Same person</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Household member</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Business Partner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Broker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Referral Contact</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Contact Person</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Individual</controllingFieldValue>
+                <valueName>Decision Maker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate</controllingFieldValue>
+                <valueName>Director</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate</controllingFieldValue>
+                <valueName>Owner</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Corporate</controllingFieldValue>
+                <valueName>Employee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Retailer</controllingFieldValue>
+                <valueName>Retailer Contact</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Relationship_Strength__c</fullName>
+        <externalId>false</externalId>
+        <label>Relationship Strength</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Strong</fullName>
+                    <default>false</default>
+                    <label>Strong</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Weak</fullName>
+                    <default>false</default>
+                    <label>Weak</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OUV_Vehicle_Full_VIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_FullVIN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Vehicle Full VIN</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_OrderNumber__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Vehicle Order Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle__c</fullName>
+        <deleteConstraint>Cascade</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Vehicle</label>
+        <referenceTo>OUV_Vehicle__c</referenceTo>
+        <relationshipLabel>Availabilities</relationshipLabel>
+        <relationshipName>Availabilities</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

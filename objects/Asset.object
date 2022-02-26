@@ -1,0 +1,4835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Vista_Layout</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Full_Vin__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Vehicle_Model_Code__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Vehicle_Line__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Derivative_Pack_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Status_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Delivery_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_ATO_Request__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <compactLayouts>
+        <fullName>Vista_Layout</fullName>
+        <fields>OUV_Order_Number__c</fields>
+        <fields>OUV_Full_Vin__c</fields>
+        <fields>OUV_Delivery_Date__c</fields>
+        <fields>OUV_Vehicle_Line__c</fields>
+        <fields>OUV_Market__c</fields>
+        <fields>Status</fields>
+        <fields>OUV_Type_of_Sale_Code__c</fields>
+        <fields>OUV_ABS_Date__c</fields>
+        <label>Vista Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>ParCode__c</fullName>
+        <description>ParCode</description>
+        <externalId>false</externalId>
+        <label>ParCode</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Trim__c</fullName>
+        <externalId>false</externalId>
+        <label>Trim</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Brand__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <referenceTo>SO_Vehicle_Manufacturer__c</referenceTo>
+        <relationshipLabel>Vista Vehicles</relationshipLabel>
+        <relationshipName>Vista_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Model</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Selected Model doesn&apos;t belong to the Brand</errorMessage>
+            <filterItems>
+                <field>SO_Vehicle_Model__c.SO_Manufacturer__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Brand__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Model__c</referenceTo>
+        <relationshipLabel>Vista Vehicles</relationshipLabel>
+        <relationshipName>Vista_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>On the Road Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Engine__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Brand_Code__c</fullName>
+        <description>Brand Code</description>
+        <externalId>false</externalId>
+        <label>Brand Code</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( OUV_Market_Code__c, 
+&quot;IE&quot;,&quot;MENA&quot;, 
+&quot;KC&quot;,&quot;MENA&quot;, 
+&quot;AD&quot;,&quot;MENA&quot;, 
+&quot;MS&quot;,&quot;MENA&quot;, 
+&quot;SD&quot;,&quot;MENA&quot;, 
+&quot;BB&quot;,&quot;MENA&quot;, 
+&quot;YA&quot;,&quot;MENA&quot;, 
+&quot;PA&quot;,&quot;MENA&quot;, 
+&quot;GR&quot;,&quot;MENA&quot;, 
+&quot;PL&quot;,&quot;MENA&quot;, 
+&quot;DU&quot;,&quot;MENA&quot;, 
+&quot;LY&quot;,&quot;MENA&quot;, 
+&quot;SR&quot;,&quot;MENA&quot;, 
+&quot;EB&quot;,&quot;MENA&quot;, 
+&quot;LB&quot;,&quot;MENA&quot;, 
+&quot;AU&quot;,&quot;MENA&quot;, 
+&quot;IF&quot;,&quot;MENA&quot;, 
+&quot;QA&quot;,&quot;MENA&quot;, 
+&quot;MJ&quot;,&quot;MENA&quot;, 
+&quot;AZ&quot;,&quot;MENA&quot;, 
+&quot;JC&quot;,&quot;MENA&quot;, 
+&quot;TF&quot;,&quot;MENA&quot;, 
+&quot;EM&quot;,&quot;MENA&quot;, 
+&quot;SC&quot;,&quot;MENA&quot;, 
+&quot;JB&quot;,&quot;Japan&quot;, 
+&quot;MH&quot;,&quot;Mexico&quot;, 
+&quot;PH&quot;,&quot;Portugal&quot;, 
+&quot;IJ&quot;,&quot;Italy&quot;, 
+&quot;UB&quot;,&quot;United Kingdom&quot;, 
+&quot;NB&quot;,&quot;Netherlands&quot;, 
+&quot;BH&quot;,&quot;Brazil&quot;, 
+&quot;AK&quot;,&quot;Austria&quot;, 
+&quot;FF&quot;,&quot;France&quot;, 
+&quot;US&quot;,&quot;USA&quot;, 
+&quot;KB&quot;,&quot;South Korea&quot;, 
+&quot;CJ&quot;,&quot;Colombia&quot;, 
+&quot;DE&quot;,&quot;Germany&quot;, 
+&quot;IT&quot;,&quot;Italy&quot;, 
+&quot;CB&quot;,&quot;Canada&quot;, 
+&quot;ES&quot;,&quot;Spain&quot;, 
+&quot;CO&quot;,&quot;China&quot;, 
+&quot;AJ&quot;,&quot;Australia&quot;, 
+&quot;MT&quot;,&quot;Singapore&quot;, 
+&quot;CH&quot;,&quot;China&quot;, 
+&quot;UR&quot;,&quot;Russia&quot;, 
+&quot;SK&quot;,&quot;Spain&quot;, 
+&quot;IC&quot;,&quot;India&quot;, 
+&quot;SH&quot;,&quot;South Africa&quot;, 
+&quot;TB&quot;,&quot;Taiwan&quot;, 
+&quot;BD&quot;,&quot;Belgium&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Option__c</fullName>
+        <externalId>false</externalId>
+        <label>Option</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(  OUV_Market_Code__c , 
+&quot;IE&quot;,&quot;Overseas&quot;, 
+&quot;KC&quot;,&quot;Overseas&quot;, 
+&quot;AD&quot;,&quot;Overseas&quot;, 
+&quot;MS&quot;,&quot;Overseas&quot;, 
+&quot;SD&quot;,&quot;Overseas&quot;, 
+&quot;BB&quot;,&quot;Overseas&quot;, 
+&quot;YA&quot;,&quot;Overseas&quot;, 
+&quot;PA&quot;,&quot;Overseas&quot;, 
+&quot;GR&quot;,&quot;Overseas&quot;, 
+&quot;PL&quot;,&quot;Overseas&quot;, 
+&quot;DU&quot;,&quot;Overseas&quot;, 
+&quot;LY&quot;,&quot;Overseas&quot;, 
+&quot;SR&quot;,&quot;Overseas&quot;, 
+&quot;EB&quot;,&quot;Overseas&quot;, 
+&quot;LB&quot;,&quot;Overseas&quot;, 
+&quot;AU&quot;,&quot;Overseas&quot;, 
+&quot;IF&quot;,&quot;Overseas&quot;, 
+&quot;QA&quot;,&quot;Overseas&quot;, 
+&quot;MJ&quot;,&quot;Overseas&quot;, 
+&quot;AZ&quot;,&quot;Overseas&quot;, 
+&quot;JC&quot;,&quot;Overseas&quot;, 
+&quot;TF&quot;,&quot;Overseas&quot;, 
+&quot;EM&quot;,&quot;Overseas&quot;, 
+&quot;SC&quot;,&quot;Overseas&quot;, 
+&quot;JB&quot;,&quot;Overseas&quot;, 
+&quot;MH&quot;,&quot;Overseas&quot;, 
+&quot;PH&quot;,&quot;Europe&quot;, 
+&quot;IJ&quot;,&quot;Europe&quot;, 
+&quot;UB&quot;,&quot;UK&quot;, 
+&quot;NB&quot;,&quot;Europe&quot;, 
+&quot;BH&quot;,&quot;Overseas&quot;, 
+&quot;AK&quot;,&quot;Europe&quot;, 
+&quot;FF&quot;,&quot;Europe&quot;, 
+&quot;US&quot;,&quot;Major Markets&quot;, 
+&quot;KB&quot;,&quot;Overseas&quot;, 
+&quot;CJ&quot;,&quot;Overseas&quot;, 
+&quot;DE&quot;,&quot;Europe&quot;, 
+&quot;IT&quot;,&quot;Europe&quot;, 
+&quot;CB&quot;,&quot;Major Markets&quot;, 
+&quot;ES&quot;,&quot;Europe&quot;, 
+&quot;CO&quot;,&quot;Major Markets&quot;, 
+&quot;AJ&quot;,&quot;Overseas&quot;, 
+&quot;MT&quot;,&quot;Overseas&quot;, 
+&quot;CH&quot;,&quot;Major Markets&quot;, 
+&quot;UR&quot;,&quot;Overseas&quot;, 
+&quot;SK&quot;,&quot;Europe&quot;, 
+&quot;IC&quot;,&quot;Overseas&quot;, 
+&quot;SH&quot;,&quot;Overseas&quot;, 
+&quot;TB&quot;,&quot;Overseas&quot;, 
+&quot;BD&quot;,&quot;Europe&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manufacturer__c</fullName>
+        <externalId>false</externalId>
+        <label>Manufacturer</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alfa Romeo</fullName>
+                    <default>false</default>
+                    <label>Alfa Romeo</label>
+                </value>
+                <value>
+                    <fullName>Audi</fullName>
+                    <default>false</default>
+                    <label>Audi</label>
+                </value>
+                <value>
+                    <fullName>Bentley</fullName>
+                    <default>false</default>
+                    <label>Bentley</label>
+                </value>
+                <value>
+                    <fullName>BMW</fullName>
+                    <default>false</default>
+                    <label>BMW</label>
+                </value>
+                <value>
+                    <fullName>Chevrolet</fullName>
+                    <default>false</default>
+                    <label>Chevrolet</label>
+                </value>
+                <value>
+                    <fullName>Citroen</fullName>
+                    <default>false</default>
+                    <label>Citroen</label>
+                </value>
+                <value>
+                    <fullName>DAF</fullName>
+                    <default>false</default>
+                    <label>DAF</label>
+                </value>
+                <value>
+                    <fullName>Daimler</fullName>
+                    <default>false</default>
+                    <label>Daimler</label>
+                </value>
+                <value>
+                    <fullName>Dennis</fullName>
+                    <default>false</default>
+                    <label>Dennis</label>
+                </value>
+                <value>
+                    <fullName>Ferrari</fullName>
+                    <default>false</default>
+                    <label>Ferrari</label>
+                </value>
+                <value>
+                    <fullName>Fiat</fullName>
+                    <default>false</default>
+                    <label>Fiat</label>
+                </value>
+                <value>
+                    <fullName>Ford</fullName>
+                    <default>false</default>
+                    <label>Ford</label>
+                </value>
+                <value>
+                    <fullName>Honda</fullName>
+                    <default>false</default>
+                    <label>Honda</label>
+                </value>
+                <value>
+                    <fullName>Hyundai</fullName>
+                    <default>false</default>
+                    <label>Hyundai</label>
+                </value>
+                <value>
+                    <fullName>Iveco</fullName>
+                    <default>false</default>
+                    <label>Iveco</label>
+                </value>
+                <value>
+                    <fullName>Jaguar</fullName>
+                    <default>false</default>
+                    <label>Jaguar</label>
+                </value>
+                <value>
+                    <fullName>Jeep</fullName>
+                    <default>false</default>
+                    <label>Jeep</label>
+                </value>
+                <value>
+                    <fullName>Kia</fullName>
+                    <default>false</default>
+                    <label>Kia</label>
+                </value>
+                <value>
+                    <fullName>Land Rover</fullName>
+                    <default>false</default>
+                    <label>Land Rover</label>
+                </value>
+                <value>
+                    <fullName>Lexus</fullName>
+                    <default>false</default>
+                    <label>Lexus</label>
+                </value>
+                <value>
+                    <fullName>MAN</fullName>
+                    <default>false</default>
+                    <label>MAN</label>
+                </value>
+                <value>
+                    <fullName>Maserati</fullName>
+                    <default>false</default>
+                    <label>Maserati</label>
+                </value>
+                <value>
+                    <fullName>Mercedes</fullName>
+                    <default>false</default>
+                    <label>Mercedes</label>
+                </value>
+                <value>
+                    <fullName>MG</fullName>
+                    <default>false</default>
+                    <label>MG</label>
+                </value>
+                <value>
+                    <fullName>Mini</fullName>
+                    <default>false</default>
+                    <label>Mini</label>
+                </value>
+                <value>
+                    <fullName>Nissan</fullName>
+                    <default>false</default>
+                    <label>Nissan</label>
+                </value>
+                <value>
+                    <fullName>Opel</fullName>
+                    <default>false</default>
+                    <label>Opel</label>
+                </value>
+                <value>
+                    <fullName>Peugeot</fullName>
+                    <default>false</default>
+                    <label>Peugeot</label>
+                </value>
+                <value>
+                    <fullName>Porsche</fullName>
+                    <default>false</default>
+                    <label>Porsche</label>
+                </value>
+                <value>
+                    <fullName>Renault</fullName>
+                    <default>false</default>
+                    <label>Renault</label>
+                </value>
+                <value>
+                    <fullName>Skoda</fullName>
+                    <default>false</default>
+                    <label>Skoda</label>
+                </value>
+                <value>
+                    <fullName>Tesla</fullName>
+                    <default>false</default>
+                    <label>Tesla</label>
+                </value>
+                <value>
+                    <fullName>Toyota</fullName>
+                    <default>false</default>
+                    <label>Toyota</label>
+                </value>
+                <value>
+                    <fullName>Trailer</fullName>
+                    <default>false</default>
+                    <label>Trailer</label>
+                </value>
+                <value>
+                    <fullName>Vauxhall</fullName>
+                    <default>false</default>
+                    <label>Vauxhall</label>
+                </value>
+                <value>
+                    <fullName>Volvo</fullName>
+                    <default>false</default>
+                    <label>Volvo</label>
+                </value>
+                <value>
+                    <fullName>VW</fullName>
+                    <default>false</default>
+                    <label>VW</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_ABS_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Full_Vin__c</fullName>
+        <externalId>false</externalId>
+        <label>Full VIN</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_JLRBrand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Owner_Aux__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner_Aux</label>
+        <length>34</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CI_Code_trial__c</fullName>
+        <externalId>false</externalId>
+        <formula>MID( OUV_Partner_Code__c , 4, 5)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CI Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_IO_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>IO Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_SBLI_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>SBLI Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Short_VIN__c</fullName>
+        <externalId>false</externalId>
+        <label>Short VIN</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Sold_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Sold Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Trim_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Trim Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Body_Style__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Body Style</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+            <errorMessage>Selected Body style doesn&apos;t belong to the Model/Series</errorMessage>
+            <filterItems>
+                <field>$Source.SO_Series_Name__c</field>
+                <operation>notEqual</operation>
+                <value/>
+            </filterItems>
+            <filterItems>
+                <field>SO_Vehicle_Body_Style__c.SO_Series__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Series_Name__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.SO_Series_Name__c</field>
+                <operation>equals</operation>
+                <value/>
+            </filterItems>
+            <filterItems>
+                <field>SO_Vehicle_Body_Style__c.SO_Model__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Model__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Body_Style__c</referenceTo>
+        <relationshipLabel>Vehicles</relationshipLabel>
+        <relationshipName>Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Model__r.Name</formula>
+        <label>Model Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Market_Options__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Options</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_Build_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Build Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Model_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Line Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Ordered_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Ordered By</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Paint_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint Code</label>
+        <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Series_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Series Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Selected Series doesn&apos;t belong to the Model</errorMessage>
+            <filterItems>
+                <field>SO_Vehicle_Series__c.SO_Model__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Model__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Series__c</referenceTo>
+        <relationshipLabel>Vehicles</relationshipLabel>
+        <relationshipName>Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ATO_Request__c</fullName>
+        <externalId>false</externalId>
+        <label>ATO Request Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Called_Over__c</fullName>
+        <externalId>false</externalId>
+        <label>Called Over</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Customer_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Id</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Destination__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Market_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_SBLI_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>SBLI Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Salesperson__c</fullName>
+        <externalId>false</externalId>
+        <label>Salesperson</label>
+        <length>60</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Status_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>15</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>30</label>
+                </value>
+                <value>
+                    <fullName>35</fullName>
+                    <default>false</default>
+                    <label>35</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>110</fullName>
+                    <default>false</default>
+                    <label>110</label>
+                </value>
+                <value>
+                    <fullName>112</fullName>
+                    <default>false</default>
+                    <label>112</label>
+                </value>
+                <value>
+                    <fullName>135</fullName>
+                    <default>false</default>
+                    <label>135</label>
+                </value>
+                <value>
+                    <fullName>140</fullName>
+                    <default>false</default>
+                    <label>140</label>
+                </value>
+                <value>
+                    <fullName>145</fullName>
+                    <default>false</default>
+                    <label>145</label>
+                </value>
+                <value>
+                    <fullName>150</fullName>
+                    <default>false</default>
+                    <label>150</label>
+                </value>
+                <value>
+                    <fullName>155</fullName>
+                    <default>false</default>
+                    <label>155</label>
+                </value>
+                <value>
+                    <fullName>160</fullName>
+                    <default>false</default>
+                    <label>160</label>
+                </value>
+                <value>
+                    <fullName>165</fullName>
+                    <default>false</default>
+                    <label>165</label>
+                </value>
+                <value>
+                    <fullName>175</fullName>
+                    <default>false</default>
+                    <label>175</label>
+                </value>
+                <value>
+                    <fullName>190</fullName>
+                    <default>false</default>
+                    <label>190</label>
+                </value>
+                <value>
+                    <fullName>200</fullName>
+                    <default>false</default>
+                    <label>200</label>
+                </value>
+                <value>
+                    <fullName>205</fullName>
+                    <default>false</default>
+                    <label>205</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Vessel_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Vessel Name</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_MOT_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>MOT Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Transmission__c</fullName>
+        <externalId>false</externalId>
+        <label>Transmission</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Factory_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Factory Code</label>
+        <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Local_Option__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Option</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_Order_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Order Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Partner_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Unique Id</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Product_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>5000 Code</label>
+        <precision>15</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Line__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Line</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Hand_of_Drive__c</fullName>
+        <externalId>false</externalId>
+        <label>Hand of Drive</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>JLR_Hand_of_Drive</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Contract_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Customer_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Engine_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Financed_Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Financed Days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Handover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Handover Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Location_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Location Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NSC_Reference__c</fullName>
+        <externalId>false</externalId>
+        <label>NSC Reference</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Retail_Period__c</fullName>
+        <externalId>false</externalId>
+        <label>Retail Period</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Partner_Unique_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Unique ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Confirmed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Confirmed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Production_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Production Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Cart_Ref_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Cart Ref Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Contract_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Number</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Model_Year_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Model Year Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Ordering_Period__c</fullName>
+        <externalId>false</externalId>
+        <label>Ordering Period</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Actual_Sail_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Sail Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Financial_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Financial Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Invoice</fullName>
+                    <default>false</default>
+                    <label>No Invoice</label>
+                </value>
+                <value>
+                    <fullName>NSC Invoice</fullName>
+                    <default>false</default>
+                    <label>NSC Invoice</label>
+                </value>
+                <value>
+                    <fullName>Retailer Invoice</fullName>
+                    <default>false</default>
+                    <label>Retailer Invoice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_NSC_Invoice_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>NSC Invoice Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Trim_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Trim Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Warranty_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Warranty End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Annual_Market_Summary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Annual Market Summary</label>
+        <referenceTo>OUV_AnnualMarketSummary__c</referenceTo>
+        <relationshipLabel>Vista Vehicles</relationshipLabel>
+        <relationshipName>Vista_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Model_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Model Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Order_Last_Update__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Last Update</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Paint_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint Description</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Registration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Transmission_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Transmission Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Type_of_Sale_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Sale Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>AAB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AAB</label>
+                </value>
+                <value>
+                    <fullName>AAC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AAC</label>
+                </value>
+                <value>
+                    <fullName>AAG</fullName>
+                    <default>false</default>
+                    <label>AAG</label>
+                </value>
+                <value>
+                    <fullName>AAH</fullName>
+                    <default>false</default>
+                    <label>AAH</label>
+                </value>
+                <value>
+                    <fullName>AAJ</fullName>
+                    <default>false</default>
+                    <label>AAJ</label>
+                </value>
+                <value>
+                    <fullName>AAK</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AAK</label>
+                </value>
+                <value>
+                    <fullName>AAL</fullName>
+                    <default>false</default>
+                    <label>AAL</label>
+                </value>
+                <value>
+                    <fullName>AAM</fullName>
+                    <default>false</default>
+                    <label>AAM</label>
+                </value>
+                <value>
+                    <fullName>AAO</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AAO</label>
+                </value>
+                <value>
+                    <fullName>ABA</fullName>
+                    <default>false</default>
+                    <label>ABA</label>
+                </value>
+                <value>
+                    <fullName>ACA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ACA</label>
+                </value>
+                <value>
+                    <fullName>ADA</fullName>
+                    <default>false</default>
+                    <label>ADA</label>
+                </value>
+                <value>
+                    <fullName>AGA</fullName>
+                    <default>false</default>
+                    <label>AGA</label>
+                </value>
+                <value>
+                    <fullName>AJA</fullName>
+                    <default>false</default>
+                    <label>AJA</label>
+                </value>
+                <value>
+                    <fullName>AKA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>AKA</label>
+                </value>
+                <value>
+                    <fullName>CAA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CAA</label>
+                </value>
+                <value>
+                    <fullName>CAB</fullName>
+                    <default>false</default>
+                    <label>CAB</label>
+                </value>
+                <value>
+                    <fullName>CAC</fullName>
+                    <default>false</default>
+                    <label>CAC</label>
+                </value>
+                <value>
+                    <fullName>CAE</fullName>
+                    <default>false</default>
+                    <label>CAE</label>
+                </value>
+                <value>
+                    <fullName>CAG</fullName>
+                    <default>false</default>
+                    <label>CAG</label>
+                </value>
+                <value>
+                    <fullName>CAH</fullName>
+                    <default>false</default>
+                    <label>CAH</label>
+                </value>
+                <value>
+                    <fullName>CAJ</fullName>
+                    <default>false</default>
+                    <label>CAJ</label>
+                </value>
+                <value>
+                    <fullName>CAK</fullName>
+                    <default>false</default>
+                    <label>CAK</label>
+                </value>
+                <value>
+                    <fullName>CAL</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CAL</label>
+                </value>
+                <value>
+                    <fullName>CAM</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>CAM</label>
+                </value>
+                <value>
+                    <fullName>CAO</fullName>
+                    <default>false</default>
+                    <label>CAO</label>
+                </value>
+                <value>
+                    <fullName>CAP</fullName>
+                    <default>false</default>
+                    <label>CAP</label>
+                </value>
+                <value>
+                    <fullName>CAQ</fullName>
+                    <default>false</default>
+                    <label>CAQ</label>
+                </value>
+                <value>
+                    <fullName>CAR</fullName>
+                    <default>false</default>
+                    <label>CAR</label>
+                </value>
+                <value>
+                    <fullName>CAS</fullName>
+                    <default>false</default>
+                    <label>CAS</label>
+                </value>
+                <value>
+                    <fullName>CAT</fullName>
+                    <default>false</default>
+                    <label>CAT</label>
+                </value>
+                <value>
+                    <fullName>CAU</fullName>
+                    <default>false</default>
+                    <label>CAU</label>
+                </value>
+                <value>
+                    <fullName>CAV</fullName>
+                    <default>false</default>
+                    <label>CAV</label>
+                </value>
+                <value>
+                    <fullName>CAW</fullName>
+                    <default>false</default>
+                    <label>CAW</label>
+                </value>
+                <value>
+                    <fullName>CAX</fullName>
+                    <default>false</default>
+                    <label>CAX</label>
+                </value>
+                <value>
+                    <fullName>CDV</fullName>
+                    <default>false</default>
+                    <label>CDV</label>
+                </value>
+                <value>
+                    <fullName>DAA</fullName>
+                    <default>false</default>
+                    <label>DAA</label>
+                </value>
+                <value>
+                    <fullName>DAC</fullName>
+                    <default>false</default>
+                    <label>DAC</label>
+                </value>
+                <value>
+                    <fullName>DAD</fullName>
+                    <default>false</default>
+                    <label>DAD</label>
+                </value>
+                <value>
+                    <fullName>DAE</fullName>
+                    <default>false</default>
+                    <label>DAE</label>
+                </value>
+                <value>
+                    <fullName>FAA</fullName>
+                    <default>false</default>
+                    <label>FAA</label>
+                </value>
+                <value>
+                    <fullName>FAB</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FAB</label>
+                </value>
+                <value>
+                    <fullName>FAC</fullName>
+                    <default>false</default>
+                    <label>FAC</label>
+                </value>
+                <value>
+                    <fullName>FAD</fullName>
+                    <default>false</default>
+                    <label>FAD</label>
+                </value>
+                <value>
+                    <fullName>FAE</fullName>
+                    <default>false</default>
+                    <label>FAE</label>
+                </value>
+                <value>
+                    <fullName>FAF</fullName>
+                    <default>false</default>
+                    <label>FAF</label>
+                </value>
+                <value>
+                    <fullName>FAH</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FAH</label>
+                </value>
+                <value>
+                    <fullName>FAM</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FAM</label>
+                </value>
+                <value>
+                    <fullName>FAS</fullName>
+                    <default>false</default>
+                    <label>FAS</label>
+                </value>
+                <value>
+                    <fullName>FAU</fullName>
+                    <default>false</default>
+                    <label>FAU</label>
+                </value>
+                <value>
+                    <fullName>FBA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FBA</label>
+                </value>
+                <value>
+                    <fullName>FBB</fullName>
+                    <default>false</default>
+                    <label>FBB</label>
+                </value>
+                <value>
+                    <fullName>FBC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FBC</label>
+                </value>
+                <value>
+                    <fullName>FBD</fullName>
+                    <default>false</default>
+                    <label>FBD</label>
+                </value>
+                <value>
+                    <fullName>FBE</fullName>
+                    <default>false</default>
+                    <label>FBE</label>
+                </value>
+                <value>
+                    <fullName>FBF</fullName>
+                    <default>false</default>
+                    <label>FBF</label>
+                </value>
+                <value>
+                    <fullName>FBG</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FBG</label>
+                </value>
+                <value>
+                    <fullName>FEB</fullName>
+                    <default>false</default>
+                    <label>FEB</label>
+                </value>
+                <value>
+                    <fullName>FEC</fullName>
+                    <default>false</default>
+                    <label>FEC</label>
+                </value>
+                <value>
+                    <fullName>FED</fullName>
+                    <default>false</default>
+                    <label>FED</label>
+                </value>
+                <value>
+                    <fullName>FEE</fullName>
+                    <default>false</default>
+                    <label>FEE</label>
+                </value>
+                <value>
+                    <fullName>FEF</fullName>
+                    <default>false</default>
+                    <label>FEF</label>
+                </value>
+                <value>
+                    <fullName>FEG</fullName>
+                    <default>false</default>
+                    <label>FEG</label>
+                </value>
+                <value>
+                    <fullName>FPO</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FPO</label>
+                </value>
+                <value>
+                    <fullName>MAA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>MAA</label>
+                </value>
+                <value>
+                    <fullName>MAD</fullName>
+                    <default>false</default>
+                    <label>MAD</label>
+                </value>
+                <value>
+                    <fullName>MAE</fullName>
+                    <default>false</default>
+                    <label>MAE</label>
+                </value>
+                <value>
+                    <fullName>MAF</fullName>
+                    <default>false</default>
+                    <label>MAF</label>
+                </value>
+                <value>
+                    <fullName>MAG</fullName>
+                    <default>false</default>
+                    <label>MAG</label>
+                </value>
+                <value>
+                    <fullName>MAH</fullName>
+                    <default>false</default>
+                    <label>MAH</label>
+                </value>
+                <value>
+                    <fullName>MAR</fullName>
+                    <default>false</default>
+                    <label>MAR</label>
+                </value>
+                <value>
+                    <fullName>WWW</fullName>
+                    <default>false</default>
+                    <label>WWW</label>
+                </value>
+                <value>
+                    <fullName>XX1</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>XX1</label>
+                </value>
+                <value>
+                    <fullName>XXM</fullName>
+                    <default>false</default>
+                    <label>XXM</label>
+                </value>
+                <value>
+                    <fullName>XXX</fullName>
+                    <default>false</default>
+                    <label>XXX</label>
+                </value>
+                <value>
+                    <fullName>YYA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>YYA</label>
+                </value>
+                <value>
+                    <fullName>YYB</fullName>
+                    <default>false</default>
+                    <label>YYB</label>
+                </value>
+                <value>
+                    <fullName>YYY</fullName>
+                    <default>false</default>
+                    <label>YYY</label>
+                </value>
+                <value>
+                    <fullName>ZZM</fullName>
+                    <default>false</default>
+                    <label>ZZM</label>
+                </value>
+                <value>
+                    <fullName>ZZO</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>ZZO</label>
+                </value>
+                <value>
+                    <fullName>ZZZ</fullName>
+                    <default>false</default>
+                    <label>ZZZ</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Actual_Vessel_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Vessel Name</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Market_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Retailer_Reference__c</fullName>
+        <externalId>false</externalId>
+        <label>Retailer Reference</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Specification_Lock__c</fullName>
+        <externalId>false</externalId>
+        <label>Specification Lock</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Status_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Model_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Model Code</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Brochure_Model_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Brochure Model Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Partner_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Number</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Derivative_Pack_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Derivative Pack Code</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Detailed_Status_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Detailed Status Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Emissions_Efficiency__c</fullName>
+        <externalId>false</externalId>
+        <label>Emissions/Efficiency</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Location_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Location Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Second_Handover_Date__c</fullName>
+        <description>OUV_Second_Handover_Date</description>
+        <externalId>false</externalId>
+        <label>OUV_Second_Handover_Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Next_Service_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Service Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Planned_Handover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Planned Handover Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Retailer_Invoice_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Retailer Invoice Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Data_Loading_Reference__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Data Loading Reference</label>
+        <referenceTo>OUV_Vehicle__c</referenceTo>
+        <relationshipLabel>Vista Vehicles</relationshipLabel>
+        <relationshipName>Vista_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Model_Year_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Model Year Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Bypass_Validation_Rules__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bypass Validation Rules</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Primary_Exterior_Colour__c</fullName>
+        <externalId>false</externalId>
+        <label>Primary Exterior Colour</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>JLR_Primary_Exterior_Colour</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Intermediate_Destination__c</fullName>
+        <externalId>false</externalId>
+        <label>Intermediate Destination</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Transmission_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Transmission Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Type_of_Sale_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Sale Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Affinity</fullName>
+                    <default>false</default>
+                    <label>Affinity</label>
+                </value>
+                <value>
+                    <fullName>Ambassador</fullName>
+                    <default>false</default>
+                    <label>Ambassador</label>
+                </value>
+                <value>
+                    <fullName>Blue Chip</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Blue Chip</label>
+                </value>
+                <value>
+                    <fullName>British Forces Germany</fullName>
+                    <default>false</default>
+                    <label>British Forces Germany</label>
+                </value>
+                <value>
+                    <fullName>Buffer Stock Floorplan</fullName>
+                    <default>false</default>
+                    <label>Buffer Stock Floorplan</label>
+                </value>
+                <value>
+                    <fullName>Business</fullName>
+                    <default>false</default>
+                    <label>Business</label>
+                </value>
+                <value>
+                    <fullName>Company Demonstrators</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Company Demonstrators</label>
+                </value>
+                <value>
+                    <fullName>Company Fleet - Lease</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Company Fleet - Lease</label>
+                </value>
+                <value>
+                    <fullName>Corporate Sales (viasupp</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Corporate Sales (viasupp</label>
+                </value>
+                <value>
+                    <fullName>Courtesy, Loan Car</fullName>
+                    <default>false</default>
+                    <label>Courtesy, Loan Car</label>
+                </value>
+                <value>
+                    <fullName>Courtesy / Loan Car</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Courtesy / Loan Car</label>
+                </value>
+                <value>
+                    <fullName>Customer Service, Courtesy, Loan Car</fullName>
+                    <default>false</default>
+                    <label>Customer Service, Courtesy, Loan Car</label>
+                </value>
+                <value>
+                    <fullName>Daily Rental</fullName>
+                    <default>false</default>
+                    <label>Daily Rental</label>
+                </value>
+                <value>
+                    <fullName>Daily Rental no Buy Back</fullName>
+                    <default>false</default>
+                    <label>Daily Rental no Buy Back</label>
+                </value>
+                <value>
+                    <fullName>Daily Rental with Buy Back</fullName>
+                    <default>false</default>
+                    <label>Daily Rental with Buy Back</label>
+                </value>
+                <value>
+                    <fullName>Dealer Based Rental</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Dealer Based Rental</label>
+                </value>
+                <value>
+                    <fullName>Dealer Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Dealer Stock</label>
+                </value>
+                <value>
+                    <fullName>Dealer Technician Fleet</fullName>
+                    <default>false</default>
+                    <label>Dealer Technician Fleet</label>
+                </value>
+                <value>
+                    <fullName>Demonstrator</fullName>
+                    <default>false</default>
+                    <label>Demonstrator</label>
+                </value>
+                <value>
+                    <fullName>Development Test Vehicles</fullName>
+                    <default>false</default>
+                    <label>Development Test Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Diplomatic</fullName>
+                    <default>false</default>
+                    <label>Diplomatic</label>
+                </value>
+                <value>
+                    <fullName>Embassy</fullName>
+                    <default>false</default>
+                    <label>Embassy</label>
+                </value>
+                <value>
+                    <fullName>Employee - Dealer/Importer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Employee - Dealer/Importer</label>
+                </value>
+                <value>
+                    <fullName>Employee - JLR</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Employee - JLR</label>
+                </value>
+                <value>
+                    <fullName>Employee - Suppliers</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Employee - Suppliers</label>
+                </value>
+                <value>
+                    <fullName>Employee - Tata Company</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Employee - Tata Company</label>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Engineering</label>
+                </value>
+                <value>
+                    <fullName>Executive Vehicles /Comp</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Executive Vehicles /Comp</label>
+                </value>
+                <value>
+                    <fullName>Exhibitions/Motorshows</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Exhibitions/Motorshows</label>
+                </value>
+                <value>
+                    <fullName>Exhibitions / Motorshows</fullName>
+                    <default>false</default>
+                    <label>Exhibitions / Motorshows</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 100+ vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 100+ vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 1-24 vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 1-24 vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 1-4 vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 1-4 vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 25-100 vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 25-100 vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 25-99 Vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 25-99 Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 5-100 vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 5-100 vehicles</label>
+                </value>
+                <value>
+                    <fullName>Fleet of 5-24 Vehicles</fullName>
+                    <default>false</default>
+                    <label>Fleet of 5-24 Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Floorplan Retail</fullName>
+                    <default>false</default>
+                    <label>Floorplan Retail</label>
+                </value>
+                <value>
+                    <fullName>Floorplan Stock</fullName>
+                    <default>false</default>
+                    <label>Floorplan Stock</label>
+                </value>
+                <value>
+                    <fullName>FP Funding - Buffer Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FP Funding - Buffer Stock</label>
+                </value>
+                <value>
+                    <fullName>FP Funding - Business</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FP Funding - Business</label>
+                </value>
+                <value>
+                    <fullName>FP Funding - Retail</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FP Funding - Retail</label>
+                </value>
+                <value>
+                    <fullName>FP Funding - Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>FP Funding - Stock</label>
+                </value>
+                <value>
+                    <fullName>Government</fullName>
+                    <default>false</default>
+                    <label>Government</label>
+                </value>
+                <value>
+                    <fullName>Government other</fullName>
+                    <default>false</default>
+                    <label>Government other</label>
+                </value>
+                <value>
+                    <fullName>Homologation</fullName>
+                    <default>false</default>
+                    <label>Homologation</label>
+                </value>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>JLR Employee</fullName>
+                    <default>false</default>
+                    <label>JLR Employee</label>
+                </value>
+                <value>
+                    <fullName>Job Related Cars</fullName>
+                    <default>false</default>
+                    <label>Job Related Cars</label>
+                </value>
+                <value>
+                    <fullName>Launch Stock</fullName>
+                    <default>false</default>
+                    <label>Launch Stock</label>
+                </value>
+                <value>
+                    <fullName>Leasing Company</fullName>
+                    <default>false</default>
+                    <label>Leasing Company</label>
+                </value>
+                <value>
+                    <fullName>Local Government</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Local Government</label>
+                </value>
+                <value>
+                    <fullName>Major Rental (direct invoice)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Major Rental (direct invoice)</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing Support Function Vehicles</fullName>
+                    <default>false</default>
+                    <label>Manufacturing Support Function Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Market Demonstrator</fullName>
+                    <default>false</default>
+                    <label>Market Demonstrator</label>
+                </value>
+                <value>
+                    <fullName>Marketing Operations</fullName>
+                    <default>false</default>
+                    <label>Marketing Operations</label>
+                </value>
+                <value>
+                    <fullName>Market Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Market Stock</label>
+                </value>
+                <value>
+                    <fullName>Market Stock (Stock)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Market Stock (Stock)</label>
+                </value>
+                <value>
+                    <fullName>Military</fullName>
+                    <default>false</default>
+                    <label>Military</label>
+                </value>
+                <value>
+                    <fullName>Military Personnel</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Military Personnel</label>
+                </value>
+                <value>
+                    <fullName>Mix and Match</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mix and Match</label>
+                </value>
+                <value>
+                    <fullName>Motability</fullName>
+                    <default>false</default>
+                    <label>Motability</label>
+                </value>
+                <value>
+                    <fullName>Motability (UK)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Motability (UK)</label>
+                </value>
+                <value>
+                    <fullName>New Retailer Launch Stock</fullName>
+                    <default>false</default>
+                    <label>New Retailer Launch Stock</label>
+                </value>
+                <value>
+                    <fullName>Not for Profit</fullName>
+                    <default>false</default>
+                    <label>Not for Profit</label>
+                </value>
+                <value>
+                    <fullName>Online Request</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Online Request</label>
+                </value>
+                <value>
+                    <fullName>Online Sale</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Online Sale</label>
+                </value>
+                <value>
+                    <fullName>OUV/MRC</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>OUV/MRC</label>
+                </value>
+                <value>
+                    <fullName>Planned Stock Authorisati</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Planned Stock Authorisati</label>
+                </value>
+                <value>
+                    <fullName>Police</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Police</label>
+                </value>
+                <value>
+                    <fullName>Pool Cars</fullName>
+                    <default>false</default>
+                    <label>Pool Cars</label>
+                </value>
+                <value>
+                    <fullName>PR &amp; Marketing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>PR &amp; Marketing</label>
+                </value>
+                <value>
+                    <fullName>Pre-Order</fullName>
+                    <default>false</default>
+                    <label>Pre-Order</label>
+                </value>
+                <value>
+                    <fullName>Pre Production Vehicle</fullName>
+                    <default>false</default>
+                    <label>Pre Production Vehicle</label>
+                </value>
+                <value>
+                    <fullName>Pre-Report</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pre-Report</label>
+                </value>
+                <value>
+                    <fullName>Press Cars</fullName>
+                    <default>false</default>
+                    <label>Press Cars</label>
+                </value>
+                <value>
+                    <fullName>Private Individual</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Private Individual</label>
+                </value>
+                <value>
+                    <fullName>Private Individual (Individual)</fullName>
+                    <default>false</default>
+                    <label>Private Individual (Individual)</label>
+                </value>
+                <value>
+                    <fullName>Private Lease</fullName>
+                    <default>false</default>
+                    <label>Private Lease</label>
+                </value>
+                <value>
+                    <fullName>Protected</fullName>
+                    <default>false</default>
+                    <label>Protected</label>
+                </value>
+                <value>
+                    <fullName>Protected Stock</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Protected Stock</label>
+                </value>
+                <value>
+                    <fullName>Public Relations</fullName>
+                    <default>false</default>
+                    <label>Public Relations</label>
+                </value>
+                <value>
+                    <fullName>Rental</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rental</label>
+                </value>
+                <value>
+                    <fullName>Rental No Buy Back</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rental No Buy Back</label>
+                </value>
+                <value>
+                    <fullName>Rental Sale</fullName>
+                    <default>false</default>
+                    <label>Rental Sale</label>
+                </value>
+                <value>
+                    <fullName>Rental with Buyback</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rental with Buyback</label>
+                </value>
+                <value>
+                    <fullName>Rental with Buy Back</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Rental with Buy Back</label>
+                </value>
+                <value>
+                    <fullName>Retailer employee</fullName>
+                    <default>false</default>
+                    <label>Retailer employee</label>
+                </value>
+                <value>
+                    <fullName>Retailer Stock (Retail Stock)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Retailer Stock (Retail Stock)</label>
+                </value>
+                <value>
+                    <fullName>Retail Stock</fullName>
+                    <default>false</default>
+                    <label>Retail Stock</label>
+                </value>
+                <value>
+                    <fullName>Royal Household</fullName>
+                    <default>false</default>
+                    <label>Royal Household</label>
+                </value>
+                <value>
+                    <fullName>Sales Operations</fullName>
+                    <default>false</default>
+                    <label>Sales Operations</label>
+                </value>
+                <value>
+                    <fullName>Self Registration</fullName>
+                    <default>false</default>
+                    <label>Self Registration</label>
+                </value>
+                <value>
+                    <fullName>Showroom</fullName>
+                    <default>false</default>
+                    <label>Showroom</label>
+                </value>
+                <value>
+                    <fullName>Small Business</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Small Business</label>
+                </value>
+                <value>
+                    <fullName>Special Development Vehicle</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Special Development Vehicle</label>
+                </value>
+                <value>
+                    <fullName>Special Vehicle Order</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Special Vehicle Order</label>
+                </value>
+                <value>
+                    <fullName>Stock</fullName>
+                    <default>false</default>
+                    <label>Stock</label>
+                </value>
+                <value>
+                    <fullName>Supplier Employee</fullName>
+                    <default>false</default>
+                    <label>Supplier Employee</label>
+                </value>
+                <value>
+                    <fullName>Tata Company Employee</fullName>
+                    <default>false</default>
+                    <label>Tata Company Employee</label>
+                </value>
+                <value>
+                    <fullName>Tax Free Sales</fullName>
+                    <default>false</default>
+                    <label>Tax Free Sales</label>
+                </value>
+                <value>
+                    <fullName>Taxi</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Taxi</label>
+                </value>
+                <value>
+                    <fullName>Tourist</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Tourist</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>UK Military Personnel</fullName>
+                    <default>false</default>
+                    <label>UK Military Personnel</label>
+                </value>
+                <value>
+                    <fullName>US Military Personnel</fullName>
+                    <default>false</default>
+                    <label>US Military Personnel</label>
+                </value>
+                <value>
+                    <fullName>VIP (VIP - Individual)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VIP (VIP - Individual)</label>
+                </value>
+                <value>
+                    <fullName>VIP - Individual</fullName>
+                    <default>false</default>
+                    <label>VIP - Individual</label>
+                </value>
+                <value>
+                    <fullName>VIP - Lease</fullName>
+                    <default>false</default>
+                    <label>VIP - Lease</label>
+                </value>
+                <value>
+                    <fullName>VIPs</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>VIPs</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Handover_Transaction_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Handover Transaction Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Last_Date_for_Spec_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Date for Spec Change</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Planned_Port_Arrival_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Planned Port Arrival Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Vista_Load_Sandbox_Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Label.Sandbox_Account_ID</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vista Load Sandbox Account ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Available_For_Free_Release__c</fullName>
+        <externalId>false</externalId>
+        <label>Available For Free Release</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Brochure_Model_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Brochure Model Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Derivative_Pack_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Derivative Pack Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Detailed_Status_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Detailed Status Description</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Classic_Vehicle_Programme_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Classic Vehicle Programme Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>JLR_Product_Offering</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Accepted_Delivery_Handover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Accepted Delivery/Handover Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Requested_Delivery_Handover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Delivery/Handover Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <recordTypes>
+        <fullName>Vista_Vehicle</fullName>
+        <active>true</active>
+        <label>Vista Vehicle</label>
+        <picklistValues>
+            <picklist>DigitalAssetStatus</picklist>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warning</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manufacturer__c</picklist>
+            <values>
+                <fullName>Alfa Romeo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Audi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BMW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bentley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chevrolet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citroen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daimler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dennis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ferrari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fiat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ford</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Honda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyundai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iveco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaguar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lexus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maserati</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mercedes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nissan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peugeot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Porsche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skoda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tesla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toyota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vauxhall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Volvo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Available_For_Free_Release__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Called_Over__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Financial_Status__c</picklist>
+            <values>
+                <fullName>NSC Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer Invoice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Status_Code__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>110</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>112</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>135</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>140</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>145</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>155</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>160</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>165</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>175</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>190</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>205</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>35</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>40</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Type_of_Sale_Code__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CDV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WWW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XXX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YYB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YYY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZZM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZZZ</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Type_of_Sale_Description__c</picklist>
+            <values>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ambassador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>British Forces Germany</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buffer Stock Floorplan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courtesy%2C Loan Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service%2C Courtesy%2C Loan Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental no Buy Back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental with Buy Back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Technician Fleet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demonstrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development Test Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diplomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embassy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exhibitions %2F Motorshows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 1-24 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 1-4 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 100%2B vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 25-100 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 25-99 Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 5-100 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 5-24 Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Floorplan Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Floorplan Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homologation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JLR Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Related Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Launch Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leasing Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Support Function Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market Demonstrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Military</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Motability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Retailer Launch Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not for Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre Production Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Individual %28Individual%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Protected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rental Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Royal Household</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Showroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Company Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tax Free Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Military Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Military Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP - Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP - Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Classic_Vehicle_Programme_Type__c</picklist>
+            <values>
+                <fullName>Armoured</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bespoke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Collectors Edition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Continuation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Core Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Bespoke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Full Remote Bespoke</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Halo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interior Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Edition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Paint Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reborn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Works Legends</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Hand_of_Drive__c</picklist>
+            <values>
+                <fullName>LHD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RHD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Primary_Exterior_Colour__c</picklist>
+            <values>
+                <fullName>Beige</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ivory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maroon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orange</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turquoise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Classic_Vehicle</fullName>
+        <active>true</active>
+        <description>Used to capture a classic Jaguar/Land Rover/Daimler</description>
+        <label>Classic Vehicle</label>
+        <picklistValues>
+            <picklist>DigitalAssetStatus</picklist>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warning</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Manufacturer__c</picklist>
+            <values>
+                <fullName>Alfa Romeo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Audi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BMW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bentley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chevrolet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Citroen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daimler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dennis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ferrari</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fiat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ford</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Honda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hyundai</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Iveco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jaguar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jeep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Kia</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lexus</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maserati</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mercedes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nissan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Peugeot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Porsche</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Renault</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Skoda</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tesla</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toyota</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vauxhall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Volvo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Available_For_Free_Release__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Called_Over__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Financial_Status__c</picklist>
+            <values>
+                <fullName>NSC Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Invoice</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer Invoice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Status_Code__c</picklist>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>110</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>112</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>135</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>140</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>145</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>155</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>160</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>165</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>175</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>190</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>205</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>35</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>40</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Type_of_Sale_Code__c</picklist>
+            <values>
+                <fullName>AAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ABA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ADA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AGA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AJA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAQ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CDV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FAU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FEG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WWW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XXM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XXX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YYB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YYY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZZM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ZZZ</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Type_of_Sale_Description__c</picklist>
+            <values>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ambassador</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>British Forces Germany</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buffer Stock Floorplan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Courtesy%2C Loan Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Service%2C Courtesy%2C Loan Car</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental no Buy Back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Rental with Buy Back</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Technician Fleet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demonstrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Development Test Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Diplomatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Embassy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exhibitions %2F Motorshows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 1-24 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 1-4 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 100%2B vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 25-100 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 25-99 Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 5-100 vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fleet of 5-24 Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Floorplan Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Floorplan Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homologation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JLR Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Related Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Launch Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leasing Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing Support Function Vehicles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Market Demonstrator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Military</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Motability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Retailer Launch Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not for Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre Production Vehicle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pre-Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Cars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Individual %28Individual%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Protected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rental Sale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Royal Household</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Operations</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Registration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Showroom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Supplier Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tata Company Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tax Free Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Military Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US Military Personnel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP - Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP - Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Classic_Vehicle_Programme_Type__c</picklist>
+            <values>
+                <fullName>Continuation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited Edition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reborn</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Hand_of_Drive__c</picklist>
+            <values>
+                <fullName>LHD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RHD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Primary_Exterior_Colour__c</picklist>
+            <values>
+                <fullName>Beige</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Blue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bronze</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Brown</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Buff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cream</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Grey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ivory</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maroon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orange</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pink</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purple</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silver</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turquoise</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>SO_Classic_Requires_Brand</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c)) &amp;&amp; RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; ISBLANK(  SO_Brand__c )</errorConditionFormula>
+        <errorDisplayField>SO_Brand__c</errorDisplayField>
+        <errorMessage>You must provide the brand</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Classic_Requires_Model</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c)) &amp;&amp; RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; ISBLANK( SO_Model__c )</errorConditionFormula>
+        <errorDisplayField>SO_Model__c</errorDisplayField>
+        <errorMessage>You must provide the model</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Classic_No_Space_In_Reg</fullName>
+        <active>true</active>
+        <description>Check if year&apos;s length is 4 digits and it&apos;s within range of Model&apos;s start and end year; skips Continuation Programme Type</description>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c )) &amp;&amp; 
+NOT(ISBLANK( OUV_Registration_Number__c )) &amp;&amp; 
+RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; 
+ CONTAINS(OUV_Registration_Number__c , &quot; &quot;)</errorConditionFormula>
+        <errorDisplayField>OUV_Registration_Number__c</errorDisplayField>
+        <errorMessage>Please do not include any spaces in the registration number.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Classic_Long_VIN_validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c)) &amp;&amp; NOT(ISBLANK(OUV_Full_Vin__c )) &amp;&amp; RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; LEN(OUV_Full_Vin__c ) &gt; 17</errorConditionFormula>
+        <errorDisplayField>OUV_Full_Vin__c</errorDisplayField>
+        <errorMessage>Please enter a valid Full VIN</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Classic_Production_year_validation</fullName>
+        <active>true</active>
+        <description>Check if year&apos;s length is 4 digits and it&apos;s within range of Model&apos;s start and end year; skips Continuation Programme Type</description>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c )) &amp;&amp; NOT(ISBLANK(SO_Production_Year__c )) &amp;&amp; RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; NOT(ISPICKVAL(SO_Classic_Vehicle_Programme_Type__c,&apos;Continuation&apos;)) &amp;&amp; 
+(NOT(LEN( SO_Production_Year__c ) == 4) || ISNUMBER(SO_Production_Year__c ) == FALSE || 
+IF(NOT(ISBLANK(SO_Series_Name__c)),((NOT(ISBLANK(SO_Series_Name__r.SO_Model_Year_Start__c )) &amp;&amp; VALUE(SO_Production_Year__c ) &lt; VALUE(SO_Series_Name__r.SO_Model_Year_Start__c)) ||
+(NOT(ISBLANK(SO_Series_Name__r.SO_Model_Year_End__c )) &amp;&amp; VALUE(SO_Production_Year__c ) &gt; VALUE(SO_Series_Name__r.SO_Model_Year_End__c ))),
+IF(NOT(ISBLANK(SO_Model__c)),((NOT(ISBLANK(SO_Model__r.SO_Model_Year_Start__c )) &amp;&amp; VALUE(SO_Production_Year__c ) &lt; VALUE(SO_Model__r.SO_Model_Year_Start__c)) ||
+(NOT(ISBLANK(SO_Model__r.SO_Model_Year_End__c )) &amp;&amp; VALUE(SO_Production_Year__c ) &gt; VALUE(SO_Model__r.SO_Model_Year_End__c ))),FALSE)))</errorConditionFormula>
+        <errorDisplayField>SO_Production_Year__c</errorDisplayField>
+        <errorMessage>Please a valid year within corresponding model&apos;s range.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Classic_Mandatory_Fields_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISCHANGED(SO_Bypass_Validation_Rules__c)) &amp;&amp; RecordType.DeveloperName == &apos;SO_Classic_Vehicle&apos; &amp;&amp; ISBLANK(OUV_Full_Vin__c ) &amp;&amp; ISBLANK( OUV_Registration_Number__c )</errorConditionFormula>
+        <errorDisplayField>OUV_Full_Vin__c</errorDisplayField>
+        <errorMessage>Please enter Registration number or Full VIN</errorMessage>
+    </validationRules>
+</CustomObject>

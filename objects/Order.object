@@ -1,0 +1,1904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Activate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Approve</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Approve</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Approve</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Deactivate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Deactivate</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Deactivate</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewReduction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewReduction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewReduction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ReduceOrder</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ReduceOrder</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ReduceOrder</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>ORDERS.ORDER_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SALES.ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ORDERS.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ORDERS.TOTAL_AMOUNT</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ORDERS.ORDER_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTRACT.OWNERALIAS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ORDERS.ORDER_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTRACT.OWNERALIAS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ORDERS.ORDER_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ORDERS.TOTAL_AMOUNT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ORDERS.EFFECTIVE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ORDERS.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <compactLayouts>
+        <fullName>SO_SVO_Order_Layout</fullName>
+        <fields>SO_Reference_Number__c</fields>
+        <fields>AccountId</fields>
+        <fields>SO_Common_Order_Number__c</fields>
+        <fields>SO_Brand__c</fields>
+        <fields>SO_Model__c</fields>
+        <label>SO SVO Order Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>SO_Classic_Order_Layout</fullName>
+        <fields>SO_Reference_Number__c</fields>
+        <fields>SO_Product_Offering__c</fields>
+        <fields>SO_Model__c</fields>
+        <fields>SO_ABS_Forecast__c</fields>
+        <fields>OwnerId</fields>
+        <label>SO Classic Order Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>SO_VIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;, SO_Vista_Vehicle__r.OUV_Full_Vin__c, Opportunity.SO_Vehicle__r.OUV_Full_Vin__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Brand__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Model__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Model__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Engine__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;, SO_Vista_Vehicle__r.SO_Engine__c, Opportunity.SO_Vehicle__r.SO_Engine__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Order Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Committed to Build</fullName>
+                    <default>false</default>
+                    <label>Committed to Build</label>
+                </value>
+                <value>
+                    <fullName>In Build</fullName>
+                    <default>false</default>
+                    <label>In Build</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Built</fullName>
+                    <default>false</default>
+                    <label>Built</label>
+                </value>
+                <value>
+                    <fullName>Accepted by Sales</fullName>
+                    <default>false</default>
+                    <label>Accepted by Sales</label>
+                </value>
+                <value>
+                    <fullName>At Retailer</fullName>
+                    <default>false</default>
+                    <label>At Retailer</label>
+                </value>
+                <value>
+                    <fullName>Outcome</fullName>
+                    <default>false</default>
+                    <label>Outcome</label>
+                </value>
+                <value>
+                    <fullName>Retailed</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Retailed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Retailed</fullName>
+                    <default>false</default>
+                    <label>Retailed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled by Customer</fullName>
+                    <default>false</default>
+                    <label>Cancelled by Customer</label>
+                </value>
+                <value>
+                    <fullName>Cancelled Jaguar Land Rover</fullName>
+                    <default>false</default>
+                    <label>Cancelled Jaguar Land Rover</label>
+                </value>
+                <value>
+                    <fullName>Cancelled by Retailer</fullName>
+                    <default>false</default>
+                    <label>Cancelled by Retailer</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Outcome</controllingFieldValue>
+                <valueName>Retailed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Outcome</controllingFieldValue>
+                <valueName>Cancelled by Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Outcome</controllingFieldValue>
+                <valueName>Cancelled Jaguar Land Rover</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coupon_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Coupon Code</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NOVA_number__c</fullName>
+        <externalId>false</externalId>
+        <label>NOVA number</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Brand_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,   SO_Vista_Vehicle__r.SO_Brand__c  , Opportunity.SO_Vehicle__r.SO_Brand__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.SO_Market__c)</formula>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,  SO_Vista_Vehicle__r.SO_Model__c , Opportunity.SO_Vehicle__r.SO_Model__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Is_Closed__c</fullName>
+        <description>Determines if the order is closed successfully and type of SO Classic</description>
+        <externalId>false</externalId>
+        <formula>IF( 
+  AND(
+    AND(
+      ISPICKVAL(SO_Status__c , &apos;Outcome&apos;),
+      ISPICKVAL(SO_Outcome__c , &apos;Retailed&apos;)
+    ),
+    OR(
+       RecordType.DeveloperName = &apos;SO_Donor_Build&apos;,
+       RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,
+       RecordType.DeveloperName = &apos;Classic_Service_Order&apos;,
+       RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;
+    )
+  ),
+  true,
+  false
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Closed Retailed</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Body_Style__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;||RecordType.DeveloperName = &apos;SO_Donor_Build&apos; ||RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; || RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;),  Opportunity.SO_Body_Style__r.Name ,Opportunity.SO_Vehicle__r.SO_Body_Style__r.Name)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Body Style</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Derivative__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Derivative__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Derivative</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Fully_Paid__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fully Paid</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Vehicle_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,  SO_Vista_Vehicle__c  , Opportunity.SO_Vehicle__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SO Vehicle Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Work_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Work Order</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>SO_Work_Order__c.SO_Order__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Id</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Work_Order__c</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_FMS_Passout__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FMS Passout Obtained</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Series_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;||RecordType.DeveloperName = &apos;SO_Donor_Build&apos; ||RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; || RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;),  Opportunity.SO_Series_Name__r.Name ,Opportunity.SO_Vehicle__r.SO_Series_Name__r.Name)</formula>
+        <label>Series Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Speedometer__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.SO_Speedometer__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Speedometer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ABS Complete</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Build_Colour__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Build Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_E_Tracker_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Tracker ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_FMS_Disposal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FMS Disposal Completed</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Handover_Age__c</fullName>
+        <description>Customer Handover Date is used only by Classic</description>
+        <externalId>false</externalId>
+        <formula>If(NOT(ISBLANK(SO_Customer_Handover_Date__c )),SO_Customer_Handover_Date__c - Datevalue(CreatedDate),null )</formula>
+        <label>Handover Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_MOT_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_MOT_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MOT Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Next_MOT_Due__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the approximate date for the next MOT if known to enable MOT reminders for the customer where they have consented.</inlineHelpText>
+        <label>Next MOT Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Retail_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Retail_Price__c</formula>
+        <label>Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_Vista_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Vista_Vehicle__r.OUV_Status_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vista Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Classic_Sales__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+    OR(
+       RecordType.DeveloperName = &apos;SO_Donor_Build&apos;,
+       RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,
+       RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;
+    ),
+  true,
+  false
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Classic Sales</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Started__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Start_Started__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Started</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( RecordType.DeveloperName ,
+  &apos;SO_Donor_Build&apos;, &apos;Classic Sales&apos;,
+  &apos;SO_Classic_Build_Order&apos;, &apos;Classic Sales&apos;,
+  &apos;SO_Classic_Parts_Order&apos;, &apos;Classic Parts&apos;,
+  &apos;Classic_Service_Order&apos;, &apos;Classic Service&apos;,
+  &apos;SO_Classic_Works_Legend_Order&apos;, &apos;Classic Sales&apos;,
+  &apos;SO_Classic_Bespoke_Build_Order&apos;, &apos;Classic Service&apos;,
+  &apos;SO_Vehicle_Order_Bespoke&apos;, &apos;SVO Bespoke&apos;,
+  &apos;SO_Vehicle_Order_Private_Office&apos;, &apos;SVO Private Office&apos;,
+  &apos;&apos;
+)</formula>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_E_Tracker_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Tracker URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>SO_Engine_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;, SO_Vista_Vehicle__r.OUV_Engine_Number__c, Opportunity.SO_Vehicle__r.OUV_Engine_Number__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Hand_of_Drive__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.SO_Hand_of_Drive__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hand of Drive</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Vista_Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Vehicle</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Orders</relationshipLabel>
+        <relationshipName>Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Production_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;||RecordType.DeveloperName = &apos;SO_Donor_Build&apos; ||RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; || RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;),  Opportunity.SO_Production_Year__c ,Opportunity.SO_Vehicle__r.SO_Production_Year__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Production Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Retail_Price__c</fullName>
+        <description>To display the total retail price of main vehicle and  additional vehicles</description>
+        <externalId>false</externalId>
+        <formula>Opportunity.Total_Retail_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Start_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Coupon_Rule_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Coupon Rule Name</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Next_Service_Due__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the approximate date for the next service if known to enable service reminders for the customer.</inlineHelpText>
+        <label>Next Service Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Product_Offering__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity.SO_Product_Offering__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Offering</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Reference_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Reference_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reference Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_DVLA_Registration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DVLA Registration Requested</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Pinewood_Job_Card__c</fullName>
+        <externalId>false</externalId>
+        <label>Pinewood Job Card</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Registration_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Colour_Shade__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Build_Colour_Shade__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Colour Shade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Common_Order_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Common Order Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Hand_of_Drive__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;,  TEXT(SO_Vista_Vehicle__r.SO_Hand_of_Drive__c) , TEXT(Opportunity.SO_Vehicle__r.SO_Hand_of_Drive__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Donor Hand of Drive</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;, SO_Vista_Vehicle__r.OUV_Registration_Number__c, Opportunity.SO_Vehicle__r.OUV_Registration_Number__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Registration Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Actual_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Heritage_Certificate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Heritage Certificate Requested</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Interior_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Build_Interior_Colour__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Interior Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Cancelled_by_Customer__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancelled by Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_1_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_1_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Strip &amp; Parts/BiW Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_1_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_1_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Strip &amp; Parts/BiW Forecast</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_2_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_2_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Chassis/Pre-Build/Build Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_2_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_2_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Chassis/Pre-Build/Build Forecast</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_3_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_3_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_3_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_3_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Forecast</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_4_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_4_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine, Gearbox, Trim Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_4_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_4_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine, Gearbox, Trim Forecast</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_5_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_5_Complete__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Snagging Complete</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Stage_5_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Work_Order__r.SO_Stage_5_Forecast__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Snagging Forecast</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Customer_Handover_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Handover Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_E_Tracker_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Tracker Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Expected_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Vista_Vehicle__r.OUV_Delivery_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Expected Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Removed_from_E_Tracker__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Removed from E-Tracker</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Additional_Spec_Details__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.SO_Additional_Spec_Details__c</formula>
+        <label>Additional Spec Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_E_Tracker_Accepted_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>E-Tracker Accepted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Delivery_Time_Difference__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Expected_Delivery_Date__c -  SO_Actual_Delivery_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Delivery Time Difference</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Last_Specification_Change__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Vista_Vehicle__r.OUV_Last_Date_for_Spec_Change__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Last Specification Change</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Paint_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Paint Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Specification_Correct__c</fullName>
+        <externalId>false</externalId>
+        <label>Donor Specification Correct in VISTA?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Exterior_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Exterior Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Interior_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Interior Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Primary_Exterior_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;, TEXT(SO_Vista_Vehicle__r.SO_Primary_Exterior_Colour__c) , TEXT(Opportunity.SO_Vehicle__r.SO_Primary_Exterior_Colour__c ))</formula>
+        <label>Donor Primary Exterior Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Specification_Sent_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Donor Specification Sent Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Customer_Promised_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Promised Delivery Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Specification_Created_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Donor Specification Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <recordTypes>
+        <fullName>SO_Donor_Build</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Classic_Order_Layout</compactLayoutAssignment>
+        <label>Classic Donor Build Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Accepted by Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Committed to Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Classic_Service_Order</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Classic_Order_Layout</compactLayoutAssignment>
+        <label>Classic Service Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Classic_Build_Order</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Classic_Order_Layout</compactLayoutAssignment>
+        <label>Classic New Build Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Accepted by Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Committed to Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Classic_Parts_Order</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Classic_Order_Layout</compactLayoutAssignment>
+        <description>Magento e-commerce parts order</description>
+        <label>Classic Parts Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Vehicle_Order_Bespoke</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_SVO_Order_Layout</compactLayoutAssignment>
+        <label>SVO Bespoke Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Accepted by Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>At Retailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Built</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Committed to Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>SVO Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Classic_Works_Legend_Order</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Classic_Order_Layout</compactLayoutAssignment>
+        <label>Classic Works Legend Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Classic_Bespoke_Build_Order</fullName>
+        <active>true</active>
+        <label>Classic Bespoke Build Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Cancelled Jaguar Land Rover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Accepted by Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Committed to Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Vehicle_Order_Private_Office</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_SVO_Order_Layout</compactLayoutAssignment>
+        <label>SVO Private Office Order</label>
+        <picklistValues>
+            <picklist>SO_Cancelled_by_Customer__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Donor_Specification_Correct__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Retailed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Accepted by Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>At Retailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Built</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Committed to Build</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Created</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>SVO Priced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salesforce Price</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>SO_CLS_Gen_Blank_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(BEGINS(RecordType.DeveloperName,&apos;SO_&apos;) || RecordType.DeveloperName == &apos;Classic_Service_Order&apos;) &amp;&amp; RecordType.DeveloperName &lt;&gt; &apos;SO_Classic_Parts_Order&apos; &amp;&amp;
+ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; ISBLANK(TEXT(SO_Outcome__c))</errorConditionFormula>
+        <errorMessage>Please enter Outcome to close the Order</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Cannot_Change_From_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(BEGINS(RecordType.DeveloperName,&apos;SO_&apos;) || RecordType.DeveloperName == &apos;Classic_Service_Order&apos;) &amp;&amp; RecordType.DeveloperName &lt;&gt; &apos;SO_Classic_Parts_Order&apos; &amp;&amp; ISCHANGED( SO_Status__c ) &amp;&amp;  ISPICKVAL( PRIORVALUE(SO_Status__c ) , &apos;Outcome&apos;)</errorConditionFormula>
+        <errorMessage>You cannot change the stage once in outcome</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Future_Handover_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName == &apos;SO_Classic_Bespoke_Build_Order&apos; || RecordType.DeveloperName == &apos;SO_Donor_Build&apos; || RecordType.DeveloperName == &apos;SO_Classic_Build_Order&apos; || RecordType.DeveloperName == &apos;Classic_Service_Order&apos; || RecordType.DeveloperName == &apos;SO_Classic_Works_Legend_Order&apos;) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; NOT(ISBLANK(TEXT(SO_Outcome__c))) &amp;&amp; 
+ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;) &amp;&amp; NOT(ISBLANK(SO_Customer_Handover_Date__c )) &amp;&amp; SO_Customer_Handover_Date__c &lt; TODAY()</errorConditionFormula>
+        <errorDisplayField>SO_Customer_Handover_Date__c</errorDisplayField>
+        <errorMessage>Customer Handover Date cannot be in the past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_from_In_Build</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;  ||
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; ) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; 
+NOT(RIGHT(SO_Pinewood_Job_Card__c , 8) = &apos;Migrated&apos; )&amp;&amp;
+(SO_Build_Started__c == FALSE) &amp;&amp; (ISPICKVAL(SO_Status__c, &apos;In Build&apos;) || ISPICKVAL(SO_Status__c, &apos;Accepted by Sales&apos;) || (ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;)))</errorConditionFormula>
+        <errorMessage>You can move forward only after the Build has started.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_FMS_at_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName == &apos;SO_Donor_Build&apos; || RecordType.DeveloperName == &apos;SO_Classic_Build_Order&apos; || RecordType.DeveloperName == &apos;SO_Classic_Works_Legend_Order&apos; ) &amp;&amp; 
+ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; NOT(ISBLANK(TEXT(SO_Outcome__c))) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;) &amp;&amp; 
+(SO_FMS_Disposal__c == FALSE || SO_FMS_Passout__c == FALSE )</errorConditionFormula>
+        <errorMessage>Please complete FMS Passout obtained &amp; FMS Disposal under Handover details</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Cannot_Change_Outcome_Reason</fullName>
+        <active>false</active>
+        <errorConditionFormula>(BEGINS(RecordType.DeveloperName,&apos;SO_&apos;) || RecordType.DeveloperName == &apos;Classic_Service_Order&apos;) &amp;&amp; RecordType.DeveloperName &lt;&gt; &apos;SO_Classic_Parts_Order&apos; &amp;&amp; ISCHANGED(SO_Outcome__c  ) &amp;&amp;  ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp;  NOT(ISBLANK( PRIORVALUE(SO_Outcome__c  ) ) )</errorConditionFormula>
+        <errorMessage>You cannot change the outcome reason once set.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Cannot_Move_Back_From_ABS</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos; || 
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos;) &amp;&amp; ISCHANGED( SO_Status__c ) &amp;&amp; ISPICKVAL( PRIORVALUE(SO_Status__c ) , &apos;Accepted by Sales&apos;) &amp;&amp; NOT(ISPICKVAL( SO_Status__c  , &apos;Outcome&apos;)) &amp;&amp;  SO_ABS_Complete__c = true</errorConditionFormula>
+        <errorMessage>This order has already been ABS Complete and cannot be moved backwards.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Check_Matches_Opp_Record_type</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+ NOT(ISBLANK( OpportunityId )),
+ OR(
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Continuation&apos;, NOT( RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;) ),
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Limited_Edition&apos;, NOT( RecordType.DeveloperName = &apos;SO_Donor_Build&apos;) ),
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Reborn&apos;, NOT( RecordType.DeveloperName = &apos;SO_Donor_Build&apos;) ),
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Service&apos;, NOT( RecordType.DeveloperName = &apos;Classic_Service_Order&apos;) ),
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Classic_Bespoke&apos;, NOT( RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos;) ),
+   AND( Opportunity.RecordType.DeveloperName = &apos;SO_Works_Legends&apos;, NOT( RecordType.DeveloperName = &apos;SO_Classic_Works_Legend_Order&apos;) )
+ )
+)</errorConditionFormula>
+        <errorMessage>This type of order is not applicable to the associated opportunity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_Vehicle_at_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName == &apos;SO_Classic_Build_Order&apos; ) &amp;&amp; 
+ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; NOT(ISBLANK(TEXT(SO_Outcome__c))) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;) &amp;&amp; 
+(ISBLANK(SO_Vista_Vehicle__c) )</errorConditionFormula>
+        <errorMessage>Please select a Vehicle to complete the Order</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Cannot_Move_Back_From_InBuild</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos; ||
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; ) &amp;&amp; ISCHANGED( SO_Status__c ) &amp;&amp; ISPICKVAL( PRIORVALUE(SO_Status__c ) , &apos;In Build&apos;) &amp;&amp; NOT(ISPICKVAL( SO_Status__c  , &apos;Accepted by Sales&apos;)) &amp;&amp; NOT(ISPICKVAL( SO_Status__c  , &apos;Outcome&apos;))&amp;&amp;  SO_Build_Started__c == TRUE</errorConditionFormula>
+        <errorMessage>This order has already been started and cannot be moved backwards.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_Handover_at_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos;  ||
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; ) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; NOT(ISBLANK(TEXT(SO_Outcome__c))) &amp;&amp; 
+ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;) &amp;&amp; (SO_Fully_Paid__c == FALSE || ISBLANK(SO_Customer_Handover_Date__c ) )</errorConditionFormula>
+        <errorMessage>Please enter Handover Date and if Order is Fully Paid</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_E_tracker_at_Outcome</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName == &apos;SO_Donor_Build&apos; || RecordType.DeveloperName == &apos;SO_Classic_Works_Legend_Order&apos; ) &amp;&amp; 
+ISCHANGED(SO_Status__c) &amp;&amp; ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; NOT(ISBLANK(TEXT(SO_Outcome__c))) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;) &amp;&amp; 
+(SO_Removed_from_E_Tracker__c == FALSE)</errorConditionFormula>
+        <errorMessage>Please check if Removed from E-Tracker</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespoke_Mandate_Common_Order_Number</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Vehicle_Order_Bespoke&apos; || RecordType.DeveloperName = &apos;SO_Vehicle_Order_Private_Office&apos;)&amp;&amp;  ISPICKVAL(PRIORVALUE(SO_Status__c) ,&apos;Order Created&apos;) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; ISBLANK(SO_Common_Order_Number__c)</errorConditionFormula>
+        <errorMessage>Please enter Common Order Number to proceed further</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_from_Accepted_By_Sales</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos; ||
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; ) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; 
+(SO_ABS_Complete__c == FALSE ) &amp;&amp; (ISPICKVAL(SO_Status__c, &apos;Accepted by Sales&apos;) || (ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;)))</errorConditionFormula>
+        <errorMessage>Please complete ABS to proceed further</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_CLS_Mandatory_from_Commited_to_Build</fullName>
+        <active>false</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Donor_Build&apos; || RecordType.DeveloperName = &apos;SO_Classic_Build_Order&apos; ||
+RecordType.DeveloperName = &apos;SO_Classic_Bespoke_Build_Order&apos; ) &amp;&amp; ISCHANGED(SO_Status__c) &amp;&amp; 
+NOT(RIGHT(SO_Pinewood_Job_Card__c , 8) = &apos;Migrated&apos; )&amp;&amp;
+(ISBLANK(SO_Build_Start_Date__c) || ISBLANK(SO_ABS_Forecast__c)) &amp;&amp; (ISPICKVAL(SO_Status__c, &apos;Committed to Build&apos;) || ISPICKVAL(SO_Status__c, &apos;In Build&apos;) || ISPICKVAL(SO_Status__c, &apos;Accepted by Sales&apos;) || (ISPICKVAL(SO_Status__c, &apos;Outcome&apos;) &amp;&amp; ISPICKVAL(SO_Outcome__c, &apos;Retailed&apos;)))</errorConditionFormula>
+        <errorMessage>You cannot move forward without Build Start Date and ABS Forecast Date</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Experience</label>
+    <nameField>
+        <label>Experience Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Experiences</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>SO_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Location__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Start__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_End__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Opportunity_Stage__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>SO_End__c</fullName>
+        <externalId>false</externalId>
+        <label>End</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SO_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Test Drive</fullName>
+                    <default>false</default>
+                    <label>Test Drive</label>
+                </value>
+                <value>
+                    <fullName>Appointment</fullName>
+                    <default>false</default>
+                    <label>Appointment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Start</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SO_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>true</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Proposed</fullName>
+                    <default>false</default>
+                    <label>Proposed</label>
+                </value>
+                <value>
+                    <fullName>Confirmed</fullName>
+                    <default>false</default>
+                    <label>Confirmed</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Details</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fen End</fullName>
+                    <default>false</default>
+                    <label>Fen End</label>
+                </value>
+                <value>
+                    <fullName>Classic Works</fullName>
+                    <default>false</default>
+                    <label>Classic Works</label>
+                </value>
+                <value>
+                    <fullName>SVO Technical Centre</fullName>
+                    <default>false</default>
+                    <label>SVO Technical Centre</label>
+                </value>
+                <value>
+                    <fullName>Gaydon</fullName>
+                    <default>false</default>
+                    <label>Gaydon</label>
+                </value>
+                <value>
+                    <fullName>Customer&apos;s Location</fullName>
+                    <default>false</default>
+                    <label>Customer&apos;s Location</label>
+                </value>
+                <value>
+                    <fullName>On-Road Drive</fullName>
+                    <default>false</default>
+                    <label>On-Road Drive</label>
+                </value>
+                <value>
+                    <fullName>Vehicle Loan</fullName>
+                    <default>false</default>
+                    <label>Vehicle Loan</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>Fen End</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>Classic Works</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>SVO Technical Centre</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>Gaydon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>Customer&apos;s Location</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <valueName>On-Road Drive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <valueName>Vehicle Loan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Test Drive</controllingFieldValue>
+                <controllingFieldValue>Appointment</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Sub_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Status</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>true</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>Attended</fullName>
+                    <default>false</default>
+                    <label>Attended</label>
+                </value>
+                <value>
+                    <fullName>Customer can no longer attend</fullName>
+                    <default>false</default>
+                    <label>Customer can no longer attend</label>
+                </value>
+                <value>
+                    <fullName>Customer no longer interested</fullName>
+                    <default>false</default>
+                    <label>Customer no longer interested</label>
+                </value>
+                <value>
+                    <fullName>Customer re-scheduled</fullName>
+                    <default>false</default>
+                    <label>Customer re-scheduled</label>
+                </value>
+                <value>
+                    <fullName>Special Operations re-scheduled</fullName>
+                    <default>false</default>
+                    <label>Special Operations re-scheduled</label>
+                </value>
+                <value>
+                    <fullName>No show</fullName>
+                    <default>false</default>
+                    <label>No show</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Requested</controllingFieldValue>
+                <controllingFieldValue>Proposed</controllingFieldValue>
+                <controllingFieldValue>Confirmed</controllingFieldValue>
+                <valueName>Open</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Attended</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer can no longer attend</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer no longer interested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer re-scheduled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Special Operations re-scheduled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>No show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Experiences</relationshipLabel>
+        <relationshipName>Experiences</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SO_Closed_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Other</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Location_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <length>150</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Number_of_Guests__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Guests</label>
+        <summaryForeignKey>SO_Experience_Guest__c.SO_Experience__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SO_Special_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Requests</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( SO_Opportunity__r.StageName )</formula>
+        <label>Opportunity Stage</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Closed_Other</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ ISPICKVAL(SO_Status__c  , &apos;Closed&apos;),
+ ISPICKVAL( SO_Sub_Status__c , &apos;Other&apos;),
+ ISBLANK( SO_Closed_Other__c )
+)</errorConditionFormula>
+        <errorDisplayField>SO_Closed_Other__c</errorDisplayField>
+        <errorMessage>You must provide reason for selecting other.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Location_Other</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ ISPICKVAL( SO_Location__c , &apos;Other&apos;),
+ ISBLANK( SO_Location_Other__c ) 
+)</errorConditionFormula>
+        <errorDisplayField>SO_Location_Other__c</errorDisplayField>
+        <errorMessage>You must specify when selecting other</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Start_before_End</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_End__c &lt;  SO_Start__c</errorConditionFormula>
+        <errorMessage>The end cannot be before the start</errorMessage>
+    </validationRules>
+</CustomObject>

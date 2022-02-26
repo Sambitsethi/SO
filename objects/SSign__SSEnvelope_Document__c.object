@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OUV_Language__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(SSign__SSEnvelope__r.OUV_Vehicle_Loan_Agreement_c__r.OUV_Booking_Record__r.OUV_Loan_Agreement_Language__c, &apos;es&apos;, &apos;Spanish&apos;, &apos;de&apos;, &apos;German&apos;, &apos;nl&apos;, &apos;Dutch&apos;, &apos;fr&apos;, &apos;French&apos;, &apos;pt&apos;, &apos;Portuguese&apos;, &apos;cs&apos;, &apos;Czech&apos;, &apos;it&apos;, &apos;Italian&apos;, &apos;ja&apos;, &apos;Japanese&apos;, &apos;ko&apos;, &apos;Korean&apos;, &apos;zh&apos;, &apos;Chinese&apos;, &apos;&apos;)</formula>
+        <label>OUV Language</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

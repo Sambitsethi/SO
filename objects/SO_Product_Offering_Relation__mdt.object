@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Product Offering Relation</label>
+    <pluralLabel>Product Offering Relations</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>SO_Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Close Date</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Stage Name</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Qualified</fullName>
+                    <default>true</default>
+                    <label>Qualified</label>
+                </value>
+                <value>
+                    <fullName>Wait List</fullName>
+                    <default>false</default>
+                    <label>Wait List</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Record_type__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Record type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SO_Continuation</fullName>
+                    <default>true</default>
+                    <label>SO_Continuation</label>
+                </value>
+                <value>
+                    <fullName>SO_Reborn</fullName>
+                    <default>false</default>
+                    <label>SO_Reborn</label>
+                </value>
+                <value>
+                    <fullName>SO_Works_Legends</fullName>
+                    <default>false</default>
+                    <label>SO_Works_Legends</label>
+                </value>
+                <value>
+                    <fullName>SO_Limited_Edition</fullName>
+                    <default>false</default>
+                    <label>SO_Limited_Edition</label>
+                </value>
+                <value>
+                    <fullName>SO_Classic_Bespoke</fullName>
+                    <default>false</default>
+                    <label>SO_Classic_Bespoke</label>
+                </value>
+                <value>
+                    <fullName>SO_Service</fullName>
+                    <default>false</default>
+                    <label>SO_Service</label>
+                </value>
+                <value>
+                    <fullName>SO_Bespoke</fullName>
+                    <default>false</default>
+                    <label>SO_Bespoke</label>
+                </value>
+                <value>
+                    <fullName>SO_VIP</fullName>
+                    <default>false</default>
+                    <label>SO_VIP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Product_Offering__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Product Offering</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Continuation</fullName>
+                    <default>true</default>
+                    <label>Continuation</label>
+                </value>
+                <value>
+                    <fullName>Works Legends</fullName>
+                    <default>false</default>
+                    <label>Works Legends</label>
+                </value>
+                <value>
+                    <fullName>Reborn</fullName>
+                    <default>false</default>
+                    <label>Reborn</label>
+                </value>
+                <value>
+                    <fullName>Bespoke</fullName>
+                    <default>false</default>
+                    <label>Bespoke</label>
+                </value>
+                <value>
+                    <fullName>Limited Edition</fullName>
+                    <default>false</default>
+                    <label>Limited Edition</label>
+                </value>
+                <value>
+                    <fullName>Health Check</fullName>
+                    <default>false</default>
+                    <label>Health Check</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Full Bespoke</fullName>
+                    <default>false</default>
+                    <label>Full Bespoke</label>
+                </value>
+                <value>
+                    <fullName>Full Remote Bespoke</fullName>
+                    <default>false</default>
+                    <label>Full Remote Bespoke</label>
+                </value>
+                <value>
+                    <fullName>Paint Only</fullName>
+                    <default>false</default>
+                    <label>Paint Only</label>
+                </value>
+                <value>
+                    <fullName>Exterior Only</fullName>
+                    <default>false</default>
+                    <label>Exterior Only</label>
+                </value>
+                <value>
+                    <fullName>Interior Only</fullName>
+                    <default>false</default>
+                    <label>Interior Only</label>
+                </value>
+                <value>
+                    <fullName>Collectors Edition</fullName>
+                    <default>false</default>
+                    <label>Collectors Edition</label>
+                </value>
+                <value>
+                    <fullName>Armoured</fullName>
+                    <default>false</default>
+                    <label>Armoured</label>
+                </value>
+                <value>
+                    <fullName>Special Commission</fullName>
+                    <default>false</default>
+                    <label>Special Commission</label>
+                </value>
+                <value>
+                    <fullName>Halo</fullName>
+                    <default>false</default>
+                    <label>Halo</label>
+                </value>
+                <value>
+                    <fullName>Core Vehicle</fullName>
+                    <default>false</default>
+                    <label>Core Vehicle</label>
+                </value>
+                <value>
+                    <fullName>Parts Fitment</fullName>
+                    <default>false</default>
+                    <label>Parts Fitment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Forecast_Category__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Forecast Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pipeline</fullName>
+                    <default>true</default>
+                    <label>Pipeline</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Calculate_Capacity__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Calculate Capacity</label>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

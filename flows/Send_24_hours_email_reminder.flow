@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>send_24_hours_complete_reminder</name>
+        <label>send 24 hours complete reminder</label>
+        <locationX>50</locationX>
+        <locationY>278</locationY>
+        <actionName>SO_Enquiry__c.So_24_hours_reminder</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>Get_enquiry_rec.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>check_is_enquiry_is_classic</name>
+        <label>check is enquiry is classic</label>
+        <locationX>182</locationX>
+        <locationY>158</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Check_enquiry_record_type_is_classic_or_not</name>
+            <conditionLogic>(1 OR 2) AND (3 AND 4 )</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_enquiry_rec.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SO_Classic_Sales </stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_enquiry_rec.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SO_Classic_Service</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_enquiry_rec.SO_Stage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_enquiry_rec.OwnerId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>005</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>send_24_hours_complete_reminder</targetReference>
+            </connector>
+            <label>Check  enquiry record type is classic or not</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Send 24 hours email reminder {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Send 24 hours email reminder</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>check_is_enquiry_is_classic</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Get_enquiry_rec</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>SO_Enquiry__c</objectType>
+    </variables>
+</Flow>

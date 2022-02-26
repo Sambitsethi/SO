@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <label>Knowledge</label>
+    <pluralLabel>Knowledge</pluralLabel>
+    <searchLayouts/>
+    <fields>
+        <fullName>Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Answer</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <description>Question for FAQ</description>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>Enter a Description/ Text Body for the Article</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter a Description/ Text Body for the Article</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RTC_Article_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Article URL</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>RTC_Additional_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Info</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <recordTypes>
+        <fullName>Knowledge_Article</fullName>
+        <active>true</active>
+        <description>Used for general knowledge Articles</description>
+        <label>Knowledge Article</label>
+    </recordTypes>
+</CustomObject>

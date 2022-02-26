@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>OUV_Damage_Disclosure_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>OUV_Damage_Disclosure_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>OUV Damage Disclosure</label>
+    <nameField>
+        <displayFormat>DD-{0000000}</displayFormat>
+        <label>OUV Damage Disclosure Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>OUV Damage Disclosures</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_VIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_FullVIN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Damage_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Damage Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B: Broken</label>
+                </value>
+                <value>
+                    <fullName>BE</fullName>
+                    <default>false</default>
+                    <label>BE: Bent</label>
+                </value>
+                <value>
+                    <fullName>BL</fullName>
+                    <default>false</default>
+                    <label>BL: Bird Lime</label>
+                </value>
+                <value>
+                    <fullName>BR</fullName>
+                    <default>false</default>
+                    <label>BR: Broken</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C: Chip</label>
+                </value>
+                <value>
+                    <fullName>CH</fullName>
+                    <default>false</default>
+                    <label>CH: Chip</label>
+                </value>
+                <value>
+                    <fullName>CO</fullName>
+                    <default>false</default>
+                    <label>CO: Contamination</label>
+                </value>
+                <value>
+                    <fullName>CR</fullName>
+                    <default>false</default>
+                    <label>CR: Cracked</label>
+                </value>
+                <value>
+                    <fullName>CU</fullName>
+                    <default>false</default>
+                    <label>CU: Cut</label>
+                </value>
+                <value>
+                    <fullName>D</fullName>
+                    <default>false</default>
+                    <label>D: Dent</label>
+                </value>
+                <value>
+                    <fullName>DR</fullName>
+                    <default>false</default>
+                    <label>DR: Dirty</label>
+                </value>
+                <value>
+                    <fullName>G</fullName>
+                    <default>false</default>
+                    <label>G: Glass</label>
+                </value>
+                <value>
+                    <fullName>GU</fullName>
+                    <default>false</default>
+                    <label>GU: Gouge</label>
+                </value>
+                <value>
+                    <fullName>I</fullName>
+                    <default>false</default>
+                    <label>I: Dirty Interior</label>
+                </value>
+                <value>
+                    <fullName>M</fullName>
+                    <default>false</default>
+                    <label>M: Missing</label>
+                </value>
+                <value>
+                    <fullName>PU</fullName>
+                    <default>false</default>
+                    <label>PU: Punctured</label>
+                </value>
+                <value>
+                    <fullName>R</fullName>
+                    <default>false</default>
+                    <label>R: Rail Dust</label>
+                </value>
+                <value>
+                    <fullName>S</fullName>
+                    <default>false</default>
+                    <label>S: Scratch</label>
+                </value>
+                <value>
+                    <fullName>T</fullName>
+                    <default>false</default>
+                    <label>T: Test</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Damage_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Damage Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Vehicle</label>
+        <referenceTo>OUV_Vehicle__c</referenceTo>
+        <relationshipLabel>OUV Damage Disclosures</relationshipLabel>
+        <relationshipName>OUV_Damage_Disclosures</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Repair_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Repair Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Repair_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Repair Date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Position_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Position Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>001</fullName>
+                    <default>false</default>
+                    <label>1: Front Bumper LHS</label>
+                </value>
+                <value>
+                    <fullName>002</fullName>
+                    <default>false</default>
+                    <label>2: Front Valence LHS</label>
+                </value>
+                <value>
+                    <fullName>003</fullName>
+                    <default>false</default>
+                    <label>3: Front Wing LHS</label>
+                </value>
+                <value>
+                    <fullName>004</fullName>
+                    <default>false</default>
+                    <label>4: Front Wheel Arch LHS</label>
+                </value>
+                <value>
+                    <fullName>005</fullName>
+                    <default>false</default>
+                    <label>5: Front Wheel OR Wheel Trim LHS</label>
+                </value>
+                <value>
+                    <fullName>006</fullName>
+                    <default>false</default>
+                    <label>6: Front Tyre LHS</label>
+                </value>
+                <value>
+                    <fullName>007</fullName>
+                    <default>false</default>
+                    <label>7: Door Mirror LHS</label>
+                </value>
+                <value>
+                    <fullName>008</fullName>
+                    <default>false</default>
+                    <label>8: Interior</label>
+                </value>
+                <value>
+                    <fullName>009</fullName>
+                    <default>false</default>
+                    <label>9: Front Door LHS</label>
+                </value>
+                <value>
+                    <fullName>010</fullName>
+                    <default>false</default>
+                    <label>10: Front Door Grill LHS</label>
+                </value>
+                <value>
+                    <fullName>011</fullName>
+                    <default>false</default>
+                    <label>11: Rear Door LHS(and centre pillar 4 door only)</label>
+                </value>
+                <value>
+                    <fullName>012</fullName>
+                    <default>false</default>
+                    <label>12: Rear Door Grill LHS</label>
+                </value>
+                <value>
+                    <fullName>013</fullName>
+                    <default>false</default>
+                    <label>13: Rear Wheel Arch LHS</label>
+                </value>
+                <value>
+                    <fullName>014</fullName>
+                    <default>false</default>
+                    <label>14: Rear Wheel or Wheel Trim LHS</label>
+                </value>
+                <value>
+                    <fullName>015</fullName>
+                    <default>false</default>
+                    <label>15: Rear Tyre LHS</label>
+                </value>
+                <value>
+                    <fullName>016</fullName>
+                    <default>false</default>
+                    <label>16: Rear Quarter Panel LHS</label>
+                </value>
+                <value>
+                    <fullName>017</fullName>
+                    <default>false</default>
+                    <label>17: Rear Bumper LHS</label>
+                </value>
+                <value>
+                    <fullName>018</fullName>
+                    <default>false</default>
+                    <label>18: Rear Valence LHS</label>
+                </value>
+                <value>
+                    <fullName>019</fullName>
+                    <default>false</default>
+                    <label>19: Rear Valence</label>
+                </value>
+                <value>
+                    <fullName>020</fullName>
+                    <default>false</default>
+                    <label>20: Rear Bumper</label>
+                </value>
+                <value>
+                    <fullName>021</fullName>
+                    <default>false</default>
+                    <label>21: Back Panel</label>
+                </value>
+                <value>
+                    <fullName>022</fullName>
+                    <default>false</default>
+                    <label>22: Tail Light Cluster LHS</label>
+                </value>
+                <value>
+                    <fullName>023</fullName>
+                    <default>false</default>
+                    <label>23: Tail Light Cluster RHS</label>
+                </value>
+                <value>
+                    <fullName>024</fullName>
+                    <default>false</default>
+                    <label>24: Rear Window Surround/Boot Lid</label>
+                </value>
+                <value>
+                    <fullName>025</fullName>
+                    <default>false</default>
+                    <label>25: Rear Screen</label>
+                </value>
+                <value>
+                    <fullName>026</fullName>
+                    <default>false</default>
+                    <label>26: Rear Valence RHS</label>
+                </value>
+                <value>
+                    <fullName>027</fullName>
+                    <default>false</default>
+                    <label>27: Rear Bumper RHS</label>
+                </value>
+                <value>
+                    <fullName>028</fullName>
+                    <default>false</default>
+                    <label>28: Rear Quarter Panel RHS</label>
+                </value>
+                <value>
+                    <fullName>029</fullName>
+                    <default>false</default>
+                    <label>29: Fuel Filler Surround</label>
+                </value>
+                <value>
+                    <fullName>030</fullName>
+                    <default>false</default>
+                    <label>30: Rear Wheel Arch RHS</label>
+                </value>
+                <value>
+                    <fullName>031</fullName>
+                    <default>false</default>
+                    <label>31: Rear Wheel or Wheel Trim RHS</label>
+                </value>
+                <value>
+                    <fullName>032</fullName>
+                    <default>false</default>
+                    <label>32: Rear Tyre RHS</label>
+                </value>
+                <value>
+                    <fullName>033</fullName>
+                    <default>false</default>
+                    <label>33: Rear Door RHS(and centre pillar 4 door only)</label>
+                </value>
+                <value>
+                    <fullName>034</fullName>
+                    <default>false</default>
+                    <label>34: Rear Door Grill RHS</label>
+                </value>
+                <value>
+                    <fullName>035</fullName>
+                    <default>false</default>
+                    <label>35: Front Door RHS</label>
+                </value>
+                <value>
+                    <fullName>036</fullName>
+                    <default>false</default>
+                    <label>36: Front Door Grill RHS</label>
+                </value>
+                <value>
+                    <fullName>037</fullName>
+                    <default>false</default>
+                    <label>37: Door Mirror RHS</label>
+                </value>
+                <value>
+                    <fullName>038</fullName>
+                    <default>false</default>
+                    <label>38: Front Wheel Arch RHS</label>
+                </value>
+                <value>
+                    <fullName>039</fullName>
+                    <default>false</default>
+                    <label>39: Front Wing RHS</label>
+                </value>
+                <value>
+                    <fullName>040</fullName>
+                    <default>false</default>
+                    <label>40: Front Wheel and Wheel Trim RHS</label>
+                </value>
+                <value>
+                    <fullName>041</fullName>
+                    <default>false</default>
+                    <label>41: Front Tyre RHS</label>
+                </value>
+                <value>
+                    <fullName>042</fullName>
+                    <default>false</default>
+                    <label>42: Front Bumper RHS</label>
+                </value>
+                <value>
+                    <fullName>043</fullName>
+                    <default>false</default>
+                    <label>43: Front Valence RHS</label>
+                </value>
+                <value>
+                    <fullName>044</fullName>
+                    <default>false</default>
+                    <label>44: Front Valence</label>
+                </value>
+                <value>
+                    <fullName>045</fullName>
+                    <default>false</default>
+                    <label>45: Front Bumper</label>
+                </value>
+                <value>
+                    <fullName>046</fullName>
+                    <default>false</default>
+                    <label>46: Headlights and Indicator RHS</label>
+                </value>
+                <value>
+                    <fullName>047</fullName>
+                    <default>false</default>
+                    <label>47: Headlights and Indicator LHS</label>
+                </value>
+                <value>
+                    <fullName>048</fullName>
+                    <default>false</default>
+                    <label>48: Spot Lights</label>
+                </value>
+                <value>
+                    <fullName>049</fullName>
+                    <default>false</default>
+                    <label>49: Grill</label>
+                </value>
+                <value>
+                    <fullName>050</fullName>
+                    <default>false</default>
+                    <label>50: Bonnet</label>
+                </value>
+                <value>
+                    <fullName>051</fullName>
+                    <default>false</default>
+                    <label>51: Cowl</label>
+                </value>
+                <value>
+                    <fullName>052</fullName>
+                    <default>false</default>
+                    <label>52: Wipers</label>
+                </value>
+                <value>
+                    <fullName>053</fullName>
+                    <default>false</default>
+                    <label>53: Windscreen And A Pillers</label>
+                </value>
+                <value>
+                    <fullName>054</fullName>
+                    <default>false</default>
+                    <label>54: Roof(and sun roof)</label>
+                </value>
+                <value>
+                    <fullName>055</fullName>
+                    <default>false</default>
+                    <label>55: Spare Wheel</label>
+                </value>
+                <value>
+                    <fullName>056</fullName>
+                    <default>false</default>
+                    <label>56: Tools&amp; Boot Pack</label>
+                </value>
+                <value>
+                    <fullName>057</fullName>
+                    <default>false</default>
+                    <label>57: Radio</label>
+                </value>
+                <value>
+                    <fullName>058</fullName>
+                    <default>false</default>
+                    <label>58: Battery</label>
+                </value>
+                <value>
+                    <fullName>059</fullName>
+                    <default>false</default>
+                    <label>59: Keys</label>
+                </value>
+                <value>
+                    <fullName>060</fullName>
+                    <default>false</default>
+                    <label>60: Underbody and Exhaust</label>
+                </value>
+                <value>
+                    <fullName>061</fullName>
+                    <default>false</default>
+                    <label>61: Literature Pack</label>
+                </value>
+                <value>
+                    <fullName>062</fullName>
+                    <default>false</default>
+                    <label>62: Front Passenger Window LHS</label>
+                </value>
+                <value>
+                    <fullName>063</fullName>
+                    <default>false</default>
+                    <label>63: Rear Passenger Window LHS</label>
+                </value>
+                <value>
+                    <fullName>064</fullName>
+                    <default>false</default>
+                    <label>64: Rear Side Window LHS</label>
+                </value>
+                <value>
+                    <fullName>065</fullName>
+                    <default>false</default>
+                    <label>65: Front Drivers Window RHS</label>
+                </value>
+                <value>
+                    <fullName>066</fullName>
+                    <default>false</default>
+                    <label>66: Front Passenger Window RHS</label>
+                </value>
+                <value>
+                    <fullName>067</fullName>
+                    <default>false</default>
+                    <label>67: Rear Side Window RHS</label>
+                </value>
+                <value>
+                    <fullName>068</fullName>
+                    <default>false</default>
+                    <label>68: Rear Side Roof Window LHS</label>
+                </value>
+                <value>
+                    <fullName>069</fullName>
+                    <default>false</default>
+                    <label>69: Rear Side Roof Window RHS</label>
+                </value>
+                <value>
+                    <fullName>070</fullName>
+                    <default>false</default>
+                    <label>70: Rear Fog Lights LHS</label>
+                </value>
+                <value>
+                    <fullName>071</fullName>
+                    <default>false</default>
+                    <label>71: Rear Fog Lights RHS</label>
+                </value>
+                <value>
+                    <fullName>072</fullName>
+                    <default>false</default>
+                    <label>72: Front Fog Light LHS</label>
+                </value>
+                <value>
+                    <fullName>073</fullName>
+                    <default>false</default>
+                    <label>73: Front Fog Light RHS</label>
+                </value>
+                <value>
+                    <fullName>074</fullName>
+                    <default>false</default>
+                    <label>74: Miscellaneous</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Severity_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Severity Code</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1: Small Defect</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2: Scratches and Dent</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3: Panel Replacement</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4: Sub-Standard</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5: Write Off</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6: Delivery/Transport Damage</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7: Repair</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8: Insurance Claim</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9: Rework</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Damage_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Damage Description</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+</CustomObject>
