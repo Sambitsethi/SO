@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines the objects which should be picked up by the Data Archiving framework. To make an object be picked up by the framework, create a new record of this Custom Metadata type, set the Is Active flag to TRUE, and specify values in the other fields as necessary. To stop an object being picked up by the framework, set the Is Active flag to FALSE. If there is no record for an object type in this Custom Metadata type, then it will not be picked up by the framework.</description>
+    <label>Data Archiving – Object</label>
+    <pluralLabel>Data Archiving – Objects</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Specifies if the object should be picked up by the Data Archiving framework or not.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Data_Archived_Field_Name__c</fullName>
+        <description>The API Name of the checkbox field on the object which specifies that the record has now been archived.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Data Archived Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Data_Archiving_Field_Name__c</fullName>
+        <description>The API Name of the checkbox field on the archivable object which specifies if a record should be archived or not. Suggestion is for this field to be a formula field, so custom logic can be declaratively configured to specify when a particular type of object should be specified.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Data Archiving Field Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Commissioning Request</label>
+    <nameField>
+        <displayFormat>REQ-{00000000}</displayFormat>
+        <label>Commissioning Request Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Commissioning Requests</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>SO_Basic</fullName>
+        <fields>Name</fields>
+        <fields>SO_Status__c</fields>
+        <fields>SO_Starting__c</fields>
+        <fields>SO_Ending__c</fields>
+        <label>SO Basic</label>
+    </compactLayouts>
+    <fields>
+        <fullName>SO_Ending__c</fullName>
+        <externalId>false</externalId>
+        <label>Ending</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SO_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Proposed</fullName>
+                    <default>false</default>
+                    <label>Proposed</label>
+                </value>
+                <value>
+                    <fullName>Reserved</fullName>
+                    <default>false</default>
+                    <label>Reserved</label>
+                </value>
+                <value>
+                    <fullName>Booked</fullName>
+                    <default>false</default>
+                    <label>Booked</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_End__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.B25__End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reservation End</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Starting__c</fullName>
+        <externalId>false</externalId>
+        <label>Starting</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SO_Tour_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Tour Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Commission_Tour_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Start__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.B25__Start_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reservation Start</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Room_Setup__c</fullName>
+        <externalId>false</externalId>
+        <label>Room Setup</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Teams_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK( SO_Reservation__r.SO_Teams_Link__c , &apos;Click here to join the meeting&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Teams Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_AV_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AV Required?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Commissioning Requests</relationshipLabel>
+        <relationshipName>SO_Commissioning_Requests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Reservation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reservation</label>
+        <referenceTo>B25__Reservation__c</referenceTo>
+        <relationshipLabel>Commissioning Requests</relationshipLabel>
+        <relationshipName>Commissioning_Requests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Booking_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Commission_Booking_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Env_Base_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Enterprise_Server_URL_300, FIND(&apos;/services&apos;,$Api.Enterprise_Server_URL_300))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SO_Env_Base_URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_PPE_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PPE Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Closed_Reason__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( SO_Reservation__r.SO_Closed_Reason__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Closed Reason</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Est_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <label>Est. Attendees</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resrv_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reservation Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Commissioning Requests</relationshipLabel>
+        <relationshipName>Commissioning_Requests</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.B25__Local_End_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>End Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Duration_hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Duration (hours)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Host_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.SO_Host__r.FirstName &amp; &quot; &quot; &amp; SO_Reservation__r.SO_Host__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Host Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Host_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.SO_Host__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Host Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Submit_Message__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Label.SO_Submit_Commission_Request</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Message</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Host_Image_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.SO_Host__r.SO_Head_shot_Public_URL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Host Image Link</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.B25__Local_Start_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start Time</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Additional_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Notes</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Special_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Requests</label>
+        <length>1000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Catering_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Catering Required</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model_of_Interest__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Opportunity__r.SO_Model__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model of Interest</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Start_String__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+  MOD( DATEVALUE( SO_Reservation__r.B25__StartLocal__c ) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday &quot;,
+  1, &quot;Monday &quot;,
+  2, &quot;Tuesday &quot;,
+  3, &quot;Wednesday &quot;,
+  4, &quot;Thursday &quot;,
+  5, &quot;Friday &quot;, 
+  &quot;Saturday &quot;
+) &amp; TEXT(DAY(DATEVALUE( SO_Reservation__r.B25__StartLocal__c ))) &amp; CASE(
+  MONTH( DATEVALUE( SO_Reservation__r.B25__StartLocal__c )),
+  1, &quot; January &quot;,
+  2, &quot; February &quot;,
+  3, &quot; March &quot;,
+  4, &quot; April &quot;,
+  5, &quot; May &quot;,
+  6, &quot; June &quot;,
+  7, &quot; July &quot;,
+  8, &quot; August &quot;,
+  9, &quot; September &quot;,
+  10, &quot; October &quot;,
+  11, &quot; November &quot;,
+  &quot; December &quot;
+) &amp; TEXT(YEAR(DATEVALUE( SO_Reservation__r.B25__StartLocal__c )))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reservation Start String</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Max_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Reservation__r.SO_VIP_Max_Attendees__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Max Attendees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Opportunity_Reference__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Opportunity__r.SO_Reference_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Reference</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Resv_Contact_Greeting__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK(TEXT( SO_Resrv_Contact__r.Salutation )) , SO_Resrv_Contact__r.LastName,
+IF( ISPICKVAL(SO_Resrv_Contact__r.Salutation, &apos;Other&apos;),
+SO_Resrv_Contact__r.Salutation_Other__c &amp; &quot; &quot; &amp; SO_Resrv_Contact__r.LastName , TEXT(SO_Resrv_Contact__r.Salutation) &amp; &quot; &quot; &amp; SO_Resrv_Contact__r.LastName)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reservation Contact Greeting</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Includes_Classic_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Includes Classic Visit?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Resrv_Secondary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Reservation Secondary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Commissioning Requests (Reservation Secondary Contact)</relationshipLabel>
+        <relationshipName>Commissioning_Requests_Secondary</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Reservation_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Resrv_Contact__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Reservation Contact Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>SO_Other</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Basic</compactLayoutAssignment>
+        <label>Other</label>
+        <picklistValues>
+            <picklist>SO_Booking_Type__c</picklist>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP%27s</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Bespoke</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Basic</compactLayoutAssignment>
+        <label>Bespoke</label>
+        <picklistValues>
+            <picklist>SO_Booking_Type__c</picklist>
+            <values>
+                <fullName>Bespoke</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Private_Office</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SO_Basic</compactLayoutAssignment>
+        <label>Private Office</label>
+        <picklistValues>
+            <picklist>SO_Booking_Type__c</picklist>
+            <values>
+                <fullName>Private Office</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>End_before_Start</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Ending__c &lt;  SO_Starting__c</errorConditionFormula>
+        <errorMessage>The proposed time window end date cannot be before the start date</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>SO_View_Calendar</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>View Calendar</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/lightning/n/SO_Commission_Suite</url>
+    </webLinks>
+</CustomObject>

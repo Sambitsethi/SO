@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OUV_Booking__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Booking</label>
+        <referenceTo>OUV_Booking__c</referenceTo>
+        <relationshipLabel>S-Docs Relationships</relationshipLabel>
+        <relationshipName>S_Docs_Relationships</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Loan_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Vehicle Loan Agreement</label>
+        <referenceTo>OUV_Vehicle_Loan_Agreement__c</referenceTo>
+        <relationshipLabel>S-Docs Relationships</relationshipLabel>
+        <relationshipName>S_Docs_Relationships</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

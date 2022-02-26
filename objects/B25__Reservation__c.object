@@ -1,0 +1,4947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Reservation_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Model_Description__c</fields>
+        <fields>Booking_Status__c</fields>
+        <fields>Booking_Type__c</fields>
+        <fields>Car_Entry_Date__c</fields>
+        <label>Reservation Compact Layout</label>
+    </compactLayouts>
+    <fieldSets>
+        <fullName>Default_Fields</fullName>
+        <description>For Reservation Types other than Passout and Workshop</description>
+        <displayedFields>
+            <field>OUV_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Vehicle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Short_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Reason_for_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Request_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Journey_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_JLR_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Internal_JLR_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Destination_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Other_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>License_Plate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Associated_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Remarketing_Coordinator_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Default Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Passout_Fields</fullName>
+        <description>Use this to add custom fields to reservations that use the Passout Reservation Type.</description>
+        <displayedFields>
+            <field>OUV_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Vehicle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Includes_Preparation_Transportation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Preparation_Transportation_End__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Short_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Reason_for_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Justification_Passout__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Request_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Passout_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Journey_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_JLR_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Internal_JLR_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Destination_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Other_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>License_Plate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Associated_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Remarketing_Coordinator_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Passout Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Preparation_Fields</fullName>
+        <description>Use this to add custom fields to reservations that use the Preparation/Transportation Reservation Type.</description>
+        <displayedFields>
+            <field>OUV_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>B25__Reservation_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Associated_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Remarketing_Coordinator_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Preparation Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SO_Bespoke</fullName>
+        <description>Booker25 Layout for the Bespoke</description>
+        <displayedFields>
+            <field>SO_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Closed_Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Commissioning_Request__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>B25__Resource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Primary_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Secondary_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Primary_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Host__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Meeting_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Max_Attendees__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Transport_Requirements__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Special_Requests__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Additional_Notes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SO Bespoke</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SO_JLR</fullName>
+        <description>Booker25 SO JLR Layout</description>
+        <displayedFields>
+            <field>SO_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Closed_Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Commissioning_Request__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>B25__Resource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Primary_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Host__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Primary_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Max_Attendees__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Meeting_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Catering_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Tour_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_AV_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Classic_Visit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_PPE_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Room_Setup__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Transport_Requirements__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Special_Requests__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_VIP_Additional_Notes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SO JLR</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SO_Maintenance</fullName>
+        <description>Booker25 SO Maintenance Layout</description>
+        <displayedFields>
+            <field>SO_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Closed_Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Commissioning_Request__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>B25__Resource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SO Maintenance</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>SO_Private_Office</fullName>
+        <description>Booker25 SO Private Office Layout</description>
+        <displayedFields>
+            <field>SO_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Closed_Reason__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Commissioning_Request__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>B25__Resource__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Primary_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Host__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Primary_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Max_Attendees__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Meeting_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Catering_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Tour_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_AV_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Classic_Visit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_PPE_Required__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Room_Setup__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Transport_Requirements__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Special_Requests__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>SO_Additional_Notes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SO Private Office</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Used_Vehicle_Fields</fullName>
+        <description>Use this to add custom fields to reservations that use the Used Vehicle Sale/Remarketing Reservation Type.</description>
+        <displayedFields>
+            <field>OUV_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Vehicle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Includes_Preparation_Transportation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Preparation_Transportation_End__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Short_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Reason_for_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Request_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Journey_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_JLR_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Internal_JLR_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Document_Template__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Destination_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Other_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>License_Plate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Associated_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Remarketing_Coordinator_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Used Vehicle Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Workshop_Fields</fullName>
+        <description>Use this to add custom fields to reservations that use the JLR Internal Workshop inc. Passout Reservation Type.</description>
+        <displayedFields>
+            <field>OUV_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Vehicle__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Includes_Preparation_Transportation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Preparation_Transportation_End__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Short_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Reason_for_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Justification_Workshop__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Booking_Request_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Journey_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Internal_JLR_Contact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Internal_JLR_Contact_Email__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Destination_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_1__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Other_Location__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Driver_2__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>License_Plate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OUV_Associated_Booking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Remarketing_Coordinator_Comments__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Workshop Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>Accessory__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Accessory</label>
+        <referenceTo>Accessory__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Actual_Add_To_Fleet_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_AddToFleetDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actual Add To Fleet Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Actual_License_Plate_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual License Plate Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Allow_Double_Booking_Manual__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Allow Double Booking Manual</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Allow_Double_Booking__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(B25__Reservation_Type__r.Name == &apos;Repair&apos; ||  B25__Status__r.Name == &apos;Cancelled&apos; ||  B25__Status__r.Name == &apos;Rejected&apos; , true, false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Allow Double Booking</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Amount__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_Driver_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.Driver_1__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking Driver 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.OUV_BookingEndDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>End date of booking</inlineHelpText>
+        <label>Booking End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Booking_End_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.OUV_Booking_End_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking End Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Booking_Internal__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.OUV_DriverUser__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking Internal JLR Contact</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_Justification_Passout__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Justification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Event/Sales activity</fullName>
+                    <default>false</default>
+                    <label>Event/Sales activity</label>
+                </value>
+                <value>
+                    <fullName>External Loan (VLA)</fullName>
+                    <default>false</default>
+                    <label>External Loan (VLA)</label>
+                </value>
+                <value>
+                    <fullName>Pool Car</fullName>
+                    <default>false</default>
+                    <label>Pool Car</label>
+                </value>
+                <value>
+                    <fullName>Appraisal</fullName>
+                    <default>false</default>
+                    <label>Appraisal</label>
+                </value>
+                <value>
+                    <fullName>Eng. Roadtest (inc. Durability/Calibration)</fullName>
+                    <default>false</default>
+                    <label>Eng. Roadtest (inc. Durability/Calibration)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Booking_Justification_Workshop__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Justification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Engineering Test/Investigation</fullName>
+                    <default>false</default>
+                    <label>Engineering Test/Investigation</label>
+                </value>
+                <value>
+                    <fullName>Press Prep.</fullName>
+                    <default>false</default>
+                    <label>Press Prep.</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Booking_Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Request Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Single Vehicle Booking</fullName>
+                    <default>false</default>
+                    <label>Single Vehicle Booking</label>
+                </value>
+                <value>
+                    <fullName>Multiple Vehicle booking</fullName>
+                    <default>false</default>
+                    <label>Multiple Vehicle booking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Booking_Short_Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>High Level Description of Vehicle Activity - Do not add any personal details; name, phone number, address etc. and ensure the data you add complies with CP1-011 and your local Privacy Policies.</inlineHelpText>
+        <label>Booking Quick Reference</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.OUV_BookingStartDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Start date of booking</inlineHelpText>
+        <label>Booking Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Booking_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.OUV_Booking_Start_Time__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking Start Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Booking_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(OUV_Booking__r.OUV_BookingApprovalStatus__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Booking_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Booking Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Passout</fullName>
+                    <default>false</default>
+                    <label>Passout</label>
+                </value>
+                <value>
+                    <fullName>Repair Booking</fullName>
+                    <default>false</default>
+                    <label>Repair Booking</label>
+                </value>
+                <value>
+                    <fullName>Workshop Booking</fullName>
+                    <default>false</default>
+                    <label>Workshop Booking</label>
+                </value>
+                <value>
+                    <fullName>Auction Booking</fullName>
+                    <default>false</default>
+                    <label>Auction Booking</label>
+                </value>
+                <value>
+                    <fullName>Other Remarketing event Booking</fullName>
+                    <default>false</default>
+                    <label>Other Remarketing event Booking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Car_Entry_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Keys Returned Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Car_Exit_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Keys Issued Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Booking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Closed Booking</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Derivative_Pack_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Derivative_Pack_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Derivative Pack Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Destination_Location__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Location</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Reservations (Account)</relationshipLabel>
+        <relationshipName>Reservations1</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Driver_1__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Add driver detail here, cdsid for JLR Employee, or logistics company moving the vehicle - Do not add any external user personal details; name, phone number, address etc. and ensure the data you add complies with CP1-011 and your local Privacy Policies.</inlineHelpText>
+        <label>Driver 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Driver_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Add driver detail here, cdsid for JLR Employee, or logistics company moving the vehicle - Do not add any external user personal details; name, phone number, address etc. and ensure the data you add complies with CP1-011 and your local Privacy Policies.</inlineHelpText>
+        <label>Driver 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fleet_Administrator__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_FleetAdministrator__r.FirstName + &apos;&apos; + OUV_Vehicle__r.OUV_FleetAdministrator__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fleet Administrator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Fleet__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.Fleet_formula__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fleet</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Full_VIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_FullVIN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Includes_Preparation_Transportation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Does this Reservation include Preparation/Transportation?</description>
+        <externalId>false</externalId>
+        <label>Includes Preparation/Transportation?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Internal_JLR_Contact__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The JLR CDSID of the person requesting, using or who is responsible for the vehicle whilst on loan.</inlineHelpText>
+        <label>Internal JLR Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Scheduled_End__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Scheduled End</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Scheduled_Start__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Scheduled Start</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Vehicle_Write_Off__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Vehicle Write Off</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Journey_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Journey Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One way</fullName>
+                    <default>false</default>
+                    <label>One way</label>
+                </value>
+                <value>
+                    <fullName>Return</fullName>
+                    <default>false</default>
+                    <label>Return</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Keys_Checked_In__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Keys Checked In</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Keys_Checked_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Keys Checked Out</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>License_Plate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Temporary licence/trade plate to be used for unregistered vehicles</inlineHelpText>
+        <label>Licence/Trade Plate</label>
+        <referenceTo>License_Plate__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Loan_Agreement_Language__c</fullName>
+        <description>Language in which to generate the VLA</description>
+        <externalId>false</externalId>
+        <label>Loan Agreement Language</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>nl</fullName>
+                    <default>false</default>
+                    <label>Dutch</label>
+                </value>
+                <value>
+                    <fullName>en</fullName>
+                    <default>false</default>
+                    <label>English</label>
+                </value>
+                <value>
+                    <fullName>fr</fullName>
+                    <default>false</default>
+                    <label>French</label>
+                </value>
+                <value>
+                    <fullName>pt</fullName>
+                    <default>false</default>
+                    <label>Portuguese</label>
+                </value>
+                <value>
+                    <fullName>es</fullName>
+                    <default>false</default>
+                    <label>Spanish</label>
+                </value>
+                <value>
+                    <fullName>de</fullName>
+                    <default>false</default>
+                    <label>German</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loan_Agreement_Market__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Agreement Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                    <label>Austria</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                    <label>Portugal</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loan_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Loan Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Individual</fullName>
+                    <default>false</default>
+                    <label>Individual</label>
+                </value>
+                <value>
+                    <fullName>Company</fullName>
+                    <default>false</default>
+                    <label>Company</label>
+                </value>
+                <value>
+                    <fullName>VIP</fullName>
+                    <default>false</default>
+                    <label>VIP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Market__c</fullName>
+        <description>The actual market using the vehicle</description>
+        <externalId>false</externalId>
+        <formula>TEXT(OUV_Vehicle__r.OUV_market_location__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The actual market using the vehicle</inlineHelpText>
+        <label>Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mileage_At_Close_Of_Booking__c</fullName>
+        <externalId>false</externalId>
+        <label>Mileage At Close Of Booking</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_ModelDescription__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Model_Year_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_ModelYearDescription__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model Year Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Of_Keys_Checked_In__c</fullName>
+        <externalId>false</externalId>
+        <label>No. Of Keys Checked In</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>No_Of_Keys_Checked_Out__c</fullName>
+        <externalId>false</externalId>
+        <label>No. Of Keys Checked Out</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Select from existing locations, or create a new account / location for frequently used locations</inlineHelpText>
+        <label>Return Location</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Vehicle Location</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Reservations (Booking Location)</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Associated_Booking__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Associated Booking</label>
+        <referenceTo>OUV_Booking__c</referenceTo>
+        <relationshipLabel>Reservations (Associated Booking)</relationshipLabel>
+        <relationshipName>AssociatedBooking_Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_B25_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>B25__Status__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>B25 Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Booking_Justification__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( OUV_Booking__r.OUV_BookingJustification__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Booking Justification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Booking_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Booking__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Booking Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Booking_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( OUV_Booking__r.OUV_BookingType__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Booking Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Booking__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Booking</label>
+        <referenceTo>OUV_Booking__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Document_Template__c</fullName>
+        <externalId>false</externalId>
+        <label>Template</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Document_Template</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Encrypted_Driver_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Encrypted Driver 1</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Encrypted_VLA_Company__c</fullName>
+        <externalId>false</externalId>
+        <label>Encrypted VLA Company</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Encrypted_VLA_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Encrypted VLA Full Name</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Fleet</label>
+        <referenceTo>OUV_Fleet__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Full_VIN__c</fullName>
+        <externalId>false</externalId>
+        <label>Full VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Internal_JLR_Contact_Email__c</fullName>
+        <description>Internal JLR Contact Email</description>
+        <externalId>false</externalId>
+        <label>Internal JLR Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Passout_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( OUV_Booking__r.OUV_PassoutType__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Booking Passout Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Registration_Plate__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Plate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_TrimDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_TrimDescription__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trim Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Checked_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Matches the &quot;Is Checked-Out&quot; checkbox from Vehicle. This field is used for Check Out / Check In custom button.</description>
+        <externalId>false</externalId>
+        <label>Vehicle Checked-Out</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Loan_Agreement__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Vehicle Loan Agreement</label>
+        <referenceTo>OUV_Vehicle_Loan_Agreement__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Vehicle</label>
+        <lookupFilter>
+            <active>false</active>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <filterItems>
+                <field>OUV_Vehicle__c.OUV_VehicleMasterStatus__c</field>
+                <operation>equals</operation>
+                <value>Live</value>
+            </filterItems>
+            <filterItems>
+                <field>OUV_Vehicle__c.OUV_VehicleMasterStatus__c</field>
+                <operation>equals</operation>
+                <value>Handed In</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>OUV_Vehicle__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Option__c</fullName>
+        <externalId>false</externalId>
+        <label>Option</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other_Location__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Only to be used for one-off locations</inlineHelpText>
+        <label>Other Location</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Paint_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_PaintDescription__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Passout_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Passout Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Overnight</fullName>
+                    <default>false</default>
+                    <label>Overnight</label>
+                </value>
+                <value>
+                    <fullName>Weekend</fullName>
+                    <default>false</default>
+                    <label>Weekend</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preparation_Transportation_End__c</fullName>
+        <description>End Date for the Preparation/Transportation Reservation</description>
+        <externalId>false</externalId>
+        <label>Preparation/Transportation End</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Presold__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Presold__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Pre-sold</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_PrimaryLocation__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>JLR storage locations</inlineHelpText>
+        <label>Primary Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Product_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Booking__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>A Detail Description of the Use of the Vehicle(s) - Do not add any personal details; name, phone number, address etc. and ensure the data you add complies with CP1-011 and your local Privacy Policies.</inlineHelpText>
+        <label>Reason for Booking</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Registration__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_Registration__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Registration Plate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Remarketing_Coordinator_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reservation_Preparation_Transportation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Look-up to the related Preparation/Transportation Reservation</description>
+        <externalId>false</externalId>
+        <label>Reservation Preparation/Transportation</label>
+        <referenceTo>B25__Reservation__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reservation_Quantity__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Reservation Quantity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_AV_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>A/V Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Additional_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Notes</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Catering_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Catering Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Classic_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Classic Visit?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Closed_Reason_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason Other</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Closed_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Status__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>SO_Reservation_Close_Reasons</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Attended</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer can no longer attend</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer no longer interested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Customer re-scheduled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Special Operations re-scheduled</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>No show</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Commissioning_Request__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Commissioning Request</label>
+        <referenceTo>SO_Commissioning_Request__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>SO_Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Details</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Host__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Host</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Reservations_Host</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Is_Non_Bespoke__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR(
+ ISPICKVAL(SO_VIP_Meeting_Type__c , &apos;Meeting&apos;), 
+ ISPICKVAL(SO_VIP_Meeting_Type__c , &apos;Tour&apos;),
+ ISPICKVAL(SO_VIP_Meeting_Type__c , &apos;Event&apos;),
+ ISPICKVAL(SO_VIP_Meeting_Type__c , &apos;VIP Guest&apos;),
+ ISPICKVAL(SO_VIP_Meeting_Type__c , &apos;	Private Office Experience&apos;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Non-Bespoke</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Is_Video_Commission__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Video Commission</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Max_Attendees__c</fullName>
+        <defaultValue>3</defaultValue>
+        <externalId>false</externalId>
+        <label>Max. Attendees</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Meeting_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Meeting Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Meeting_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Number_of_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Attendees</label>
+        <summaryForeignKey>SO_Reservation_Attendee__c.SO_Reservation__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>SO_PPE_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PPE Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Primary_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_VIP_Primary_Contact__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Contact Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Primary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Reservations (Primary Contact)</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Quote__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Quote</label>
+        <referenceTo>Quote</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Room_Setup__c</fullName>
+        <externalId>false</externalId>
+        <label>Room Setup</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Secondary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Secondary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Reservations (Secondary Contact)</relationshipLabel>
+        <relationshipName>Reservations_secondary</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Special_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Requests</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Proposed</fullName>
+                    <default>true</default>
+                    <label>Proposed</label>
+                </value>
+                <value>
+                    <fullName>Reserved</fullName>
+                    <default>false</default>
+                    <label>Reserved</label>
+                </value>
+                <value>
+                    <fullName>Booked</fullName>
+                    <default>false</default>
+                    <label>Booked</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Teams_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Team&apos;s Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>SO_Tour_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Tour Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Commission_Tour_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Transport_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Transport Requirements</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_AV_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>A/V Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Additional_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Notes</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Catering_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Catering Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Classic_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Classic Visit?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Details</label>
+        <length>2000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Max_Attendees__c</fullName>
+        <defaultValue>3</defaultValue>
+        <externalId>false</externalId>
+        <label>Max. Attendees</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Meeting_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Meeting Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Meeting_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_PPE_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>PPE Required?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Primary_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Reservations (Primary Contact)</relationshipLabel>
+        <relationshipName>Reservations_VIP</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Room_Setup__c</fullName>
+        <externalId>false</externalId>
+        <label>Room Setup</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Special_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Requests</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Tour_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Tour Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SO_Commission_Tour_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_VIP_Transport_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Transport Requirements</label>
+        <length>1000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Service__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Service</label>
+        <referenceTo>OUV_Service__c</referenceTo>
+        <relationshipLabel>Reservations</relationshipLabel>
+        <relationshipName>Reservations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Todays_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Today()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Todays Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Transmission_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_TransmissionDescription__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transmission Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ValidatedBooking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Validated Booking</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>VehicleCondition__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Condition</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>VehicleMileage__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_VehicleMileage__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Mileage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Loan_Agreement__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vehicle Loan Agreement</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Model_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Vehicle__r.OUV_ModelCode__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Model Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>OUV_Reservation_Editable</fullName>
+        <active>true</active>
+        <description>This is the standard OUV booking line item type available to users</description>
+        <label>Reservation Editable</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer can no longer attend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer no longer interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer re-scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Operations re-scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>OUV_Reservation_READ_ONLY</fullName>
+        <active>true</active>
+        <description>This is a read only RT for OUV booking where only the Vista Vehicle is editable by the user</description>
+        <label>OUV Reservation READ ONLY</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer can no longer attend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer no longer interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer re-scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Operations re-scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Bespoke</fullName>
+        <active>true</active>
+        <label>Bespoke</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer can no longer attend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer no longer interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer re-scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Operations re-scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Bespoke Commission</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_JLR</fullName>
+        <active>true</active>
+        <label>JLR</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer can no longer attend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer no longer interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer re-scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Operations re-scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP Guest</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Maintenance</fullName>
+        <active>true</active>
+        <label>Maintenance</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Maintenance</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Private_Office</fullName>
+        <active>true</active>
+        <label>Private Office</label>
+        <picklistValues>
+            <picklist>Booking_Justification_Passout__c</picklist>
+            <values>
+                <fullName>Appraisal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eng%2E Roadtest %28inc%2E Durability%2FCalibration%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Event%2FSales activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>External Loan %28VLA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pool Car</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Justification_Workshop__c</picklist>
+            <values>
+                <fullName>Engineering Test%2FInvestigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Press Prep%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Request_Type__c</picklist>
+            <values>
+                <fullName>Multiple Vehicle booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single Vehicle Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Booking_Type__c</picklist>
+            <values>
+                <fullName>Auction Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Remarketing event Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Passout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Repair Booking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Workshop Booking</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Journey_Type__c</picklist>
+            <values>
+                <fullName>One way</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Return</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Language__c</picklist>
+            <values>
+                <fullName>de</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>en</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>es</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>nl</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>pt</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Agreement_Market__c</picklist>
+            <values>
+                <fullName>Austria</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>France</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spain</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Loan_Category__c</picklist>
+            <values>
+                <fullName>Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_In__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>No_Of_Keys_Checked_Out__c</picklist>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>OUV_Document_Template__c</picklist>
+            <values>
+                <fullName>Auction Brochure %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Auction Brochure %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Job Card %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Logistic Details %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Handover form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Repair History %28sent to an Booking Location Account%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vehicle Summary %28send to Booking Owner%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Passout_Type__c</picklist>
+            <values>
+                <fullName>Day</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Overnight</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Weekend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Closed_Reason__c</picklist>
+            <values>
+                <fullName>Attended</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer can no longer attend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer no longer interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer re-scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Special Operations re-scheduled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Status__c</picklist>
+            <values>
+                <fullName>Booked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Meeting_Type__c</picklist>
+            <values>
+                <fullName>Private Office Experience</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_VIP_Tour_Type__c</picklist>
+            <values>
+                <fullName>Commissioning Suite</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Suite and SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28exc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVO Technical Centre %28inc%2E Paint%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingReasons>
+        <fullName>OUV_Fleet_Members__c</fullName>
+        <label>Fleet Members</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>OUV_BookingPeriodCannotBeyondHandInDate</fullName>
+        <active>false</active>
+        <errorConditionFormula>IF( NOT( ISPICKVAL( OUV_Vehicle__r.OUV_VehicleMasterStatus__c , &quot;Handed In&quot;) ) &amp;&amp; ( OUV_Booking__r.OUV_BookingStartDate__c &gt;  OUV_Vehicle__r.OUV_HandinDate__c ||  OUV_Booking__r.OUV_BookingEndDate__c &gt;  OUV_Vehicle__r.OUV_HandinDate__c ), true, false)</errorConditionFormula>
+        <errorMessage>You are not able to book this vehicle as booking period is beyond the Expected Handed in Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_BookingType_Passout</fullName>
+        <active>true</active>
+        <description>Don&apos;t allow vehicle whose type is Passout and master status is Handed In</description>
+        <errorConditionFormula>AND( 
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+ISPICKVAL(OUV_Vehicle__r.OUV_VehicleMasterStatus__c, &apos;Handed In&apos;), 
+OR( 
+ISPICKVAL(OUV_Booking__r.OUV_BookingType__c, &apos;Passout&apos;), 
+ISPICKVAL(OUV_Booking__r.OUV_BookingType__c, &apos;Workshop Booking&apos;) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Vehicle with Master status Handed in can only be booked for Repair, Auction or Other Re-marketing event</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Booking_Check_In_earlier_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), Booking_Start_Time__c  &gt; Car_Entry_Date__c
+)</errorConditionFormula>
+        <errorMessage>Booking Check In date cannot be earlier than Booking start Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Booking_Check_Out_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), OR (  Booking_Start_Time__c  &gt; Car_Exit_Date__c, 
+ Booking_End_Time__c  &lt; Car_Exit_Date__c
+)
+)</errorConditionFormula>
+        <errorMessage>Booking Check out date cannot be earlier Booking start date or Later than Booking End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Booking_Check_in_Date_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), Car_Exit_Date__c  &gt; Car_Entry_Date__c
+)</errorConditionFormula>
+        <errorMessage>Booking Check in date can be only equal or greater then the Booking Check out date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Booking_Driver_Validation</fullName>
+        <active>true</active>
+        <description>If VLA Checkbox is not ticked, Driver 1 must be mandatory.</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+ B25__Reservation_Type__r.Name != &apos;Preparation/Transportation&apos;,
+ISBLANK( Driver_1__c ), 
+OR( 
+ISBLANK ( OUV_Booking__c), 
+ISPICKVAL( OUV_Booking__r.OUV_BookingApprovalStatus__c , &apos;New&apos;) 
+),  
+ B25__Reservation_Type__r.Name != &apos;Preparation/Transportation&apos;,
+NOT( ISPICKVAL(Booking_Justification_Passout__c,&apos;External Loan (VLA)&apos;) ) )</errorConditionFormula>
+        <errorMessage>Please fill the Driver 1 field for this booking justification.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_CheckINFieldsMustBeComplete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+( Keys_Checked_In__c = TRUE &amp;&amp; (ISBLANK(TEXT( 	No_Of_Keys_Checked_In__c )) || ISBLANK( Car_Entry_Date__c ) || ISBLANK( Mileage_At_Close_Of_Booking__c) || ISBLANK( VehicleCondition__c ) ))
+)</errorConditionFormula>
+        <errorMessage>Please ensure that the No. of Keys Checked In, Car Entry Date, Mileage At Close Of Booking and the Vehicle Condition fields are filled in if the keys have been checked in</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_CheckOUTFieldsMustBeComplete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), (Keys_Checked_Out__c = TRUE &amp;&amp; ( ISBLANK(TEXT(	No_Of_Keys_Checked_Out__c)) || ISBLANK( Car_Exit_Date__c )))
+)</errorConditionFormula>
+        <errorMessage>Please ensure that the No. of Keys Checked out and the Car Exit Date are filled in if the keys have been checked out</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_FieldsRequiredBeforeBookingIsClosed</fullName>
+        <active>true</active>
+        <description>VehicleMileage,CarCondition,Location fields should be populated if user is closing respective booking</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), IF(ISCHANGED(Closed_Booking__c) &amp;&amp; Closed_Booking__c = true &amp;&amp; Booking_Status__c = &apos;Closed&apos; &amp;&amp;  ISBLANK(Reservation_Preparation_Transportation__c )&amp;&amp; (ISNULL(Mileage_At_Close_Of_Booking__c)|| 
+(OUV_Account__c == &apos;&apos; || OUV_Account__c == NULL) || 
+ISBLANK(VehicleCondition__c) ) , true, false)
+)</errorConditionFormula>
+        <errorMessage>Please fill following field before closing the booking: Mileage End, Vehicle Condition, Return Location</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Location_cannot_be_blank</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+(ISNULL( Destination_Location__c  )|| ( Destination_Location__c  == &apos;&apos;) ),( ISNULL( Other_Location__c) || (Other_Location__c == &apos;&apos;)))</errorConditionFormula>
+        <errorMessage>Please fill either Location or Other Location.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Market_US_License_Mandatory</fullName>
+        <active>true</active>
+        <description>If Market of the Booking is US, then License Plate is mandatory.</description>
+        <errorConditionFormula>AND( 
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+OR( 
+OUV_Booking__r.OUV_Market__c = &quot;US&quot;,
+OUV_Booking__r.OUV_Market__c = &quot;USA&quot;,
+OUV_Booking__r.OUV_Market__c = &quot;U.S&quot;,
+OUV_Booking__r.OUV_Market__c = &quot;U.S.A&quot;,
+OUV_Booking__r.OUV_Market__c = &quot;United States&quot;),
+LEN( License_Plate__c ) &lt; 1 )</errorConditionFormula>
+        <errorMessage>Please fill the License Plate field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Mileage_Close_Of_Booking_Validation</fullName>
+        <active>true</active>
+        <description>Mileage at Close of Booking can be only equal or greater than the Current Vehicle Mileage</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+VehicleMileage__c &gt; Mileage_At_Close_Of_Booking__c
+)</errorConditionFormula>
+        <errorMessage>Mileage at Close of Booking can be only equal or greater than the Current Vehicle Mileage</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_PreparationTransportation_EndDate</fullName>
+        <active>true</active>
+        <description>The Preparation/Transportation End should be after the Reservation Start Date and before the Reservation End Date</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+OR(
+AND(
+ISNEW(),
+Includes_Preparation_Transportation__c = true,
+Preparation_Transportation_End__c &lt; B25__StartLocal__c),
+AND(
+ISNEW(),
+Includes_Preparation_Transportation__c = true,
+Preparation_Transportation_End__c &gt; B25__EndLocal__c))
+)</errorConditionFormula>
+        <errorMessage>The Preparation/Transportation End should be after the Reservation Start Date and before the Reservation End Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_PreparationTransportation_IsTicked</fullName>
+        <active>true</active>
+        <description>Both Includes Preparation/Transportation checkbox and Preparation/Transportation End need to be filled in order for a Preparation Reservation to be created</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+OR(
+AND(
+Includes_Preparation_Transportation__c = TRUE,
+ISNULL(Preparation_Transportation_End__c)
+), 
+AND(
+Includes_Preparation_Transportation__c = FALSE,
+NOT(ISNULL(Preparation_Transportation_End__c)) 
+)
+)
+)</errorConditionFormula>
+        <errorMessage>Both &quot;Includes Preparation/Transportation&quot; checkbox and &quot;Preparation/Transportation End&quot; need to be filled in order for a Preparation Reservation to be created</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Reservation_Mandatory_License_Plate</fullName>
+        <active>true</active>
+        <description>Actual License Plate Number is mandatory when Check Out information is filled in.</description>
+        <errorConditionFormula>AND( 
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;),
+OUV_Booking__r.OUV_Car_Received__c = true,  ISBLANK( Actual_License_Plate_Number__c ) )</errorConditionFormula>
+        <errorMessage>Please fill the Actual License Plate Number field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_StartDate_EndDate_Validation</fullName>
+        <active>true</active>
+        <description>Compare B25__StartLocal__c with B25__EndLocal__c.</description>
+        <errorConditionFormula>AND(
+BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), IF(
+AND(OUV_Booking__r.OUV_ApprovalProcessActive__c = false,
+AND(OR(B25__StartLocal__c &lt; NOW(),B25__EndLocal__c&lt; B25__StartLocal__c ),
+(B25__Status__r.Name) = &apos;New&apos;
+)),
+true,false)
+)</errorConditionFormula>
+        <errorMessage>Reservation End Date should be greater than Reservation Start Date and Reservation Start Date should be greater than the current time.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_VLA_Checkbox_Validation</fullName>
+        <active>true</active>
+        <description>Turns the fields Loan Agreement Market, Loan Agreement Category and Loan Agreement Language mandatory if &apos;Vehicle Loan Agreement&apos; check box is ticked</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+Vehicle_Loan_Agreement__c = TRUE, 
+OR( 
+ISBLANK(TEXT(Loan_Agreement_Market__c)), 
+ISBLANK(TEXT(Loan_Category__c)), 
+ISBLANK(TEXT(Loan_Agreement_Language__c)) 
+) 
+)</errorConditionFormula>
+        <errorMessage>The fields Loan Agreement Market, Loan Agreement Category and Loan Agreement Language must be filled.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Handed_In_Validation</fullName>
+        <active>true</active>
+        <description>If the Vehicle on the Reservation has a status of Handed In OR the Forecast/Actual Hand In Date is &lt; Reservation End Date, only allow the Reservation to be created for some Reservation Types
+- Repair</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), 
+OR( 
+ISPICKVAL(OUV_Vehicle__r.OUV_VehicleMasterStatus__c, &apos;Handed In&apos;), OUV_Vehicle__r.OUV_ExpectedHandInDate__c &lt; DATEVALUE( B25__EndLocal__c ) ), B25__Reservation_Type__r.Name != &apos;Repair&apos;,
+B25__Reservation_Type__r.Name != &apos;Used Vehicle Sale/Remarketing&apos;, 
+B25__Reservation_Type__r.Name != &apos;JLR Internal Workshop inc. Passout&apos; )</errorConditionFormula>
+        <errorMessage>This Reservation cannot be created because either the Vehicle has a status of Handed In or the Forecast/Actual Hand In Date is before the Reservation End Date.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Verify_sensitive_Field</fullName>
+        <active>true</active>
+        <description>Internal JLR Contact field should be case sensitive</description>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName , &apos;OUV_&apos;), Internal_JLR_Contact__c &lt;&gt; LOWER(Internal_JLR_Contact__c)
+)</errorConditionFormula>
+        <errorMessage>Internal JLR Contact should be JLR CDSID in lowercase</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Cannot_change_once_closed</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ BEGINS( RecordType.DeveloperName, &quot;SO_&quot;),
+ ISPICKVAL( PRIORVALUE( SO_Status__c ) , &quot;Closed&quot;),
+ OR(
+   ISCHANGED( SO_Status__c ),
+   ISCHANGED( SO_Closed_Reason__c )
+ )
+)</errorConditionFormula>
+        <errorMessage>Once closed you cannot change the status or reason.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Cannot_move_status_backwards</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  BEGINS( RecordType.DeveloperName, &quot;SO_&quot;),
+  OR(
+    AND(
+       ISPICKVAL( PRIORVALUE( SO_Status__c ) , &quot;Booked&quot;),
+       NOT( ISPICKVAL( SO_Status__c , &quot;Closed&quot; ) ),
+       ISCHANGED( SO_Status__c )
+    ),
+    AND(
+       ISPICKVAL( PRIORVALUE( SO_Status__c ) , &quot;Reserved&quot;),
+       NOT( ISPICKVAL( SO_Status__c , &quot;Closed&quot; ) ),
+       NOT( ISPICKVAL( SO_Status__c , &quot;Booked&quot; ) ),
+       ISCHANGED( SO_Status__c )
+    )
+  )
+)</errorConditionFormula>
+        <errorDisplayField>SO_Status__c</errorDisplayField>
+        <errorMessage>You cannot return to an earlier status.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Closed_requires_Reason</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  BEGINS( RecordType.DeveloperName, &quot;SO_&quot;),
+  ISPICKVAL( SO_Status__c , &quot;Closed&quot;),
+  ISBLANK( TEXT( SO_Closed_Reason__c) )
+)</errorConditionFormula>
+        <errorDisplayField>SO_Closed_Reason__c</errorDisplayField>
+        <errorMessage>You must provide a close reason</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Host_When_Confirmed</fullName>
+        <active>true</active>
+        <description>Host not needed for maintenance</description>
+        <errorConditionFormula>AND(
+  OR(
+     RecordType.DeveloperName == &quot;SO_Bespoke&quot;,
+     RecordType.DeveloperName == &quot;SO_JLR&quot;,
+     RecordType.DeveloperName == &quot;SO_Private_Office&quot;
+  ),
+  OR(
+    ISPICKVAL( SO_Status__c , &quot;Booked&quot; ),
+    AND(
+      ISPICKVAL( SO_Status__c , &quot;Closed&quot; ),
+      ISPICKVAL(  SO_Closed_Reason__c , &quot;Attended&quot; )
+    )
+  ),
+  ISBLANK( SO_Host__c )
+)</errorConditionFormula>
+        <errorDisplayField>SO_Host__c</errorDisplayField>
+        <errorMessage>A Confirmed Reservation must have a Host</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Start_Before_End</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  BEGINS( RecordType.DeveloperName, &quot;SO_&quot;),
+   B25__EndLocal__c &lt;  B25__StartLocal__c 
+)</errorConditionFormula>
+        <errorDisplayField>B25__EndLocal__c</errorDisplayField>
+        <errorMessage>Reservation cannot end before it has started</errorMessage>
+    </validationRules>
+</CustomObject>

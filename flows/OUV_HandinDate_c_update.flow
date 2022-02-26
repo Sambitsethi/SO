@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>is_date_value_is_Null</name>
+        <label>is date value is Null</label>
+        <locationX>278</locationX>
+        <locationY>306</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>is_forecast_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OUV_ExpectedHandInDate__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>Null_date</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update_OUV_HandinDate_c_field</targetReference>
+            </connector>
+            <label>is forecast Null</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>Null_date</name>
+        <dataType>Date</dataType>
+        <expression>NULL</expression>
+    </formulas>
+    <interviewLabel>OUV_HandinDate_c update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>OUV_HandinDate_c update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>update_OUV_HandinDate_c_field</name>
+        <label>update OUV_HandinDate_c field</label>
+        <locationX>651</locationX>
+        <locationY>445</locationY>
+        <inputAssignments>
+            <field>OUV_HandinDate__c</field>
+            <value>
+                <elementReference>$Record.OUV_ExpectedHandInDate__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>490</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>is_date_value_is_Null</targetReference>
+        </connector>
+        <object>OUV_Vehicle__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Settings that control the Data Archiving framework</description>
+    <label>Data Archiving – Settings</label>
+    <pluralLabel>Data Archiving – Settings</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Determines if the framework is active or not.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Archived_Data_Owner__c</fullName>
+        <description>The Owner of any data that will be archived. Note that this should be a user which has its own role at the top of the organisation&apos;s role hierarchy.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Archived Data Owner</label>
+        <required>true</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Used to toggle automated processes like workflow rules and triggers on a per org, per profile or per user basis. To operate, add conditions to the appropriate configuration referencing the global merge field $Setup.ToggleSettings__c.[Automated Process]. A &apos;FALSE&apos; value mutes the process in the context of the org/profile/user.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Toggle Settings</label>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Toggle_Triggers__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Setting for Triggers enablement based on org/profile/user context</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set to false to mute Triggers</inlineHelpText>
+        <label>Triggers</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Toggle_WorkflowRules__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Setting for Workflow Rules enablement based on org/profile/user context</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set to false to mute Workflow Rules</inlineHelpText>
+        <label>Workflow Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Toggle_AssignmentRules__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Setting for Assignment Rules enablement based on org/profile/user context</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set to false to mute Assignment Rules</inlineHelpText>
+        <label>Assignment Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Toggle_ProcessBuilders__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Setting for Process Builder enablement based on org/profile/user context</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set to false to mute Process Builders</inlineHelpText>
+        <label>Process Builders</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Toggle_ValidationRules__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Setting for Validation Rules enablement based on org/profile/user context</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Set to false to mute Validation Rules</inlineHelpText>
+        <label>Validation Rules</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

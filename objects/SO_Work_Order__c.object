@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Work Order</label>
+    <nameField>
+        <displayFormat>WO-{00000000}</displayFormat>
+        <label>Work Order</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Work Orders</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <customTabListAdditionalFields>SO_Product_Offering__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Brand__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Model__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Pinewood_Job_Card__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Build_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Start_Forecast__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_ABS_Forecast__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>SO_Product_Offering__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Brand__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Model__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Pinewood_Job_Card__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Build_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Start_Forecast__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_ABS_Forecast__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>SO_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( SO_ABS_Complete__c == TRUE,  SO_ABS_Forecast__c - DATEVALUE(CreatedDate), TODAY() - DATEVALUE(CreatedDate))</formula>
+        <label>Age (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_VIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Vehicle__r.OUV_Full_Vin__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.SO_Brand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Model__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.SO_Model__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Work Orders</relationshipLabel>
+        <relationshipName>Work_Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Engine__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Vehicle__r.SO_Engine__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Start - Comments</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Market__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ABS_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MOT_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>MOT - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Programme__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(SO_Order__r.Opportunity.SO_Programme__c), $Label.SO_Not_Applicable, SO_Order__r.Opportunity.SO_Programme__r.Name)</formula>
+        <label>Programme</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Body_Style__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.SO_Body_Style__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Body Style</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Paint_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Series_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.SO_Series_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Series Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Speedometer__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Speedometer__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Speedometer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ABS - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Build_Colour__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Build Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_MOT_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MOT Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Engine_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Vehicle__r.OUV_Engine_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Hand_of_Drive__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Hand_of_Drive__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hand of Drive</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Start_Started__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Started</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Opportunity_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.OpportunityId</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Start_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Start - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Start_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Start - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Workshop_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Workshop Owner</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Operations</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Orders</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Snagging_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Snagging - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Production_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.SO_Production_Year__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Production Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Secondary_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Use for Secondary Work Order</description>
+        <externalId>false</externalId>
+        <label>Secondary Owner</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Operations</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Admin</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Finance</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Sales</value>
+            </filterItems>
+            <filterItems>
+                <field>User.Profile.Name</field>
+                <operation>equals</operation>
+                <value>SO Classic Sales (Service)</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Work_Orders1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Product_Offering__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Product_Offering__c)</formula>
+        <label>Product Offering</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_1_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Strip &amp; Parts/BiW - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_1_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Strip &amp; Parts/BiW - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_1_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Strip &amp; Parts/BiW - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_2_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Chassis/PreBuild/Build - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_2_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Chassis/PreBuild/Build - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_2_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Chassis/PreBuild/Build - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_3_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Paint - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_3_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_3_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_4_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Engine, Gearbox, Trim - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_4_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine, Gearbox, Trim - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_4_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine, Gearbox, Trim - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_5_Complete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Snagging - Complete</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_5_Forecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Snagging - Forecast</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_5_Original__c</fullName>
+        <externalId>false</externalId>
+        <label>Snagging - Original</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_ABS_Forecast__c - SO_ABS_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ABS - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Pinewood_Job_Card__c</fullName>
+        <externalId>false</externalId>
+        <label>Pinewood Job Card</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Colour_Shade__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Build_Colour_Shade__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Colour Shade</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Is_Secondary_Owner__c</fullName>
+        <description>Use for Secondary Work Order List view</description>
+        <externalId>false</externalId>
+        <formula>SO_Secondary_Owner__c  ==  $User.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Secondary Owner</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_ABS_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>ABS - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Days_to_Build_Start__c</fullName>
+        <description>No. of days to actual build start from work order creation date</description>
+        <externalId>false</externalId>
+        <formula>SO_Start_Forecast__c - DATEVALUE(CreatedDate)</formula>
+        <label>Days to Build Start</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Hand_of_Drive__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Vehicle__r.SO_Hand_of_Drive__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Donor Hand of Drive</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Registration_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Vehicle__r.OUV_Registration_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Registration Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Start_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Start_Forecast__c - SO_Start_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Start - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Build_Interior_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Build_Interior_Colour__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Interior Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_1_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Stage_1_Forecast__c -  SO_Stage_1_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Strip &amp; Parts/BiW - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_2_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Stage_2_Forecast__c - SO_Stage_2_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Chassis/PreBuild/Build - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_3_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Stage_3_Forecast__c - SO_Stage_3_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_4_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Stage_4_Forecast__c - SO_Stage_4_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Engine, Gearbox, Trim - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_5_Slippage_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Stage_5_Forecast__c - SO_Stage_5_Original__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Snagging - Slippage (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Start_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Start - Forecast Change</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strip_Parts_BiW_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Strip &amp; Parts/BiW - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Additional_Spec_Details__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Order__r.Opportunity.SO_Additional_Spec_Details__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Additional Spec Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_1_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Strip &amp; Parts/BiW - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_2_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Chassis/PreBuild/Build - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_3_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Paint - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_4_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine, Gearbox, Trim - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Stage_5_Forecast_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Snagging - Forecast Change</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Engine_Gearbox_Trim_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Engine, Gearbox, Trim - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Paint_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Paint Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Chassis_PreBuild_Build_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Chassis/PreBuild/Build - Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Exterior_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Exterior Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Bespoke_Interior_Requirements__c</fullName>
+        <externalId>false</externalId>
+        <label>Bespoke Interior Requirements</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_Donor_Primary_Exterior_Colour__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Order__r.Opportunity.SO_Vehicle__r.SO_Primary_Exterior_Colour__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Donor Primary Exterior Colour</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>SO_New_Build</fullName>
+        <active>true</active>
+        <label>New Build</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Donor_Build</fullName>
+        <active>true</active>
+        <label>Donor Build</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Bespoke_Build</fullName>
+        <active>true</active>
+        <label>Bespoke Build</label>
+    </recordTypes>
+    <validationRules>
+        <fullName>SO_ABS_Is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_ABS_Complete__c &amp;&amp;  ISCHANGED( SO_ABS_Forecast__c ) &amp;&amp;  NOT ( ISCHANGED(SO_ABS_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_ABS_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Build_is_Started</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Start_Started__c &amp;&amp;  ISCHANGED( SO_Start_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Start_Started__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Start_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once Start</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Stage_1_is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_1_Complete__c &amp;&amp;  ISCHANGED( SO_Stage_1_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Stage_1_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_1_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Stage_2_is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_2_Complete__c &amp;&amp;  ISCHANGED( SO_Stage_2_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Stage_2_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_2_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Stage_3_is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_3_Complete__c &amp;&amp;  ISCHANGED( SO_Stage_3_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Stage_3_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_3_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Stage_4_is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_4_Complete__c &amp;&amp;  ISCHANGED( SO_Stage_4_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Stage_4_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_4_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Stage_5_is_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_5_Complete__c &amp;&amp;  ISCHANGED( SO_Stage_5_Forecast__c ) &amp;&amp; NOT( ISCHANGED (SO_Stage_5_Complete__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_5_Forecast__c</errorDisplayField>
+        <errorMessage>Cannot change the forecast once complete</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_ABS_Uncomplete</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT (SO_ABS_Complete__c ) &amp;&amp;  ISCHANGED ( SO_ABS_Complete__c ) &amp;&amp; NOT(  $Permission.SO_Reset_Work_Order_Completed  )</errorConditionFormula>
+        <errorDisplayField>SO_ABS_Complete__c</errorDisplayField>
+        <errorMessage>You do not have permission to reset the completed status</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_MOT_Uncomplete</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT ( SO_MOT_Complete__c ) &amp;&amp;  ISCHANGED ( SO_MOT_Complete__c ) &amp;&amp; NOT(  $Permission.SO_Reset_Work_Order_Completed  )</errorConditionFormula>
+        <errorDisplayField>SO_MOT_Complete__c</errorDisplayField>
+        <errorMessage>You do not have permission to reset the completed status</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Validate_ABS_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISNULL(SO_ABS_Forecast__c)) &amp;&amp; (SO_Stage_5_Forecast__c &gt; SO_ABS_Forecast__c || SO_Stage_4_Forecast__c &gt; SO_ABS_Forecast__c || SO_Stage_3_Forecast__c &gt; SO_ABS_Forecast__c || SO_Stage_2_Forecast__c &gt; SO_ABS_Forecast__c || SO_Stage_1_Forecast__c &gt; SO_ABS_Forecast__c || SO_Start_Forecast__c &gt; SO_ABS_Forecast__c)</errorConditionFormula>
+        <errorMessage>ABS Forecast cannot be earlier than any build stage forecast.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_ABS_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_ABS_Forecast__c ) &amp;&amp; SO_ABS_Forecast__c &lt; TODAY() &amp;&amp; SO_ABS_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_ABS_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_ABS_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_ABS_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Validate_Build_Stage_date_value</fullName>
+        <active>true</active>
+        <errorConditionFormula>SO_Stage_1_Forecast__c &gt; SO_Stage_2_Forecast__c || 
+SO_Stage_1_Forecast__c &gt; SO_Stage_3_Forecast__c || 
+SO_Stage_1_Forecast__c &gt; SO_Stage_4_Forecast__c || 
+SO_Stage_1_Forecast__c &gt; SO_Stage_5_Forecast__c || 
+SO_Stage_2_Forecast__c &gt; SO_Stage_3_Forecast__c || SO_Stage_2_Forecast__c &gt; SO_Stage_4_Forecast__c || SO_Stage_2_Forecast__c &gt; SO_Stage_5_Forecast__c || SO_Stage_3_Forecast__c &gt; SO_Stage_4_Forecast__c || 
+SO_Stage_3_Forecast__c &gt; SO_Stage_5_Forecast__c || 
+SO_Stage_4_Forecast__c &gt; SO_Stage_5_Forecast__c</errorConditionFormula>
+        <errorMessage>Build stages must have sequential forecast dates. Please check your forecast dates to ensure each stage does not have a forecast date before any earlier stage forecast.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Start_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Start_Forecast__c ) &amp;&amp; SO_Start_Forecast__c &lt; TODAY() &amp;&amp; SO_Start_Started__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Start_Started__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Start_Started__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Start_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Stage_1_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Stage_1_Forecast__c ) &amp;&amp; SO_Stage_1_Forecast__c &lt; TODAY() &amp;&amp; SO_Stage_1_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Stage_1_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Stage_1_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_1_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Stage_2_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Stage_2_Forecast__c ) &amp;&amp; SO_Stage_2_Forecast__c &lt; TODAY() &amp;&amp; SO_Stage_2_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Stage_2_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Stage_2_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_2_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Stage_3_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Stage_3_Forecast__c ) &amp;&amp; SO_Stage_3_Forecast__c &lt; TODAY() &amp;&amp; SO_Stage_3_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Stage_3_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Stage_3_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_3_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Stage_4_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Stage_4_Forecast__c ) &amp;&amp; SO_Stage_4_Forecast__c &lt; TODAY() &amp;&amp; SO_Stage_4_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Stage_4_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Stage_4_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_4_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Prevent_Past_Stage_5_Forecast_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISCHANGED( SO_Stage_5_Forecast__c ) &amp;&amp; SO_Stage_5_Forecast__c &lt; TODAY() &amp;&amp; SO_Stage_5_Complete__c == FALSE &amp;&amp; ((NOT(ISCHANGED(SO_Stage_5_Complete__c ))) || ($Permission.SO_Reset_Work_Order_Completed &amp;&amp; ISCHANGED(SO_Stage_5_Complete__c ) ) )</errorConditionFormula>
+        <errorDisplayField>SO_Stage_5_Forecast__c</errorDisplayField>
+        <errorMessage>Forecast date cannot be in past</errorMessage>
+    </validationRules>
+</CustomObject>

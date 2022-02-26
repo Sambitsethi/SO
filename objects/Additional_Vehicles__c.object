@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Compact_layout_for_additional_vehicle</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object is to store additional vehicle details.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Additional Vehicles</label>
+    <nameField>
+        <displayFormat>AV-{00000000}</displayFormat>
+        <label>Additional Vehicles Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Additional Vehicles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>Compact_layout_for_additional_vehicle</fullName>
+        <fields>Name</fields>
+        <fields>SO_Brand__c</fields>
+        <fields>SO_Model__c</fields>
+        <fields>SO_Series_Name__c</fields>
+        <fields>SO_Derivative__c</fields>
+        <fields>SO_Vehicle__c</fields>
+        <label>Compact layout for additional vehicle</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Through this field we can relate additional vehicle to specific order.</description>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Revenue__c</fullName>
+        <description>This field is used to calculate the total Revenue of the Added vehicle on opportunity object</description>
+        <externalId>false</externalId>
+        <label>Revenue (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Brand__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Through this Brand field user can chose which  brand car  user have selected to buy.</description>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>SO_Vehicle_Manufacturer__c.Name</field>
+                <operation>equals</operation>
+                <value>Jaguar,Land Rover,Daimler</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Manufacturer__c</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Through this  field user can select which model  car user want to buy from this lookup field.</description>
+        <externalId>false</externalId>
+        <label>Model</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+            <errorMessage>Selected Model doesn&apos;t belong to the Brand</errorMessage>
+            <filterItems>
+                <field>SO_Vehicle_Model__c.SO_Manufacturer__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Brand__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>SO_Vehicle_Model__c.SO_Is_JLR_Classic__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>SO_Vehicle_Model__c.SO_Is_Available_SVO__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Model__c</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Cost_Price__c</fullName>
+        <description>This field is used to calculate the total Cost Price of the Added vehicle on opportunity object.</description>
+        <externalId>false</externalId>
+        <label>Cost Price (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>List_Price__c</fullName>
+        <description>This field is used to calculate the total List Price of the Added vehicle on opportunity object.</description>
+        <externalId>false</externalId>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Through this Vehicle field user can chose which vehicle user have selected to buy.</description>
+        <externalId>false</externalId>
+        <label>Vehicle</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6)</booleanFilter>
+            <filterItems>
+                <field>$Source.SO_Brand__c</field>
+                <operation>notEqual</operation>
+                <value/>
+            </filterItems>
+            <filterItems>
+                <field>Asset.SO_Brand__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Brand__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.SO_Series_Name__c</field>
+                <operation>notEqual</operation>
+                <value/>
+            </filterItems>
+            <filterItems>
+                <field>Asset.SO_Series_Name__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Series_Name__c</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.SO_Model__c</field>
+                <operation>notEqual</operation>
+                <value/>
+            </filterItems>
+            <filterItems>
+                <field>Asset.SO_Model__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Model__c</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>Through this field we can relate additional vehicle to specific opportunity.</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Contribution__c</fullName>
+        <description>This field is used to calculate the total Contribution of the Added vehicle on opportunity object.</description>
+        <externalId>false</externalId>
+        <label>Contribution (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>E_Tracker_ID__c</fullName>
+        <description>This field is used to capture E-tracker ID.</description>
+        <externalId>false</externalId>
+        <label>E-Tracker ID</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Retail_Price__c</fullName>
+        <description>This field is used to calculate the total retail price of the Added vehicle on opportunity object.</description>
+        <externalId>false</externalId>
+        <label>Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>E_Tracker_URL__c</fullName>
+        <description>This field is used to capture E-tracker URL.</description>
+        <externalId>false</externalId>
+        <label>E-Tracker URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>SO_Derivative__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Derivative</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Selected Derivative doesn&apos;t belong to the Series</errorMessage>
+            <filterItems>
+                <field>SO_Vehicle_Derivative__c.SO_Vehicle_Series__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.SO_Series_Name__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Derivative__c</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Year__c</fullName>
+        <description>Through this picklist field user can select which model year car user want to buy .</description>
+        <externalId>false</externalId>
+        <label>Model Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>19MY</fullName>
+                    <default>false</default>
+                    <label>19MY</label>
+                </value>
+                <value>
+                    <fullName>20MY</fullName>
+                    <default>false</default>
+                    <label>20MY</label>
+                </value>
+                <value>
+                    <fullName>21MY</fullName>
+                    <default>false</default>
+                    <label>21MY</label>
+                </value>
+                <value>
+                    <fullName>22MY</fullName>
+                    <default>false</default>
+                    <label>22MY</label>
+                </value>
+                <value>
+                    <fullName>23MY</fullName>
+                    <default>false</default>
+                    <label>23MY</label>
+                </value>
+                <value>
+                    <fullName>24MY</fullName>
+                    <default>false</default>
+                    <label>24MY</label>
+                </value>
+                <value>
+                    <fullName>25MY</fullName>
+                    <default>false</default>
+                    <label>25MY</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Wheel_Base__c</fullName>
+        <description>Through this field user can select wheel base like Standard or long wheel base.</description>
+        <externalId>false</externalId>
+        <label>Wheel Base</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard Wheelbase</fullName>
+                    <default>false</default>
+                    <label>Standard Wheelbase</label>
+                </value>
+                <value>
+                    <fullName>Long Wheelbase</fullName>
+                    <default>false</default>
+                    <label>Long Wheelbase</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Series_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Through this Series Name field user can chose which Series Name user have selected to buy.</description>
+        <externalId>false</externalId>
+        <label>Series Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Selected Series is not valid for the selected Model.</errorMessage>
+            <filterItems>
+                <field>$Source.SO_Model__c</field>
+                <operation>equals</operation>
+                <valueField>SO_Vehicle_Series__c.SO_Model__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>SO_Vehicle_Series__c</referenceTo>
+        <relationshipLabel>Additional Vehicles</relationshipLabel>
+        <relationshipName>Additional_Vehicles</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Hand_of_Drive__c</fullName>
+        <description>Through this field user can select hand of drive like right hand driver or left hand driver.</description>
+        <externalId>false</externalId>
+        <label>Hand of Drive</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>LHD</fullName>
+                    <default>false</default>
+                    <label>LHD</label>
+                </value>
+                <value>
+                    <fullName>RHD</fullName>
+                    <default>false</default>
+                    <label>RHD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Common_Order_Number__c</fullName>
+        <description>This field used to capture common order number.</description>
+        <externalId>false</externalId>
+        <label>Common Order Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>E_Tracker_Created_Date__c</fullName>
+        <description>This field used to capture e-tracker created date.</description>
+        <externalId>false</externalId>
+        <label>E-Tracker Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>E_Tracker_Accepted_Date__c</fullName>
+        <description>This field is used to capture E-tacker accepted date.</description>
+        <externalId>false</externalId>
+        <label>E-Tracker Accepted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Donor_Specification_Sent_Date__c</fullName>
+        <description>This field is capturing  Donor Specification  sent Date.</description>
+        <externalId>false</externalId>
+        <label>Donor Specification Sent Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Donor_Specification_Created_Date__c</fullName>
+        <description>This field is capturing  Donor Specification  Created Date.</description>
+        <externalId>false</externalId>
+        <label>Donor Specification Created Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Donor_Specification_Correct_in_VISTA__c</fullName>
+        <description>Through this Donor Specification Correct in VISTA? field we are checking  Donor Specification is correct or not in vista.</description>
+        <externalId>false</externalId>
+        <label>Donor Specification Correct in VISTA?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <validationRules>
+        <fullName>Restriction_on_record_creation</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNEW()&amp;&amp;ISPICKVAL(Opportunity__r.Proceed_with_Quote__r.Status,&apos;Outcome&apos;) &amp;&amp; ISPICKVAL( Opportunity__r.Proceed_with_Quote__r.SO_Outcome__c,&apos;Accepted&apos;)</errorConditionFormula>
+        <errorMessage>You cannot add a new vehicle as Quote is already Accepted .</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreatePdf</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SyncQuote</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>QUOTE.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.ISSYNCING</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.EXPIRATIONDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.SUBTOTAL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUOTE.TOTALPRICE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OPPORTUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.ISSYNCING</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.EXPIRATIONDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.SUBTOTAL</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>QUOTE.TOTALPRICE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OPPORTUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.ISSYNCING</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.EXPIRATIONDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.SUBTOTAL</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.TOTALPRICE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>QUOTE.PHONE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OPPORTUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.ISSYNCING</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.EXPIRATIONDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.SUBTOTAL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUOTE.TOTALPRICE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <compactLayouts>
+        <fullName>SVO_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExpirationDate</fields>
+        <fields>SO_Retail_Price__c</fields>
+        <fields>SO_Contribution__c</fields>
+        <label>SVO Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>SVO_Bespoke_Quote_Compact_layout</fullName>
+        <fields>Name</fields>
+        <fields>Status</fields>
+        <fields>ExpirationDate</fields>
+        <fields>Total_Retail_Price__c</fields>
+        <fields>Total_Contribution__c</fields>
+        <label>SVO Bespoke Quote Compact layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>SO_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Outcome</controllingFieldValue>
+                <valueName>Accepted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Outcome</controllingFieldValue>
+                <valueName>Rejected</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Revenue (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Age_Sent__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  
+  ISBLANK( SO_Proposal_Sent_Date__c ),
+  NULL,
+  IF( 
+     OR(
+       ISBLANK( SO_Outcome_Date__c ) ,
+       NOT(ISPICKVAL( Status , &apos;Outcome&apos;))
+     ),
+     TODAY() - SO_Proposal_Sent_Date__c,
+     DATEVALUE(SO_Outcome_Date__c)  - SO_Proposal_Sent_Date__c
+    
+  )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age Sent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Cost_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Price (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Env_Org_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Organization.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SO_Env_Org_Id</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_Owner_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity.Owner.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Contribution__c</fullName>
+        <externalId>false</externalId>
+        <label>Contribution (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Design_Brief__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Design Brief</label>
+        <referenceTo>SO_Design_Brief__c</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Env_Base_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>LEFT($Api.Enterprise_Server_URL_300, FIND(&apos;/services&apos;,$Api.Enterprise_Server_URL_300))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SO_Env_Base_URL</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Outcome_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome Date</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SO_Retail_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_Accepted_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Accepted Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Expected_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Design_Brief__r.SO_Expected_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Expected Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Outcome_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome Detail</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>SO_Outcome__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Accepted</fullName>
+                    <default>false</default>
+                    <label>Accepted</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Design Brief Amend</fullName>
+                    <default>false</default>
+                    <label>Design Brief Amend</label>
+                </value>
+                <value>
+                    <fullName>Render Pack Amend</fullName>
+                    <default>false</default>
+                    <label>Render Pack Amend</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Accepted</controllingFieldValue>
+                <valueName>Accepted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Rejected</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Design Brief Amend</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rejected</controllingFieldValue>
+                <valueName>Render Pack Amend</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Quote_Rejected__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Updated from backend; This is made true only when the quote as been accepted</description>
+        <externalId>false</externalId>
+        <label>Quote Rejected</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Time_in_Design__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Design_Brief__r.SO_Time_in_Design__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Time in Design</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Contribution__c</fullName>
+        <description>To display the total contribution of main vehicle and  additional vehicles</description>
+        <externalId>false</externalId>
+        <formula>SO_Contribution__c +
+( SO_Contribution__c  *  Opportunity.No_of_Additional_Vehicles__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Contribution (£)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Retail_Price__c</fullName>
+        <description>To display the total retail price of main vehicle and  additional vehicles for the opportunity</description>
+        <externalId>false</externalId>
+        <formula>SO_Retail_Price__c  +  Total_Additional_Vehicle_Price__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SO_Contact_Greeting__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  ISBLANK(TEXT(Opportunity.SO_Preferred_Contact__r.Salutation)) ,  Opportunity.SO_Preferred_Contact__r.LastName, 
+  IF( ISPICKVAL(Opportunity.SO_Preferred_Contact__r.Salutation, &apos;Other&apos;),
+     Opportunity.SO_Preferred_Contact__r.Salutation_Other__c  &amp; &quot; &quot; &amp; Opportunity.SO_Preferred_Contact__r.LastName ,  TEXT(Opportunity.SO_Preferred_Contact__r.Salutation) &amp; &quot; &quot; &amp; Opportunity.SO_Preferred_Contact__r.LastName)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Greeting</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Previous_Version__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Previous Version</label>
+        <referenceTo>Quote</referenceTo>
+        <relationshipLabel>Revisions</relationshipLabel>
+        <relationshipName>SO_Revisions</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Retailer_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Retailer Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Quotes</relationshipLabel>
+        <relationshipName>Quotes</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Render_Pack_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Render Pack Error</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Proposal_Sent_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Sent Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Quote_Version_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Version Text</label>
+        <length>1</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_OPS_Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(SO_Design_Brief__r.SO_OPS_Approval_Status__c)</formula>
+        <label>OPS Approval Status</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Outcome_Initiated_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome Initiated By</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>false</default>
+                    <label>Client</label>
+                </value>
+                <value>
+                    <fullName>Client Liaison</fullName>
+                    <default>false</default>
+                    <label>Client Liaison</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SO_Render_Pack_Sent_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Render Pack Sent Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Revised_Expected_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Revised Expected Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Additional_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Information</label>
+        <length>500</length>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SO_SDOC_HeadShot_Image_Link__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.SO_Head_shot_Public_URL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>SDOC HeadShot Image Link</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Render_Pack_Received_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Design_Brief__r.SO_Render_Pack_Received_Date__c</formula>
+        <label>Render Pack Received Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SO_Outcome_Initiated_By_Other__c</fullName>
+        <externalId>false</externalId>
+        <label>Outcome Initiated By Other</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SO_Design_Brief_Submitted_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>SO_Design_Brief__r.SO_Design_Brief_Submitted_Date__c</formula>
+        <label>Design Brief Submitted Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Total_Additional_Vehicle_Price__c</fullName>
+        <description>To display the total retail price of  additional vehicles</description>
+        <externalId>false</externalId>
+        <formula>SO_Retail_Price__c  *  Opportunity.No_of_Additional_Vehicles__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Additional Vehicle Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>SO_Bespoke</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SVO_Bespoke_Quote_Compact_layout</compactLayoutAssignment>
+        <label>Bespoke Design Brief</label>
+        <picklistValues>
+            <picklist>SO_Outcome_Detail__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Brief Amend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Amend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome_Initiated_By__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Liaison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Design Brief Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Design Brief Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Bespoke_Price</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SVO_Bespoke_Quote_Compact_layout</compactLayoutAssignment>
+        <label>Bespoke Price</label>
+        <picklistValues>
+            <picklist>SO_Outcome_Detail__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Brief Amend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Amend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome_Initiated_By__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Liaison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Design Brief Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Design Brief Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Bespoke_Closed</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SVO_Bespoke_Quote_Compact_layout</compactLayoutAssignment>
+        <label>Bespoke Closed</label>
+        <picklistValues>
+            <picklist>SO_Outcome_Detail__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Brief Amend</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Amend</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome_Initiated_By__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Liaison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Design Brief Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Design Brief Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Render Pack Received</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Private_Office</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SVO_Compact_Layout</compactLayoutAssignment>
+        <label>Private Office</label>
+        <picklistValues>
+            <picklist>SO_Outcome_Detail__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome_Initiated_By__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Liaison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specification</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Private_Office_Closed</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>SVO_Compact_Layout</compactLayoutAssignment>
+        <label>Private Office Closed</label>
+        <picklistValues>
+            <picklist>SO_Outcome_Detail__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome_Initiated_By__c</picklist>
+            <values>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Client Liaison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SO_Outcome__c</picklist>
+            <values>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Outcome</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Price</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specification</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <validationRules>
+        <fullName>SO_VIP_Move_1_Status_at_a_time</fullName>
+        <active>true</active>
+        <description>Restrict users to skip status or move backwards</description>
+        <errorConditionFormula>((RecordType.DeveloperName = &apos;SO_Private_Office&apos; || RecordType.DeveloperName = &apos;SO_Private_Office_Closed&apos;) &amp;&amp; 
+((ISPICKVAL(PRIORVALUE(Status),&quot;Specification&quot;) &amp;&amp; ((ISPICKVAL(Status,&apos;Outcome&apos;) &amp;&amp; ISPICKVAL(SO_Outcome__c,&apos;Accepted&apos;))|| ISPICKVAL(Status,&apos;Proposal Sent&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Price&quot;) &amp;&amp; ((ISPICKVAL(Status,&apos;Outcome&apos;)  &amp;&amp; ISPICKVAL(SO_Outcome__c,&apos;Accepted&apos;)) || ISPICKVAL(Status,&apos;Specification&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Proposal Sent&quot;) &amp;&amp; (ISPICKVAL(Status,&apos;Price&apos;) || ISPICKVAL(Status,&apos;Specification&apos;)))))</errorConditionFormula>
+        <errorMessage>Please follow the process by not skipping stages or moving backwards.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_VIP_Mandate_Retailer_Contact</fullName>
+        <active>true</active>
+        <description>Mandate Retailer contact field during creation only when the Opportunity Sales Type is &apos;Retailer Referral&apos;</description>
+        <errorConditionFormula>RecordType.DeveloperName = &apos;SO_Private_Office&apos; &amp;&amp;  ISPICKVAL(Opportunity.Type,&apos;Retailer Referral&apos;) &amp;&amp; ISBLANK( SO_Retailer_Contact__c )</errorConditionFormula>
+        <errorDisplayField>SO_Retailer_Contact__c</errorDisplayField>
+        <errorMessage>Please enter Retailer Contact</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Move_1_Status_at_a_time</fullName>
+        <active>true</active>
+        <description>Restrict users to skip status or move backwards</description>
+        <errorConditionFormula>((RecordType.DeveloperName = &apos;SO_Bespoke&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Price&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Closed&apos;) &amp;&amp; 
+((ISNEW() &amp;&amp; NOT(ISPICKVAL(Status,&apos;Design Brief Draft&apos;))) ||
+(ISPICKVAL(PRIORVALUE(Status),&quot;Design Brief Draft&quot;) &amp;&amp; ((ISPICKVAL(Status,&apos;Render Pack Received&apos;) &amp;&amp;  SO_Design_Brief__r.SO_Requires_Design_Team__c == TRUE) || (ISPICKVAL(Status,&apos;Price&apos;) &amp;&amp; SO_Design_Brief__r.SO_Requires_Design_Team__c == TRUE) || ISPICKVAL(Status,&apos;Proposal Sent&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Design Brief Submitted&quot;) &amp;&amp; (ISPICKVAL(Status,&apos;Design Brief Draft&apos;) || ISPICKVAL(Status,&apos;Price&apos;) || ISPICKVAL(Status,&apos;Proposal Sent&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Render Pack Received&quot;) &amp;&amp; (ISPICKVAL(Status,&apos;Design Brief Draft&apos;) || ISPICKVAL(Status,&apos;Design Brief Submitted&apos;) || ISPICKVAL(Status,&apos;Proposal Sent&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Price&quot;) &amp;&amp; (ISPICKVAL(Status,&apos;Design Brief Draft&apos;) || ISPICKVAL(Status,&apos;Design Brief Submitted&apos;) || ISPICKVAL(Status,&apos;Render Pack Received&apos;))) || 
+(ISPICKVAL(PRIORVALUE(Status),&quot;Proposal Sent&quot;) &amp;&amp; (ISPICKVAL(Status,&apos;Design Brief Draft&apos;) || ISPICKVAL(Status,&apos;Design Brief Submitted&apos;) || ISPICKVAL(Status,&apos;Render Pack Received&apos;) || ISPICKVAL(Status,&apos;Price&apos;))) ))</errorConditionFormula>
+        <errorMessage>Please follow the process by not skipping stages or moving backwards; Create new version if required</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Contact_should_be_from_Retailer</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(ISBLANK(SO_Retailer_Contact__c)) &amp;&amp;  SO_Retailer_Contact__r.AccountId &lt;&gt; Opportunity.AccountId</errorConditionFormula>
+        <errorDisplayField>SO_Retailer_Contact__c</errorDisplayField>
+        <errorMessage>Select a Contact from the Retailer Account</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Retailer_contact_mandatory</fullName>
+        <active>true</active>
+        <description>Retailer contact field should be mandatory  for so bespoke pricing and so bespoke layouts if we don&apos;t have any value in related opportunity retailer contact field.</description>
+        <errorConditionFormula>AND(
+	(RecordType.DeveloperName = &quot;SO_Bespoke&quot; || RecordType.DeveloperName = &quot;SO_Bespoke_Price&quot;),
+	(ISBLANK(Opportunity.SO_Retailer_Contact__c)  &amp;&amp; ISBLANK(SO_Retailer_Contact__c) 
+	))</errorConditionFormula>
+        <errorDisplayField>SO_Retailer_Contact__c</errorDisplayField>
+        <errorMessage>Please select Retailer contact to proceed further</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Generic_Cannot_change_Quote_Name</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName == &apos;SO_Bespoke&apos; || RecordType.DeveloperName == &apos;SO_Private_Office&apos;) &amp;&amp; NOT(ISNEW()) &amp;&amp; ISCHANGED(Name)</errorConditionFormula>
+        <errorDisplayField>Name</errorDisplayField>
+        <errorMessage>You cannot change Quote Name</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_VIP_Mandate_Pricing_before_Price</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Private_Office&apos; || RecordType.DeveloperName = &apos;SO_Private_Office_Closed&apos;) &amp;&amp; ISPICKVAL(PRIORVALUE(Status),&quot;Specification&quot;) &amp;&amp; ISPICKVAL(Status,&quot;Price&quot;) &amp;&amp; ISBLANK(SO_Retail_Price__c)</errorConditionFormula>
+        <errorMessage>Please enter Retail Price before proceeding further</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Check_for_Preferred_Contact_Email</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+        NOT(ISBLANK( SO_Retailer_Contact__c )) &amp;&amp; ISBLANK( SO_Retailer_Contact__r.Email ),
+(
+	AND(
+	(RecordType.DeveloperName = &quot;SO_Bespoke&quot; || RecordType.DeveloperName = &quot;SO_Bespoke_Price&quot;|| RecordType.DeveloperName = &quot;SO_Bespoke_Closed&quot;),
+  	(ISBLANK(Opportunity.SO_Retailer_Contact__r.Email)  &amp;&amp; ISBLANK(SO_Retailer_Contact__c) )
+	)
+
+),
+(
+    And(
+        (RecordType.DeveloperName = &quot;SO_Private_Office&quot;  || RecordType.DeveloperName = &quot;SO_Private_Office_Closed&quot;),
+        ( NOT(ISBLANK( Opportunity.SO_Retailer_Contact__c)) &amp;&amp; ISBLANK(Opportunity.SO_Retailer_Contact__r.Email)  &amp;&amp; ISBLANK(SO_Retailer_Contact__c) )
+       )
+) )</errorConditionFormula>
+        <errorDisplayField>SO_Retailer_Contact__c</errorDisplayField>
+        <errorMessage>Retailer Contact or Retailer contact linked with opportunity should have Email ID</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Mandate_Pricing_before_Price</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName = &apos;SO_Bespoke&apos; &amp;&amp; ISPICKVAL(PRIORVALUE(Status),&quot;Render Pack Received&quot;) &amp;&amp; ISPICKVAL(Status,&quot;Price&quot;) &amp;&amp; 
+(ISBLANK(SO_Retail_Price__c) || ISBLANK(SO_Revenue__c) || ISBLANK(SO_Contribution__c) || ISBLANK(SO_Cost_Price__c) || ISBLANK(SO_List_Price__c) )</errorConditionFormula>
+        <errorMessage>Please complete Pricing information before proceeding further</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Validate_on_Submitted_status</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName = &apos;SO_Bespoke&apos; &amp;&amp;(ISPICKVAL(Status,&apos;Design Brief Submitted&apos;) &amp;&amp; ISCHANGED(Status) &amp;&amp; NOT(ISPICKVAL( SO_Design_Brief__r.SO_Status__c ,&apos;Submitted&apos;)) &amp;&amp; RecordType.DeveloperName == &apos;SO_Bespoke&apos;)</errorConditionFormula>
+        <errorMessage>Please submit related Design Brief before submitting Quote</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Generic_Outcome_Initiated_by_Other</fullName>
+        <active>true</active>
+        <errorConditionFormula>(RecordType.DeveloperName = &apos;SO_Bespoke&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Price&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Closed&apos; || RecordType.DeveloperName = &apos;SO_Private_Office&apos; || RecordType.DeveloperName = &apos;SO_Private_Office_Closed&apos;) &amp;&amp; ISPICKVAL(SO_Outcome_Initiated_By__c,&apos;Other&apos;) &amp;&amp; ISBLANK(SO_Outcome_Initiated_By_Other__c)</errorConditionFormula>
+        <errorDisplayField>SO_Outcome_Initiated_By_Other__c</errorDisplayField>
+        <errorMessage>Please enter Outcome Initiated By Other</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Generic_Cannot_reopen_Outcome_Quote</fullName>
+        <active>true</active>
+        <errorConditionFormula>((RecordType.DeveloperName = &apos;SO_Bespoke&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Closed&apos; || RecordType.DeveloperName = &apos;SO_Bespoke_Price&apos; || RecordType.DeveloperName = &apos;SO_Private_Office&apos; || RecordType.DeveloperName = &apos;SO_Private_Office_Closed&apos;) &amp;&amp; 
+ISPICKVAL(PRIORVALUE(Status),&quot;Outcome&quot;) &amp;&amp; NOT(ISPICKVAL(Status,&apos;Outcome&apos;)) )</errorConditionFormula>
+        <errorMessage>Cannot reopen a Quote in Outcome stage</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Cannot_Amend_without_submitting</fullName>
+        <active>true</active>
+        <description>A Quote cannot be rejected by saying &apos;Design Brief Amend&apos; or &apos;Render Pack Amend&apos; without submitting the Design Brief</description>
+        <errorConditionFormula>RecordType.DeveloperName = &apos;SO_Bespoke&apos; &amp;&amp; (ISCHANGED( SO_Outcome_Detail__c ) &amp;&amp; (ISPICKVAL(SO_Outcome_Detail__c ,&apos;Render Pack Amend&apos;) || ISPICKVAL(SO_Outcome_Detail__c ,&apos;Design Brief Amend&apos;)) &amp;&amp; ISPICKVAL( SO_Design_Brief__r.SO_Status__c ,&apos;Draft&apos;))</errorConditionFormula>
+        <errorMessage>Please modify the existing Design Brief and submit it instead of amending</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Bespk_Validate_Render_Received_status</fullName>
+        <active>true</active>
+        <errorConditionFormula>RecordType.DeveloperName = &apos;SO_Bespoke&apos; &amp;&amp;(ISPICKVAL(Status,&apos;Render Pack Received&apos;) &amp;&amp; ISCHANGED(Status) &amp;&amp; NOT(ISPICKVAL( SO_Design_Brief__r.SO_Status__c ,&apos;Returned&apos;)) &amp;&amp; RecordType.DeveloperName == &apos;SO_Bespoke&apos;)</errorConditionFormula>
+        <errorMessage>Please note the design brief should be in &apos;Returned&apos; status to move to this stage.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>S_Docs</fullName>
+        <availability>online</availability>
+        <description>Create Documents for this quote</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>600</height>
+        <linkType>url</linkType>
+        <masterLabel>Send S-Docs</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <url>/apex/SDOC__SDCreate1?id={!Quote.Id}&amp;Object=Quote</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Conga_Composer_SVO_Retailer_Proposal</fullName>
+        <availability>online</availability>
+        <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://jlr-global--apxtconga4.eu35.visual.force.com/a3z5p000001ZJ3kAAG
+03-Jun-2021 02:25:22 PM</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>false</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>660</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Sales Agreement</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Quote.Id}
+
+&amp;TemplateId=0T_003UA2215106
+
+&amp;TemplateGroup=SVO+Retailer
+&amp;DefaultPDF=1
+&amp;OFN={!Quote.Name}+-+Proposal
+&amp;ESVisible=1
+&amp;ESAgreementTemplateId=a475p000000Mz7iAAC
+&amp;BML=Generating+{!Quote.Name}+-+Proposal.+Please+wait.
+&amp;DS7=4</url>
+        <width>900</width>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,4475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>OUV_Vehicle_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>OUV_Vehicle_compact_layout</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>OUV Vehicle</label>
+    <nameField>
+        <label>OUV Vehicle Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>OUV Vehicles</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OUV_ActualAddToFleetFinancialYear__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_HandinDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_HandedInExtensionDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_Market1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_ReportingCategory__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_ReportingLevel1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_VehicleMasterStatus__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OUV_AddToFleetDate__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>OUV_FullVIN__c</lookupDialogsAdditionalFields>
+        <massQuickActions>Update_Status</massQuickActions>
+        <searchResultsAdditionalFields>OUV_Registration__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_OrderNumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_FullVIN__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_ATONumber__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_VehicleMasterStatus__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_ReportingLevel1__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_Fleet__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_PrimaryLocation__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OUV_RIS__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>OUV_Vehicle_compact_layout</fullName>
+        <fields>Name</fields>
+        <fields>OUV_ModelCode__c</fields>
+        <fields>OUV_OrderNumber__c</fields>
+        <fields>OUV_FullVIN__c</fields>
+        <fields>OUV_Registration__c</fields>
+        <fields>OUV_ATONumber__c</fields>
+        <fields>OUV_RIS__c</fields>
+        <fields>OUV_MarketDescription__c</fields>
+        <label>OUV Vehicle compact layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>OUV_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISPICKVAL(OUV_VehicleMasterStatus__c, &quot;Handed In&quot;) || (ISPICKVAL(OUV_VehicleMasterStatus__c, &quot;Unavailable&quot;) &amp;&amp; ISPICKVAL( OUV_VehicleSubStatus__c , &quot;Sold&quot;))  , 
+IF(
+   ISNULL(OUV_NewRequestedHandedInDate__c), 
+   MONTH(TODAY()) - MONTH(OUV_HandinDate__c),
+   IF(
+      ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c ,&apos;Approved&apos;),
+      MONTH(TODAY()) - MONTH(OUV_NewRequestedHandedInDate__c),
+      NULL
+     )
+  ),
+NULL )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RIS__c</fullName>
+        <externalId>false</externalId>
+        <label>Outstanding RIS</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>true</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Emissions__c</fullName>
+        <externalId>false</externalId>
+        <label>Emissions</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Brand__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_JLRBrand__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Brand</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Fleet</label>
+        <referenceTo>OUV_Fleet__c</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Driver__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The JLR CDSID of the person requesting, using or who is responsible for the vehicle whilst on loan.</inlineHelpText>
+        <label>Internal JLR Contact</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Option__c</fullName>
+        <externalId>false</externalId>
+        <label>Option</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(OUV_market_location__c,
+&quot;Austria&quot;,&quot;Europe&quot;,
+&quot;Belgium&quot;,&quot;Europe&quot;,
+&quot;France&quot;,&quot;Europe&quot;,
+&quot;Italy&quot;,&quot;Europe&quot;,
+&quot;Germany&quot;,&quot;Europe&quot;,
+&quot;Netherlands&quot;,&quot;Europe&quot;,
+&quot;Spain&quot;,&quot;Europe&quot;,
+&quot;Portugal&quot;,&quot;Europe&quot;,
+&quot;Australia&quot;,&quot;Overseas&quot;,
+&quot;Brazil&quot;,&quot;Overseas&quot;,
+&quot;Colombia&quot;,&quot;Overseas&quot;,
+&quot;India&quot;,&quot;Overseas&quot;,
+&quot;Japan&quot;,&quot;Overseas&quot;,
+&quot;MENA&quot;,&quot;Overseas&quot;,
+&quot;Mexico&quot;,&quot;Overseas&quot;,
+&quot;Russia&quot;,&quot;Overseas&quot;,
+&quot;Singapore&quot;,&quot;Overseas&quot;,
+&quot;South Africa&quot;,&quot;Overseas&quot;,
+&quot;South Korea&quot;,&quot;Overseas&quot;,
+&quot;Taiwan&quot;,&quot;Overseas&quot;,
+&quot;United Kingdom&quot;,&quot;UK&quot;,
+&quot;Canada&quot;,&quot;North America&quot;,
+&quot;US&quot;,&quot;North America&quot;,
+&quot;China&quot;,&quot;China&quot;,
+&quot;USA&quot;,&quot;North America&quot;,&quot;&quot;
+)</formula>
+        <label>Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_SoldTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Channel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manager/Employee</fullName>
+                    <default>false</default>
+                    <label>Manager/Employee</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>Retailer</label>
+                </value>
+                <value>
+                    <fullName>Direct/Auction/Private</fullName>
+                    <default>false</default>
+                    <label>Direct/Auction/Private</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Available</fullName>
+                    <default>false</default>
+                    <label>Available</label>
+                </value>
+                <value>
+                    <fullName>Booked Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Booked Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>In Use</fullName>
+                    <default>false</default>
+                    <label>In Use</label>
+                </value>
+                <value>
+                    <fullName>Unavailable</fullName>
+                    <default>false</default>
+                    <label>Unavailable</label>
+                </value>
+                <value>
+                    <fullName>Overdue</fullName>
+                    <default>false</default>
+                    <label>Overdue</label>
+                </value>
+                <value>
+                    <fullName>In Preparation</fullName>
+                    <default>false</default>
+                    <label>In Preparation</label>
+                </value>
+                <value>
+                    <fullName>Write-Off</fullName>
+                    <default>false</default>
+                    <label>Write-Off</label>
+                </value>
+                <value>
+                    <fullName>Handed In Awaiting Rework</fullName>
+                    <default>false</default>
+                    <label>Handed In Awaiting Rework</label>
+                </value>
+                <value>
+                    <fullName>Handed In Ready for Sale</fullName>
+                    <default>false</default>
+                    <label>Handed In Ready for Sale</label>
+                </value>
+                <value>
+                    <fullName>Sold</fullName>
+                    <default>false</default>
+                    <label>Sold</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Fleet__r.OUV_Account__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_CI_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>RIGHT(OUV_VistaVehicle__r.OUV_Partner_Code__c, 5)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CI Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Freight__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Labour &amp; Overhead</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_FullVIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Full_Vin__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Market1__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( OUV_VistaVehicle__r.OUV_Market_Code__c,
+&quot;IE&quot;,&quot;MENA&quot;,
+&quot;KC&quot;,&quot;MENA&quot;,
+&quot;AD&quot;,&quot;MENA&quot;,
+&quot;MS&quot;,&quot;MENA&quot;,
+&quot;SD&quot;,&quot;MENA&quot;,
+&quot;BB&quot;,&quot;MENA&quot;,
+&quot;YA&quot;,&quot;MENA&quot;,
+&quot;PA&quot;,&quot;MENA&quot;,
+&quot;GR&quot;,&quot;MENA&quot;,
+&quot;PL&quot;,&quot;MENA&quot;,
+&quot;DU&quot;,&quot;MENA&quot;,
+&quot;LY&quot;,&quot;MENA&quot;,
+&quot;SR&quot;,&quot;MENA&quot;,
+&quot;EB&quot;,&quot;MENA&quot;,
+&quot;LB&quot;,&quot;MENA&quot;,
+&quot;AU&quot;,&quot;MENA&quot;,
+&quot;IF&quot;,&quot;MENA&quot;,
+&quot;QA&quot;,&quot;MENA&quot;,
+&quot;MJ&quot;,&quot;MENA&quot;,
+&quot;AZ&quot;,&quot;MENA&quot;,
+&quot;JC&quot;,&quot;MENA&quot;,
+&quot;TF&quot;,&quot;MENA&quot;,
+&quot;EM&quot;,&quot;MENA&quot;,
+&quot;SC&quot;,&quot;MENA&quot;,
+&quot;JB&quot;,&quot;Japan&quot;,
+&quot;MH&quot;,&quot;Mexico&quot;,
+&quot;PH&quot;,&quot;Portugal&quot;,
+&quot;IJ&quot;,&quot;Italy&quot;,
+&quot;UB&quot;,&quot;United Kingdom&quot;,
+&quot;NB&quot;,&quot;Netherlands&quot;,
+&quot;BH&quot;,&quot;Brazil&quot;,
+&quot;AK&quot;,&quot;Austria&quot;,
+&quot;FF&quot;,&quot;France&quot;,
+&quot;US&quot;,&quot;USA&quot;,
+&quot;KB&quot;,&quot;South Korea&quot;,
+&quot;CJ&quot;,&quot;Colombia&quot;,
+&quot;DE&quot;,&quot;Germany&quot;,
+&quot;IT&quot;,&quot;Italy&quot;,
+&quot;CB&quot;,&quot;Canada&quot;,
+&quot;ES&quot;,&quot;Spain&quot;,
+&quot;CO&quot;,&quot;China&quot;,
+&quot;AJ&quot;,&quot;Australia&quot;,
+&quot;MT&quot;,&quot;Singapore&quot;,
+&quot;CH&quot;,&quot;China&quot;,
+&quot;UR&quot;,&quot;Russia&quot;,
+&quot;SK&quot;,&quot;Spain&quot;,
+&quot;IC&quot;,&quot;India&quot;,
+&quot;SH&quot;,&quot;South Africa&quot;,
+&quot;TB&quot;,&quot;Taiwan&quot;,
+&quot;BD&quot;,&quot;Belgium&quot;,&quot;&quot;)</formula>
+        <label>Market Specification</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Presold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vehicle Pre-sold</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vehicle_tax__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Fleet__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Fleet</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Monthly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Monthly Rate</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Currency__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Currency</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Full_Vin__c</fullName>
+        <externalId>false</externalId>
+        <label>Full Vin</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ShortVIN__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Short_VIN__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Short VIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_TrimCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Trim_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trim Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_WriteOff__c</fullName>
+        <externalId>false</externalId>
+        <label>Disposal Change Request Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Fleet_formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Fleet__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fleet formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ATONumber__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>To navigate to the ATO search for the ATO number using the global search functionality or click into the Vista Vehicle attached to the OUV Vehicle and then click on the ATO request line item, select the vehicle line item and navigate to the ATO.</inlineHelpText>
+        <label>ATO Number</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_BuildDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Build_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Build Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fuel_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Fuel Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Diesel</fullName>
+                    <default>false</default>
+                    <label>Diesel</label>
+                </value>
+                <value>
+                    <fullName>Electric</fullName>
+                    <default>false</default>
+                    <label>Electric</label>
+                </value>
+                <value>
+                    <fullName>Hybrid</fullName>
+                    <default>false</default>
+                    <label>Hybrid</label>
+                </value>
+                <value>
+                    <fullName>Petrol</fullName>
+                    <default>false</default>
+                    <label>Petrol</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Insurance__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Insurance Policy Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ModelCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Vehicle_Model_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Model Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_PaintCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Paint_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_TaskOwner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field will have id of the user who has requested registration of ouv vehicle.</description>
+        <externalId>false</externalId>
+        <label>Task Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Invoice_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoice Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_BuildPhase__c</fullName>
+        <externalId>false</externalId>
+        <label>Build Phase</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Volume</fullName>
+                    <default>true</default>
+                    <label>Volume</label>
+                </value>
+                <value>
+                    <fullName>TT1</fullName>
+                    <default>false</default>
+                    <label>TT1</label>
+                </value>
+                <value>
+                    <fullName>TT2</fullName>
+                    <default>false</default>
+                    <label>TT2</label>
+                </value>
+                <value>
+                    <fullName>TT3</fullName>
+                    <default>false</default>
+                    <label>TT3</label>
+                </value>
+                <value>
+                    <fullName>PP1</fullName>
+                    <default>false</default>
+                    <label>PP1</label>
+                </value>
+                <value>
+                    <fullName>PP2</fullName>
+                    <default>false</default>
+                    <label>PP2</label>
+                </value>
+                <value>
+                    <fullName>PP3</fullName>
+                    <default>false</default>
+                    <label>PP3</label>
+                </value>
+                <value>
+                    <fullName>IB</fullName>
+                    <default>false</default>
+                    <label>IB</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_CostCentre__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Centre</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_HandinDate__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Expected Hand In Date is the hand in date set at the point of go live</inlineHelpText>
+        <label>Expected Hand In Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_MarketCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Market_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_SalesPrice__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Price</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_StatusCode__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>15</label>
+                </value>
+                <value>
+                    <fullName>20</fullName>
+                    <default>false</default>
+                    <label>20</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>30</label>
+                </value>
+                <value>
+                    <fullName>35</fullName>
+                    <default>false</default>
+                    <label>35</label>
+                </value>
+                <value>
+                    <fullName>40</fullName>
+                    <default>false</default>
+                    <label>40</label>
+                </value>
+                <value>
+                    <fullName>110</fullName>
+                    <default>false</default>
+                    <label>110</label>
+                </value>
+                <value>
+                    <fullName>112</fullName>
+                    <default>false</default>
+                    <label>112</label>
+                </value>
+                <value>
+                    <fullName>135</fullName>
+                    <default>false</default>
+                    <label>135</label>
+                </value>
+                <value>
+                    <fullName>140</fullName>
+                    <default>false</default>
+                    <label>140</label>
+                </value>
+                <value>
+                    <fullName>145</fullName>
+                    <default>false</default>
+                    <label>145</label>
+                </value>
+                <value>
+                    <fullName>150</fullName>
+                    <default>false</default>
+                    <label>150</label>
+                </value>
+                <value>
+                    <fullName>155</fullName>
+                    <default>false</default>
+                    <label>155</label>
+                </value>
+                <value>
+                    <fullName>160</fullName>
+                    <default>false</default>
+                    <label>160</label>
+                </value>
+                <value>
+                    <fullName>165</fullName>
+                    <default>false</default>
+                    <label>165</label>
+                </value>
+                <value>
+                    <fullName>175</fullName>
+                    <default>false</default>
+                    <label>175</label>
+                </value>
+                <value>
+                    <fullName>190</fullName>
+                    <default>false</default>
+                    <label>190</label>
+                </value>
+                <value>
+                    <fullName>200</fullName>
+                    <default>false</default>
+                    <label>200</label>
+                </value>
+                <value>
+                    <fullName>205</fullName>
+                    <default>false</default>
+                    <label>205</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Presold_Yes_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OUV_Presold__c, &apos;Yes&apos;, &apos;No&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Presold Yes No</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rental_Company__c</fullName>
+        <externalId>false</externalId>
+        <label>Rental Company</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Cost_Centre__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_Fleet__r.OUV_Cost_Centre__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Cost Centre</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_LocalOption__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Option</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_OrderNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RetailPrice__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From SAP or Vista</inlineHelpText>
+        <label>Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReworkRoute__c</fullName>
+        <externalId>false</externalId>
+        <label>Rework Route</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_StatusCode1__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(OUV_VistaVehicle__r.OUV_Status_Code__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Code1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleAge1__c</fullName>
+        <description>For Search for OUV vehicle</description>
+        <externalId>false</externalId>
+        <formula>(YEAR(OUV_HandinDate__c)*12+
+ MONTH(OUV_HandinDate__c))- (YEAR(Today())*12+ MONTH(Today()))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_CarCondition__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Condition</label>
+        <length>1300</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_DeliveryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Hand_In_Task__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checkbox to send Task Notification for Owner Change</description>
+        <externalId>false</externalId>
+        <label>Hand In Task</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_LL4_Approval__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Operations Approver (LL4)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_LL4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_LL6_Approval__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Finance Approver (LL6)</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_LL6</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_License_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For Tax purposes</inlineHelpText>
+        <label>Licence/Registration Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Normal</fullName>
+                    <default>false</default>
+                    <label>Normal</label>
+                </value>
+                <value>
+                    <fullName>Importer</fullName>
+                    <default>false</default>
+                    <label>Importer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_LossOnResale__c</fullName>
+        <externalId>false</externalId>
+        <formula>ABS(OUV_ResidualValue__c -  OUV_RetailPrice__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Loss On Resale</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Manufacturer__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(OUV_VistaVehicle__r.Manufacturer__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Manufacturer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_MarketHidden__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Hidden</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Monthly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <label>Monthly Rate %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Payment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Type / Scheme</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Jobcar Logbook</fullName>
+                    <default>false</default>
+                    <label>Jobcar Logbook</label>
+                </value>
+                <value>
+                    <fullName>Jobcar with Mileage</fullName>
+                    <default>false</default>
+                    <label>Jobcar with Mileage</label>
+                </value>
+                <value>
+                    <fullName>Jobcar without Mileage</fullName>
+                    <default>false</default>
+                    <label>Jobcar without Mileage</label>
+                </value>
+                <value>
+                    <fullName>Lease car</fullName>
+                    <default>false</default>
+                    <label>Lease car</label>
+                </value>
+                <value>
+                    <fullName>Job Assigned</fullName>
+                    <default>false</default>
+                    <label>Job Assigned</label>
+                </value>
+                <value>
+                    <fullName>Senior Job Assigned</fullName>
+                    <default>false</default>
+                    <label>Senior Job Assigned</label>
+                </value>
+                <value>
+                    <fullName>MLAP</fullName>
+                    <default>false</default>
+                    <label>MLAP</label>
+                </value>
+                <value>
+                    <fullName>SMLAP</fullName>
+                    <default>false</default>
+                    <label>SMLAP</label>
+                </value>
+                <value>
+                    <fullName>ECCP</fullName>
+                    <default>false</default>
+                    <label>ECCP</label>
+                </value>
+                <value>
+                    <fullName>SECCP</fullName>
+                    <default>false</default>
+                    <label>SECCP</label>
+                </value>
+                <value>
+                    <fullName>RMLAP</fullName>
+                    <default>false</default>
+                    <label>RMLAP</label>
+                </value>
+                <value>
+                    <fullName>Third Party</fullName>
+                    <default>false</default>
+                    <label>Third Party</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Registration__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_SalesChannel__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Channel</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manager/Employee/Private</fullName>
+                    <default>false</default>
+                    <label>Manager/Employee/Private</label>
+                </value>
+                <value>
+                    <fullName>RETAILER</fullName>
+                    <default>false</default>
+                    <label>RETAILER</label>
+                </value>
+                <value>
+                    <fullName>Direct/Auction</fullName>
+                    <default>false</default>
+                    <label>Direct/Auction</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_VariantPrice__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Variant Price</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleNotes__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VistaVehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Vista Vehicle</label>
+        <referenceTo>Asset</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Disclosure_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Disclosure Amount</label>
+        <summarizedField>OUV_Damage_Disclosure__c.Repair_Cost__c</summarizedField>
+        <summaryForeignKey>OUV_Damage_Disclosure__c.OUV_Vehicle__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>OUV_DisposalRoute__c</fullName>
+        <externalId>false</externalId>
+        <label>Disposal Route</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Disposal_Date__c</fullName>
+        <description>The date the Master Status was set to Disposed</description>
+        <externalId>false</externalId>
+        <label>Disposal Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_EffectiveDate__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Effective Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Justification__c</fullName>
+        <externalId>false</externalId>
+        <label>Justification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_MaterialCosts__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Material Costs</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ResidualValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_RetailPrice__c *  OUV_ResidualValuePercent__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Estimated Residual value based on Residual value %</inlineHelpText>
+        <label>Residual Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReturnToStock__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Return To Stock</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_SalePriceDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Date of Sale</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_TransferPrice__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Transfer Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Withdrawn</fullName>
+                    <default>false</default>
+                    <label>Withdrawn</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vehicle_User_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle User - City</label>
+        <length>20</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ATORequestType__c</fullName>
+        <externalId>false</externalId>
+        <label>ATO Request Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_AddToFleetDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Add To Fleet Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_InventoryValue__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Inventory Value</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Is_Checked_Out__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Checked-Out</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_RoadTaxValidTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Road Tax Valid To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleAgeDays__c</fullName>
+        <description>Post Hand-in Date</description>
+        <externalId>false</externalId>
+        <formula>10</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle Age (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleMileage__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Mileage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Driver__c</fullName>
+        <description>Driver of the Vehicle</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is an encrypted field. Add the driver details here. This field is not visible to all users.</inlineHelpText>
+        <label>Vehicle User</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_User_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle User – State</label>
+        <length>2</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>Distance_to_Home_km__c</fullName>
+        <externalId>false</externalId>
+        <label>Distance to Home, km</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ATOLineItemName__c</fullName>
+        <externalId>false</externalId>
+        <label>ATO Line Item Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_FinalSalesPrice__c</fullName>
+        <externalId>false</externalId>
+        <label>Final Sales Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_HandInFYQuarter__c</fullName>
+        <description>Not a formula field to enable SOQL grouping. Set by same trigger that calculates the FY field.</description>
+        <externalId>false</externalId>
+        <label>HandInFYQuarter</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_HandedInQuarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((MONTH(OUV_HandinDate__c )&gt;=1 &amp;&amp; MONTH(OUV_HandinDate__c )&lt;=3),&apos;Q4&apos;,
+IF((MONTH(OUV_HandinDate__c )&gt;=4 &amp;&amp; MONTH(OUV_HandinDate__c )&lt;=6),&apos;Q1&apos;,
+IF((MONTH(OUV_HandinDate__c )&gt;=7 &amp;&amp; MONTH(OUV_HandinDate__c )&lt;=9),&apos;Q2&apos;,
+IF((MONTH(OUV_HandinDate__c )&gt;=10 &amp;&amp; MONTH(OUV_HandinDate__c )&lt;=12),&apos;Q3&apos;,&apos;NA&apos;)  )  )  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hand In Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_IdentitySticker__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Sticker used to visually identify an OUV placed inside vehicle windscreen</inlineHelpText>
+        <label>Identity Sticker Placed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_InventoryStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(OUV_ReportingLevel2__c, &quot;Terms of Employment&quot;, &quot;C&quot;,
+&quot;Job Related&quot;, &quot;C&quot;,
+&quot;Press/PR&quot;,&quot;C&quot;,
+&quot;Corporate Social Responsibility (CSR)&quot;,&quot;C&quot;,
+&quot;VIP Loans&quot;,&quot;C&quot;,
+&quot;Launch/Events&quot;,&quot;C&quot;,
+&quot;Training&quot;,&quot;C&quot;,
+&quot;JLR Experience&quot;,&quot;C&quot;,
+&quot;Sponsorship&quot;,&quot;C&quot;,
+&quot;Marketing Asset Production&quot;,&quot;C&quot;,
+&quot;Product Placement&quot;,&quot;C&quot;,
+&quot;Demonstrators&quot;,&quot;C&quot;,
+&quot;Homologation Cars&quot;,&quot;C&quot;,
+&quot;Customer Service -Diagnostics/Methods/Product Investigation/Training&quot;,&quot;C&quot;,
+&quot;Customer Service - Loan Vehicles&quot;,&quot;C&quot;,
+&quot;Product Development Vehicles&quot;,&quot;C&quot;,
+&quot;Manufacturing/Support Functions Vehicles&quot;,&quot;C&quot;,
+&quot;Pool Cars&quot;,&quot;C&quot;,
+&quot;All Other&quot;,&quot;C&quot;,
+&quot;Cars awaiting sale / rework / disposal&quot;,&quot;U&quot;,
+&quot;Fleet Buybacks awaiting rework/resale&quot;,&quot;U&quot;,
+&quot;Employee vehicle returns/MRC Buybacks awaiting rework/resale&quot;,&quot;U&quot;,
+&quot;Classic Donor vehicles&quot;,&quot;U&quot;,
+&quot;Customer Buybacks&quot;,&quot;U&quot;,
+&quot;Fleet Buybacks&quot;,&quot;B&quot;,
+&quot;Written down/Provisioned Units (£1 Vehicles)&quot;,&quot;A&quot;,
+&quot;Heritage/Museum Vehicles&quot;,&quot;A&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Inventory Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NextMOTRequired__c</fullName>
+        <externalId>false</externalId>
+        <label>Next MOT Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_PIINoticePlaced__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>GDPR Notice Placed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_PrimaryLocation__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>The location at which the vehicle is normally stored</inlineHelpText>
+        <label>Primary Location</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1</booleanFilter>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Vehicle Location</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReportingLevel1__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Reporting Level 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Public Relations</fullName>
+                    <default>false</default>
+                    <label>Public Relations</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Buybacks</fullName>
+                    <default>false</default>
+                    <label>Buybacks</label>
+                </value>
+                <value>
+                    <fullName>Expensed Vehicles</fullName>
+                    <default>false</default>
+                    <label>Expensed Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Used</fullName>
+                    <default>false</default>
+                    <label>Used</label>
+                </value>
+                <value>
+                    <fullName>Employee Cars</fullName>
+                    <default>false</default>
+                    <label>Employee Cars</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_ReportingLevel2__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Reporting Level 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>OUV_ReportingLevel1__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corporate Social Responsibility (CSR)</fullName>
+                    <default>false</default>
+                    <label>Corporate Social Responsibility (CSR)</label>
+                </value>
+                <value>
+                    <fullName>VIP Loans</fullName>
+                    <default>false</default>
+                    <label>VIP Loans</label>
+                </value>
+                <value>
+                    <fullName>Launch/Events</fullName>
+                    <default>false</default>
+                    <label>Launch/Events</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>JLR Experience</fullName>
+                    <default>false</default>
+                    <label>JLR Experience</label>
+                </value>
+                <value>
+                    <fullName>Marketing Asset Production</fullName>
+                    <default>false</default>
+                    <label>Marketing Asset Production</label>
+                </value>
+                <value>
+                    <fullName>Product Placement</fullName>
+                    <default>false</default>
+                    <label>Product Placement</label>
+                </value>
+                <value>
+                    <fullName>Demonstrators</fullName>
+                    <default>false</default>
+                    <label>Demonstrators</label>
+                </value>
+                <value>
+                    <fullName>Homologation Cars</fullName>
+                    <default>false</default>
+                    <label>Homologation Cars</label>
+                </value>
+                <value>
+                    <fullName>Customer Service -Diagnostics/Methods/Product Investigation/Training</fullName>
+                    <default>false</default>
+                    <label>Customer Service -Diagnostics/Methods/Product Investigation/Training</label>
+                </value>
+                <value>
+                    <fullName>Customer Service - Loan Vehicles</fullName>
+                    <default>false</default>
+                    <label>Customer Service - Loan Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Product Development Vehicles</fullName>
+                    <default>false</default>
+                    <label>Product Development Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing/Support Functions Vehicles</fullName>
+                    <default>false</default>
+                    <label>Manufacturing/Support Functions Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Pool Cars</fullName>
+                    <default>false</default>
+                    <label>Pool Cars</label>
+                </value>
+                <value>
+                    <fullName>All Other</fullName>
+                    <default>false</default>
+                    <label>All Other</label>
+                </value>
+                <value>
+                    <fullName>Cars awaiting sale / rework / disposal</fullName>
+                    <default>false</default>
+                    <label>Cars awaiting sale / rework / disposal</label>
+                </value>
+                <value>
+                    <fullName>Fleet Buybacks awaiting rework/resale</fullName>
+                    <default>false</default>
+                    <label>Fleet Buybacks awaiting rework/resale</label>
+                </value>
+                <value>
+                    <fullName>Employee vehicle returns/MRC Buybacks awaiting rework/resale</fullName>
+                    <default>false</default>
+                    <label>Employee vehicle returns/MRC Buybacks awaiting rework/resale</label>
+                </value>
+                <value>
+                    <fullName>Classic Donor vehicles</fullName>
+                    <default>false</default>
+                    <label>Classic Donor vehicles</label>
+                </value>
+                <value>
+                    <fullName>Customer Buybacks</fullName>
+                    <default>false</default>
+                    <label>Customer Buybacks</label>
+                </value>
+                <value>
+                    <fullName>Fleet Buybacks</fullName>
+                    <default>false</default>
+                    <label>Fleet Buybacks</label>
+                </value>
+                <value>
+                    <fullName>Written down/Provisioned Units (£1 Vehicles)</fullName>
+                    <default>false</default>
+                    <label>Written down/Provisioned Units (£1 Vehicles)</label>
+                </value>
+                <value>
+                    <fullName>Heritage/Museum Vehicles</fullName>
+                    <default>false</default>
+                    <label>Heritage/Museum Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Terms of Employment</fullName>
+                    <default>false</default>
+                    <label>Terms of Employment</label>
+                </value>
+                <value>
+                    <fullName>Job Related</fullName>
+                    <default>false</default>
+                    <label>Job Related</label>
+                </value>
+                <value>
+                    <fullName>Press/PR</fullName>
+                    <default>false</default>
+                    <label>Press/PR</label>
+                </value>
+                <value>
+                    <fullName>Sponsorship</fullName>
+                    <default>false</default>
+                    <label>Sponsorship</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Public Relations</controllingFieldValue>
+                <valueName>Corporate Social Responsibility (CSR)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Public Relations</controllingFieldValue>
+                <valueName>VIP Loans</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Public Relations</controllingFieldValue>
+                <valueName>Press/PR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>Launch/Events</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>JLR Experience</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>Marketing Asset Production</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>Product Placement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Marketing</controllingFieldValue>
+                <valueName>Sponsorship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>Demonstrators</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>Homologation Cars</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>Customer Service -Diagnostics/Methods/Product Investigation/Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales</controllingFieldValue>
+                <valueName>Customer Service - Loan Vehicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Product Development Vehicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Manufacturing/Support Functions Vehicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Pool Cars</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>All Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Buybacks</controllingFieldValue>
+                <valueName>Fleet Buybacks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Expensed Vehicles</controllingFieldValue>
+                <valueName>Written down/Provisioned Units (£1 Vehicles)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Expensed Vehicles</controllingFieldValue>
+                <valueName>Heritage/Museum Vehicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Used</controllingFieldValue>
+                <valueName>Cars awaiting sale / rework / disposal</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Used</controllingFieldValue>
+                <valueName>Fleet Buybacks awaiting rework/resale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Used</controllingFieldValue>
+                <valueName>Employee vehicle returns/MRC Buybacks awaiting rework/resale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Used</controllingFieldValue>
+                <valueName>Classic Donor vehicles</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Used</controllingFieldValue>
+                <valueName>Customer Buybacks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Employee Cars</controllingFieldValue>
+                <valueName>Terms of Employment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Employee Cars</controllingFieldValue>
+                <valueName>Job Related</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_ReportingLevel3__c</fullName>
+        <externalId>false</externalId>
+        <label>OUV Reporting Level 3</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>OUV_ReportingLevel2__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Local</fullName>
+                    <default>false</default>
+                    <label>Local</label>
+                </value>
+                <value>
+                    <fullName>Central</fullName>
+                    <default>false</default>
+                    <label>Central</label>
+                </value>
+                <value>
+                    <fullName>Royal Household (RHH)</fullName>
+                    <default>false</default>
+                    <label>Royal Household (RHH)</label>
+                </value>
+                <value>
+                    <fullName>VIP - Corporate</fullName>
+                    <default>false</default>
+                    <label>VIP - Corporate</label>
+                </value>
+                <value>
+                    <fullName>VIP - Individual (Charged)</fullName>
+                    <default>false</default>
+                    <label>VIP - Individual (Charged)</label>
+                </value>
+                <value>
+                    <fullName>VIP - Individual (Free of Charge)</fullName>
+                    <default>false</default>
+                    <label>VIP - Individual (Free of Charge)</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Free of Charge</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Free of Charge</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Written down/Provisioned Units (£1 Vehicles)</controllingFieldValue>
+                <controllingFieldValue>Heritage/Museum Vehicles</controllingFieldValue>
+                <controllingFieldValue>Terms of Employment</controllingFieldValue>
+                <controllingFieldValue>Job Related</controllingFieldValue>
+                <controllingFieldValue>Customer Service -Diagnostics/Methods/Product Investigation/Training</controllingFieldValue>
+                <controllingFieldValue>Customer Service - Loan Vehicles</controllingFieldValue>
+                <controllingFieldValue>Product Development Vehicles</controllingFieldValue>
+                <controllingFieldValue>Manufacturing/Support Functions Vehicles</controllingFieldValue>
+                <controllingFieldValue>Pool Cars</controllingFieldValue>
+                <controllingFieldValue>All Other</controllingFieldValue>
+                <controllingFieldValue>Fleet Buybacks awaiting rework/resale</controllingFieldValue>
+                <controllingFieldValue>Employee vehicle returns/MRC Buybacks awaiting rework/resale</controllingFieldValue>
+                <controllingFieldValue>Classic Donor vehicles</controllingFieldValue>
+                <controllingFieldValue>Corporate Social Responsibility (CSR)</controllingFieldValue>
+                <controllingFieldValue>Marketing Asset Production</controllingFieldValue>
+                <controllingFieldValue>Product Placement</controllingFieldValue>
+                <controllingFieldValue>Demonstrators</controllingFieldValue>
+                <controllingFieldValue>Homologation Cars</controllingFieldValue>
+                <controllingFieldValue>Customer Buybacks</controllingFieldValue>
+                <controllingFieldValue>Fleet Buybacks</controllingFieldValue>
+                <valueName>None</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Press/PR</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>Cars awaiting sale / rework / disposal</controllingFieldValue>
+                <controllingFieldValue>Launch/Events</controllingFieldValue>
+                <controllingFieldValue>Training</controllingFieldValue>
+                <controllingFieldValue>JLR Experience</controllingFieldValue>
+                <valueName>Local</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Press/PR</controllingFieldValue>
+                <controllingFieldValue>Sponsorship</controllingFieldValue>
+                <controllingFieldValue>Cars awaiting sale / rework / disposal</controllingFieldValue>
+                <controllingFieldValue>Launch/Events</controllingFieldValue>
+                <controllingFieldValue>Training</controllingFieldValue>
+                <controllingFieldValue>JLR Experience</controllingFieldValue>
+                <valueName>Central</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Loans</controllingFieldValue>
+                <valueName>Royal Household (RHH)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Loans</controllingFieldValue>
+                <valueName>VIP - Corporate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Loans</controllingFieldValue>
+                <valueName>VIP - Individual (Charged)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>VIP Loans</controllingFieldValue>
+                <valueName>VIP - Individual (Free of Charge)</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_TrimDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Trim_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Trim Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_market_location__c</fullName>
+        <description>The actual market using the vehicle</description>
+        <externalId>false</externalId>
+        <label>Market Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>OUV_Market</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Other_Vehicle_taxes__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Vehicle taxes/duties</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Vehicle_User_County__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle User – County</label>
+        <length>20</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>In_Control_Activated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>In Control Activated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ATOJustification__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is populated from the ATO. Please ensure no Personal data is included.</inlineHelpText>
+        <label>Business Justification</label>
+        <length>32768</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>OUV_ActualHandInDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Hand In Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ByPassValidation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Validation rules will not run if this field is being changed</description>
+        <externalId>false</externalId>
+        <label>OUV_ByPassValidation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_InsuranceValidTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Insurance Valid To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Location_Details__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_PrimaryLocation__r.BillingCity +  IF( NOT( ISBLANK(OUV_PrimaryLocation__r.BillingCity)) &amp;&amp; NOT( ISBLANK(OUV_PrimaryLocation__r.BillingState)) , &quot;, &quot;, &quot;&quot;) +  OUV_PrimaryLocation__r.BillingState</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Location Details</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ModelDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Vehicle_Line__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_PaintDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Paint_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RegistrationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_RoadTaxValidFrom__c</fullName>
+        <externalId>false</externalId>
+        <label>Road Tax Valid From</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ShortDescription__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is populated from the ATO. Please ensure no Personal data is included.</inlineHelpText>
+        <label>Quick Reference</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_TransmissionCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Transmission_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transmission Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleSubStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>OUV_VehicleMasterStatus__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Order committed</fullName>
+                    <default>false</default>
+                    <label>Order committed</label>
+                </value>
+                <value>
+                    <fullName>In Build</fullName>
+                    <default>false</default>
+                    <label>In Build</label>
+                </value>
+                <value>
+                    <fullName>In Transit</fullName>
+                    <default>false</default>
+                    <label>In Transit</label>
+                </value>
+                <value>
+                    <fullName>Approved Not Ordered​</fullName>
+                    <default>false</default>
+                    <label>Approved Not Ordered​</label>
+                </value>
+                <value>
+                    <fullName>Available / Idle</fullName>
+                    <default>false</default>
+                    <label>Available / Idle</label>
+                </value>
+                <value>
+                    <fullName>In Use</fullName>
+                    <default>false</default>
+                    <label>In Use</label>
+                </value>
+                <value>
+                    <fullName>In Preparation / In Repair</fullName>
+                    <default>false</default>
+                    <label>In Preparation / In Repair</label>
+                </value>
+                <value>
+                    <fullName>Write-Off​</fullName>
+                    <default>false</default>
+                    <label>Insurance Write Off</label>
+                </value>
+                <value>
+                    <fullName>Sold</fullName>
+                    <default>false</default>
+                    <label>Sold</label>
+                </value>
+                <value>
+                    <fullName>Awaiting Inspection</fullName>
+                    <default>false</default>
+                    <label>Awaiting Inspection</label>
+                </value>
+                <value>
+                    <fullName>Inspected Awaiting Re-work</fullName>
+                    <default>false</default>
+                    <label>Inspected Awaiting Re-work</label>
+                </value>
+                <value>
+                    <fullName>In Re-work / In Repair</fullName>
+                    <default>false</default>
+                    <label>In Re-work / In Repair</label>
+                </value>
+                <value>
+                    <fullName>Ready for Sale</fullName>
+                    <default>false</default>
+                    <label>Ready for Sale</label>
+                </value>
+                <value>
+                    <fullName>Booked for Re-Marketing Event/Auction</fullName>
+                    <default>false</default>
+                    <label>Booked for Re-Marketing Event/Auction</label>
+                </value>
+                <value>
+                    <fullName>Return to Stock</fullName>
+                    <default>false</default>
+                    <label>Return to Stock</label>
+                </value>
+                <value>
+                    <fullName>Customer Handover</fullName>
+                    <default>false</default>
+                    <label>Customer Handover</label>
+                </value>
+                <value>
+                    <fullName>Ready for Invoice</fullName>
+                    <default>false</default>
+                    <label>Ready for Invoice</label>
+                </value>
+                <value>
+                    <fullName>Kit Of Parts (KOP)</fullName>
+                    <default>false</default>
+                    <label>Kit Of Parts (KOP)</label>
+                </value>
+                <value>
+                    <fullName>Gifted</fullName>
+                    <default>false</default>
+                    <label>Gifted</label>
+                </value>
+                <value>
+                    <fullName>In FMS</fullName>
+                    <default>false</default>
+                    <label>In FMS</label>
+                </value>
+                <value>
+                    <fullName>Scrap</fullName>
+                    <default>false</default>
+                    <label>Scrap</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Pre-Live</controllingFieldValue>
+                <valueName>Order committed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pre-Live</controllingFieldValue>
+                <valueName>In Build</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pre-Live</controllingFieldValue>
+                <valueName>In Transit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pre-Live</controllingFieldValue>
+                <valueName>Approved Not Ordered​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pre-Live</controllingFieldValue>
+                <valueName>Customer Handover</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Live</controllingFieldValue>
+                <valueName>Available / Idle</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Live</controllingFieldValue>
+                <valueName>In Use</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Live</controllingFieldValue>
+                <valueName>In Preparation / In Repair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>Awaiting Inspection</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>Inspected Awaiting Re-work</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>In Re-work / In Repair</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>Ready for Sale</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>Booked for Re-Marketing Event/Auction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Handed In</controllingFieldValue>
+                <valueName>Ready for Invoice</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Write-Off​</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Sold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Return to Stock</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Kit Of Parts (KOP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Gifted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>In FMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Unavailable</controllingFieldValue>
+                <valueName>Scrap</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Annual_Market_Summary__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Annual Market Summary</label>
+        <referenceTo>OUV_AnnualMarketSummary__c</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Local_Costs_Accessory__c</fullName>
+        <externalId>false</externalId>
+        <label>Local Costs &amp; Accessory</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_AddToFleetQuarter__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF((MONTH( OUV_ProposedAddToFleetDate__c )&gt;=1 &amp;&amp; MONTH(OUV_ProposedAddToFleetDate__c )&lt;=3),&apos;Q4&apos;, 
+IF((MONTH(OUV_ProposedAddToFleetDate__c )&gt;=4 &amp;&amp; MONTH(OUV_ProposedAddToFleetDate__c )&lt;=6),&apos;Q1&apos;, 
+IF((MONTH(OUV_ProposedAddToFleetDate__c )&gt;=7 &amp;&amp; MONTH(OUV_ProposedAddToFleetDate__c )&lt;=9),&apos;Q2&apos;, 
+IF((MONTH(OUV_ProposedAddToFleetDate__c )&gt;=10 &amp;&amp; MONTH(OUV_ProposedAddToFleetDate__c )&lt;=12),&apos;Q3&apos;,&apos;NA&apos;) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Proposed Add To Fleet Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_AgePostHandInDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Handed In&apos;, Today() -   OUV_ActualHandInDate__c , IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Unavailable&apos;, OUV_Disposal_Date__c - OUV_ActualHandInDate__c,null))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age Post Hand In</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Disposal_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Disposal Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_Disposal</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_MarketDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE( OUV_VistaVehicle__r.OUV_Market_Code__c,
+&quot;IE&quot;,&quot;Iran&quot;,
+&quot;KC&quot;,&quot;Kuwait&quot;,
+&quot;AD&quot;,&quot;Algeria&quot;,
+&quot;MS&quot;,&quot;Oman&quot;,
+&quot;SD&quot;,&quot;Sudan North&quot;,
+&quot;BB&quot;,&quot;Bahrain&quot;,
+&quot;YA&quot;,&quot;Yemen&quot;,
+&quot;PA&quot;,&quot;Pakistan&quot;,
+&quot;GR&quot;,&quot;Georgia&quot;,
+&quot;PL&quot;,&quot;Palestine&quot;,
+&quot;DU&quot;,&quot;UAE&quot;,
+&quot;LY&quot;,&quot;Libya&quot;,
+&quot;SR&quot;,&quot;Sudan South&quot;,
+&quot;EB&quot;,&quot;Egypt&quot;,
+&quot;LB&quot;,&quot;Lebanon&quot;,
+&quot;AU&quot;,&quot;Abu Dhabi&quot;,
+&quot;IF&quot;,&quot;Iraq&quot;,
+&quot;QA&quot;,&quot;Qatar&quot;,
+&quot;MJ&quot;,&quot;Morocco&quot;,
+&quot;AZ&quot;,&quot;Azerbaijan&quot;,
+&quot;JC&quot;,&quot;Jordan&quot;,
+&quot;TF&quot;,&quot;Tunisia&quot;,
+&quot;EM&quot;,&quot;UAE&quot;,
+&quot;SC&quot;,&quot;Saudi Arabia&quot;,
+&quot;JB&quot;,&quot;Japan&quot;,
+&quot;MH&quot;,&quot;Mexico&quot;,
+&quot;PH&quot;,&quot;Portugal&quot;,
+&quot;IJ&quot;,&quot;Italy - Arm/Gov/Mil&quot;,
+&quot;UB&quot;,&quot;United Kingdom&quot;,
+&quot;NB&quot;,&quot;Netherlands&quot;,
+&quot;BH&quot;,&quot;Brazil&quot;,
+&quot;AK&quot;,&quot;Austria&quot;,
+&quot;FF&quot;,&quot;France&quot;,
+&quot;US&quot;,&quot;USA&quot;,
+&quot;KB&quot;,&quot;South Korea&quot;,
+&quot;CJ&quot;,&quot;Colombia&quot;,
+&quot;DE&quot;,&quot;Germany&quot;,
+&quot;IT&quot;,&quot;Italy&quot;,
+&quot;CB&quot;,&quot;Canada&quot;,
+&quot;ES&quot;,&quot;Spain&quot;,
+&quot;CO&quot;,&quot;CJLR&quot;,
+&quot;AJ&quot;,&quot;Australia&quot;,
+&quot;MT&quot;,&quot;Singapore&quot;,
+&quot;CH&quot;,&quot;China&quot;,
+&quot;UR&quot;,&quot;Russia&quot;,
+&quot;SK&quot;,&quot;Spain- Military Code&quot;,
+&quot;IC&quot;,&quot;India&quot;,
+&quot;SH&quot;,&quot;South Africa&quot;,
+&quot;TB&quot;,&quot;Taiwan&quot;,
+&quot;BD&quot;,&quot;Belgium&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Market Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Paint_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Paint_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Paint Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ReportingCategory__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+OUV_ReportingLevel2__c, 
+&quot;Terms of Employment&quot;, &quot;Unactionable&quot;, 
+&quot;Job Related&quot;, &quot;Unactionable&quot;,
+&quot;Press/PR&quot;,&quot;Active&quot;,
+&quot;Corporate Social Responsibility (CSR)&quot;,&quot;Active&quot;,
+&quot;VIP Loans&quot;,
+CASE(OUV_ReportingLevel3__c,
+&quot;Royal Household (RHH)&quot;,&quot;Active&quot;,
+&quot;VIP - Individual (Free of Charge)&quot;,&quot;Active&quot;,
+&quot;VIP - Individual (Charged)&quot;,&quot;Unactionable&quot;,
+&quot;VIP - Corporate&quot;,&quot;Active&quot;,&quot;&quot;),
+&quot;Launch/Events&quot;,&quot;Active&quot;,
+&quot;Training&quot;,&quot;Active&quot;,
+&quot;JLR Experience&quot;,&quot;Active&quot;,
+&quot;Sponsorship&quot;,&quot;Active&quot;,
+&quot;Marketing Asset Production&quot;,&quot;Active&quot;,
+&quot;Product Placement&quot;,&quot;Active&quot;,&quot;Demonstrators&quot;,&quot;Active&quot;,
+&quot;Homologation Cars&quot;,&quot;Active&quot;,
+&quot;Customer Service -Diagnostics/Methods/Product Investigation/Training&quot;,&quot;Active&quot;,
+&quot;Customer Service - Loan Vehicles&quot;,&quot;Active&quot;,&quot;Product Development Vehicles&quot;,&quot;Active&quot;,
+&quot;Manufacturing/Support Functions Vehicles&quot;,&quot;Active&quot;,
+&quot;Pool Cars&quot;,&quot;Active&quot;,
+&quot;All Other&quot;,&quot;Active&quot;,
+&quot;Cars awaiting sale / rework / disposal&quot;,&quot;Inactive&quot;,
+&quot;Fleet Buybacks awaiting rework/resale&quot;,&quot;Inactive&quot;,
+&quot;Employee vehicle returns/MRC Buybacks awaiting rework/resale&quot;,&quot;Inactive&quot;,
+&quot;Classic Donor vehicles&quot;,&quot;Inactive&quot;,
+&quot;Customer Buybacks&quot;,&quot;Inactive&quot;,
+&quot;Fleet Buybacks&quot;,&quot;Unactionable&quot;,
+&quot;Written Down/Provisioned Units (£1 vehicles)&quot;,&quot;Unactionable&quot;,
+&quot;Heritage/Museum Vehicles&quot;,&quot;Unactionable&quot;,&quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OUV Reporting Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_StatusDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Status_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Status Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vehicle_User_ZIP_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle User – ZIP Code</label>
+        <length>5</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Additional_Finance__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Additional Finance</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_DoA1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_CustomerIdentifier__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Must not contain GDPR related information</inlineHelpText>
+        <label>Customer Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_DeRegistrationDate__c</fullName>
+        <externalId>false</externalId>
+        <label>De-Registration Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_DerivativePackCode__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Derivative_Pack_Code__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Derivative Pack Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Employee_Privilege__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>OUV Employee Privilege</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ExpectedHandInDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(
+
+      AND(
+
+         ISPICKVAL(OUV_VehicleMasterStatus__c, &apos;Pre-Live&apos;), 
+         OUV_IsReplacementVehicle__c = false 
+
+
+       ) ,
+
+         OUV_ProposedHandInDate__c, 
+
+
+       IF(
+ 
+           AND( 
+
+               ISPICKVAL(OUV_VehicleMasterStatus__c, &apos;Live&apos;) ,
+               NOT( ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c, &apos;Approved&apos;) ) ,
+               OUV_IsReplacementVehicle__c = false,
+               ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) 
+
+           ) , 
+
+               OUV_ProposedHandInDate__c - OUV_ProposedAddToFleetDate__c + OUV_AddToFleetDate__c, 
+
+
+
+              IF(
+
+                  ISPICKVAL(OUV_VehicleMasterStatus__c, &apos;Handed In&apos;) ,  
+                  OUV_ActualHandInDate__c, 
+
+                  IF(
+
+                      AND(
+                          ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c, &apos;Approved&apos;) ,
+                          NOT( ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) ) ,
+
+                          OUV_IsReplacementVehicle__c = false 
+
+                   ) ,
+
+                         OUV_ApprovedNewRequestedHandInDate__c, 
+
+
+                       IF(
+
+                           AND(
+    
+                               ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c, &apos;Approved&apos;) ,
+                               NOT( ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) ) 
+
+                          ) , 
+
+                               OUV_ApprovedNewRequestedHandInDate__c, 
+
+
+                               IF(
+
+                                  OUV_IsReplacementVehicle__c = true, 
+
+                                  OUV_HandinDate__c,
+                                  OUV_HandinDate__c) 
+
+                                  ) 
+
+                             ) 
+
+                       ) 
+
+
+
+                  ) 
+
+             )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Forecast/Actual Hand In Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_FleetAdministrator__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Fleet Administrator</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet_Changed_Date__c</fullName>
+        <description>The day the Vehicle changed Fleet last.</description>
+        <externalId>false</externalId>
+        <label>OUV Fleet Changed Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_InitialRetailPrice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Estimated on ATO</inlineHelpText>
+        <label>Initial Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_InsuranceValidFrom__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Only required if vehicle is not covered by standard company policy</inlineHelpText>
+        <label>Insurance Valid From</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ProposedHandInDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposed Hand In Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_AddToFleetFYQuarter__c</fullName>
+        <description>Not a formula field to enable SOQL grouping. Set by same trigger that calculates the FY field.</description>
+        <externalId>false</externalId>
+        <label>AddToFleetFYQuarter</label>
+        <length>2</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Full_Vin_Searchable__c</fullName>
+        <description>This is updated every-time an OUV vehicle is created/edited and used to workaround the formula field search limitation on Full Vin</description>
+        <externalId>false</externalId>
+        <label>Full Vin Searchable</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_HandInFinancialYear__c</fullName>
+        <externalId>false</externalId>
+        <label>Hand In Financial Year</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_InitialDeliveryDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Delivery Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Product_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RegistrationValidTo__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Valid To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Replacement_Vehicle__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Replacement Vehicle</label>
+        <referenceTo>OUV_Vehicle__c</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_RetailPriceCurrency__c</fullName>
+        <description>Linked to SAP</description>
+        <externalId>false</externalId>
+        <label>Retail Price Currency</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleMasterStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Master Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-Live</fullName>
+                    <default>false</default>
+                    <label>Pre-Live</label>
+                </value>
+                <value>
+                    <fullName>Live</fullName>
+                    <default>false</default>
+                    <label>Live</label>
+                </value>
+                <value>
+                    <fullName>Handed In</fullName>
+                    <default>false</default>
+                    <label>Handed In</label>
+                </value>
+                <value>
+                    <fullName>Unavailable</fullName>
+                    <default>false</default>
+                    <label>Disposed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_DeliveryDateCalCheck__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(NOT(ISBLANK( OUV_DeliveryDate__c )),OUV_DeliveryDate__c + 21,null)</formula>
+        <label>Delivery Date CalCheck</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_IsReplacementVehicle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used in the code to allow copying  expected hand in date  (date field ) to expected hand in date (formula field)</description>
+        <externalId>false</externalId>
+        <label>Is Replacement Vehicle</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ModelYearDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Model_Year_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Model Year Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RegistrationRequired__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Registration Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ResidualValuePercent__c</fullName>
+        <description>Retail Price * Residual Value (%)</description>
+        <externalId>false</externalId>
+        <label>Residual Value %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OUV_UpdatedDisposalRoute__c</fullName>
+        <externalId>false</externalId>
+        <label>Disposal Route Change Request</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sale</fullName>
+                    <default>false</default>
+                    <label>Sale</label>
+                </value>
+                <value>
+                    <fullName>Scrap</fullName>
+                    <default>false</default>
+                    <label>Scrap/Write down</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Additional_Operations__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Additional Operations</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_DoA2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Age_Post_Registration__c</fullName>
+        <description>Calculates the age of the vehicle from registration date up until the vehicle is handed in</description>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Live&apos; || TEXT(OUV_VehicleMasterStatus__c)=&apos;Pre-Live&apos; , Today() -  OUV_RegistrationDate__c  , IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Handed In&apos; || TEXT(OUV_VehicleMasterStatus__c)=&apos;Unavailable&apos;, OUV_ActualHandInDate__c - OUV_RegistrationDate__c,null))</formula>
+        <label>Age Post Registration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_DVLAInsuranceUploaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>DVLA Insurance Uploaded</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet_Administrator_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Fleet Administrator 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_Admin2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet_Administrator_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Fleet Administrator 3</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_Admin3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Fleet_Manager_Changed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Necessary to prevent the Vehicle Owner change email derived from a change of Fleet Manager from the OUV Fleet</description>
+        <externalId>false</externalId>
+        <label>OUV Fleet Manager Changed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_HandedInExtensionDate__c</fullName>
+        <externalId>false</externalId>
+        <formula>(MONTH(OUV_AddToFleetDate__c) + 9) - MONTH(OUV_NewRequestedHandedInDate__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hand in Extension Vehicle Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_MarketFinanceDirector__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Market Finance Director</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_RegistrationValidFrom__c</fullName>
+        <externalId>false</externalId>
+        <label>Registration Valid From</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Registration_Approver__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Registration Approver</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles_Registration</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Road_Tax_Renewal_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Road Tax Renewal Required</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Vehicle_Recorded_Off_Road__c</fullName>
+        <externalId>false</externalId>
+        <label>Vehicle Recorded Off Road</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Additional_Information__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>No GDPR data</inlineHelpText>
+        <label>Additional Information</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Available_for_Transfer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If vehicle needs to be retained but is no longer required on your fleet, flag for other other fleet owners to transfer.</inlineHelpText>
+        <label>Available for Transfer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Finance_Classification__c</fullName>
+        <externalId>false</externalId>
+        <label>Finance Classification</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inventory</fullName>
+                    <default>false</default>
+                    <label>Inventory</label>
+                </value>
+                <value>
+                    <fullName>Fixed Assets</fullName>
+                    <default>false</default>
+                    <label>Fixed Assets</label>
+                </value>
+                <value>
+                    <fullName>Intangible Assets</fullName>
+                    <default>false</default>
+                    <label>Intangible Assets</label>
+                </value>
+                <value>
+                    <fullName>Provisioned Vehicles</fullName>
+                    <default>false</default>
+                    <label>Provisioned Vehicles</label>
+                </value>
+                <value>
+                    <fullName>Expensed Vehicle</fullName>
+                    <default>false</default>
+                    <label>Expensed Vehicle</label>
+                </value>
+                <value>
+                    <fullName>Leased Vehicles</fullName>
+                    <default>false</default>
+                    <label>Leased Vehicles</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_MarketManagingDirector__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Market Managing Director</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles4</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ProposedAddToFleetDate__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Proposed add to fleet date is the add to fleet date at the point of ATO approval.</inlineHelpText>
+        <label>Proposed Add To Fleet Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleisDelayedByDays__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_DeliveryDate__c -  OUV_InitialDeliveryDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vehicle is Delayed By (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Initial_Retail_Price__c</fullName>
+        <externalId>false</externalId>
+        <formula>(Local_Costs_Accessory__c  + OUV_InitialRetailPrice__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Initial Retail Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OUV_AddToFleetFinancialYear__c</fullName>
+        <description>for calculation of total handed in count year wise</description>
+        <externalId>false</externalId>
+        <label>Proposed Add To Fleet Financial Year</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NumberofCarKeyDelivered__c</fullName>
+        <externalId>false</externalId>
+        <label>Handover - No of Keys</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>true</default>
+                    <label>2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Order_Request_Line_Item__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Order Request Line Item</label>
+        <referenceTo>OUV_OrderRequestLineItem__c</referenceTo>
+        <relationshipLabel>OUV Vehicles</relationshipLabel>
+        <relationshipName>OUV_Vehicles</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_RemarketingFleetManager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Remarketing Fleet Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>OUV_Vehicles5</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>OUV_TransmissionDescription__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Transmission_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Transmission Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_CarKeysReceivedByManager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Handover - Keys received</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_HandInChangeWithinBudget__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(OUV_HandedInDateChangeOverBudget__c, &apos;Yes&apos;),
+   &apos;No&apos;,
+   IF(ISPICKVAL(OUV_HandedInDateChangeOverBudget__c, &apos;No&apos;),
+      &apos;Yes&apos;,
+      &apos;NA&apos;
+   )
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Hand In Change Within Budget</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_KeysRecievedByNewManager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Transfer - Keys Received</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_NewRequestedHandedInDate__c</fullName>
+        <externalId>false</externalId>
+        <label>New Requested Hand In Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Primary_Location_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(LEN(OUV_PrimaryLocation__r.BillingStreet)&gt;0, OUV_PrimaryLocation__r.BillingStreet&amp; &quot; &quot; , &quot; &quot; ) &amp;
+IF(LEN(OUV_PrimaryLocation__r.BillingCity)&gt;0, OUV_PrimaryLocation__r.BillingCity&amp; &quot; &quot; , &quot; &quot; )&amp;
+IF(LEN(OUV_PrimaryLocation__r.BillingPostalCode)&gt;0, OUV_PrimaryLocation__r.BillingPostalCode&amp; &quot; &quot; , &quot; &quot; )&amp;
+IF(LEN(OUV_PrimaryLocation__r.BillingState)&gt;0, OUV_PrimaryLocation__r.BillingState&amp; &quot; &quot; , &quot; &quot;) &amp;
+IF(LEN(OUV_PrimaryLocation__r.BillingCountry) &gt;0, OUV_PrimaryLocation__r.BillingCountry,&quot; &quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Location Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_CarKeysDeliveredToManager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Handover - Keys delivered</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReplacementVehicleMileage__c</fullName>
+        <externalId>false</externalId>
+        <label>Replacement Vehicle Mileage</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_Temporary_Import_Vehicles__c</fullName>
+        <description>Additional information relating to vehicles on temporary import</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional information relating to vehicles on temporary import</inlineHelpText>
+        <label>Temporary Import Vehicles</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_InitialRetailPriceCurrency__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Retail Price Currency</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_InsuranceDocumentsUploaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Insurance Documents Uploaded</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Derivative_Pack_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>OUV_VistaVehicle__r.OUV_Derivative_Pack_Description__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Derivative Pack Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_KeysTransfferedToNewManager__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Transfer - Keys transferred</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_Latest_Planned_Hand_in_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( 
+AND( ISPICKVAL(OUV_VehicleMasterStatus__c, &apos;Pre-Live&apos;) 
+,OUV_IsReplacementVehicle__c = false) , 
+OUV_ProposedHandInDate__c, 
+
+IF( 
+AND( ISPICKVAL(OUV_VehicleMasterStatus__c, &apos;Live&apos;) , NOT( ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c , &apos;Approved&apos;) ) , 
+ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) ) , 
+
+OUV_ProposedHandInDate__c - OUV_ProposedAddToFleetDate__c + OUV_AddToFleetDate__c ,
+
+IF(
+ AND( ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c, &apos;Approved&apos;) , NOT( ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) ) ,
+
+OUV_IsReplacementVehicle__c = false ) , 
+OUV_ApprovedNewRequestedHandInDate__c , 
+
+IF( AND( ISPICKVAL(OUV_NewRequestedHandedInDateStatus__c, &apos;Approved&apos;) , NOT( ISBLANK(OUV_ApprovedNewRequestedHandInDate__c) )) , 
+OUV_ApprovedNewRequestedHandInDate__c, 
+
+IF(
+OUV_IsReplacementVehicle__c = true, OUV_ProposedHandInDate__c, OUV_ProposedHandInDate__c) ) ) ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Latest Planned Hand in Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReplacementVehicleVINNumber__c</fullName>
+        <externalId>false</externalId>
+        <label>Replacement Vehicle VIN Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_TargetUtilisationPercentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Utilisation Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>OUV_VehicleLocalIntegrationcost__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Locally incurred costs including locally fitted accessories.</inlineHelpText>
+        <label>Vehicle Local Integration cost</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_HandedInDateChangeOverBudget__c</fullName>
+        <externalId>false</externalId>
+        <label>Hand In Date Change Over Budget Flag</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>NA</fullName>
+                    <default>true</default>
+                    <label>NA</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_NoOfKeysReceivedByNewManager__c</fullName>
+        <externalId>false</externalId>
+        <label>Transfer - No of Keys received</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_User_Email_Encrypted__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is an encrypted field. Add the driver details here. This field is not visible to all users.</inlineHelpText>
+        <label>Vehicle User Email</label>
+        <length>175</length>
+        <maskChar>asterisk</maskChar>
+        <maskType>all</maskType>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>EncryptedText</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ActualAddToFleetFinancialYear__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual Add To Fleet Financial Year</label>
+        <length>9</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_RegistrationDocumentsUploaded__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Registration Documents Uploaded</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ReplacementVehicleDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>Replacement Vehicle Description</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_ApprovedNewRequestedHandInDate__c</fullName>
+        <description>This value is used to copy to expected hand in date formula field once New requested hand in date is approved.It will populate its value from New requested hand in date on approval.</description>
+        <externalId>false</externalId>
+        <label>Approved New Requested Hand In Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>OUV_NewRequestedHandedInDateStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>New Requested Hand In Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Pending Approval</fullName>
+                    <default>false</default>
+                    <label>Pending Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Vehicle_Available_for_Transfer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vehicle Available for Transfer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OUV_ActualToDateForExtendedHandedIn__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual To Date For Extended Hand In</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NewRequestedHandedInDateQuarter__c</fullName>
+        <externalId>false</externalId>
+        <label>New Requested Hand In Date Quarter</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NoOfKeysTransferredToNewManager__c</fullName>
+        <externalId>false</externalId>
+        <label>Transfer - No of Keys Transferred</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>true</default>
+                    <label>2</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>OUV_Age_Post_Actual_Add_to_Fleet_Date__c</fullName>
+        <description>Calculates the age of the vehicle based on the Actual Add to Fleet Date up until the vehicle is handed in</description>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Live&apos; || TEXT(OUV_VehicleMasterStatus__c)=&apos;Pre-Live&apos; , Today() -  OUV_AddToFleetDate__c , IF( TEXT(OUV_VehicleMasterStatus__c)=&apos;Handed In&apos; || TEXT(OUV_VehicleMasterStatus__c)=&apos;Unavailable&apos;, OUV_ActualHandInDate__c - OUV_AddToFleetDate__c ,null))</formula>
+        <label>Age Post Actual Add to Fleet Date</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OUV_NewRequestedHandedInFinancialYear__c</fullName>
+        <externalId>false</externalId>
+        <label>New Requested Hand In Financial Year</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <sharingReasons>
+        <fullName>OUV_Fleet_Members__c</fullName>
+        <label>Fleet Members</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>Check_Full_VIN</fullName>
+        <active>true</active>
+        <description>Before turning Vehicle Live, the system should validate whether FULL VIN is populated in OUV Vehicle</description>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),ISCHANGED(OUV_VehicleMasterStatus__c),(LEN (OUV_FullVIN__c) = 0), (TEXT(OUV_VehicleMasterStatus__c) = &apos;Live&apos;))</errorConditionFormula>
+        <errorMessage>Before turning Vehicle Status to Live, the Full VIN field must be populated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_PreSold</fullName>
+        <active>true</active>
+        <description>Expected Hand in Date cannot be changed when Vehicle Pre sold is checked</description>
+        <errorConditionFormula>IF( AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),OUV_Presold__c   = True),IF( ISCHANGED(  OUV_NewRequestedHandedInDate__c ) , True, false) , false)</errorConditionFormula>
+        <errorDisplayField>OUV_NewRequestedHandedInDate__c</errorDisplayField>
+        <errorMessage>This field cannot be modified because the Vehicle Pre-sold is checked</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Live_Status_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>( $UserRole.DeveloperName &lt;&gt; &apos;Global_OUV_Office&apos; &amp;&amp;
+NOT( ISCHANGED( OUV_ByPassValidation__c )) &amp;&amp;
+ISCHANGED( OUV_VehicleMasterStatus__c ) &amp;&amp; ISPICKVAL(PRIORVALUE(OUV_VehicleMasterStatus__c ),&apos;Live&apos;) ) 
+&amp;&amp;
+( TEXT(OUV_VehicleMasterStatus__c) = &apos;Pre-Live&apos; ||
+( TEXT(OUV_VehicleMasterStatus__c) = &apos;Unavailable&apos; &amp;&amp; TEXT(OUV_VehicleSubStatus__c) &lt;&gt; &quot;Write-Off​&quot; ) )</errorConditionFormula>
+        <errorDisplayField>OUV_VehicleMasterStatus__c</errorDisplayField>
+        <errorMessage>Master Status &quot;Live&quot; can be only changed to &quot;Handed In&quot; or &quot;Disposed&quot; with sub status &quot;Write-Off&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Sub_Status_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>TEXT(OUV_VehicleSubStatus__c)= &apos;&apos; &amp;&amp;   $Profile.Name  &lt;&gt;  &apos;System Administrator&apos;</errorConditionFormula>
+        <errorDisplayField>OUV_VehicleSubStatus__c</errorDisplayField>
+        <errorMessage>Sub-Status is a required field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Sales_Fields</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),OR 
+( 
+AND 
+( 
+ISPICKVAL( OUV_VehicleMasterStatus__c , &quot;Unavailable&quot; ) , 
+ISPICKVAL( OUV_VehicleSubStatus__c , &quot;Sold&quot;) , 
+ISBLANK(TEXT(OUV_SoldTo__c)) 
+), 
+AND 
+( 
+ISPICKVAL( OUV_VehicleMasterStatus__c , &quot;Unavailable&quot; ) , 
+ISPICKVAL( OUV_VehicleSubStatus__c , &quot;Sold&quot;) , 
+ISNULL( OUV_FinalSalesPrice__c) 
+), 
+AND 
+( 
+ISPICKVAL( OUV_VehicleMasterStatus__c , &quot;Unavailable&quot; ) , 
+ISPICKVAL( OUV_VehicleSubStatus__c , &quot;Sold&quot;) , 
+ISNULL( OUV_SalePriceDate__c) 
+) 
+)
+)</errorConditionFormula>
+        <errorMessage>Please fill following fields:                                           
+1. Sales Channel                                            
+2. Sales Price     
+3. Date of Sale</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_BasicUser_MasterStatus</fullName>
+        <active>true</active>
+        <description>Restrict Basic User from changing OUV Vehicle Master status from Handed in to Live.</description>
+        <errorConditionFormula>AND(
+$UserRole.DeveloperName &lt;&gt; &apos;Global_OUV_Office&apos;,
+$Profile.Name =&apos;OUV Basic User Platform&apos;,
+ISCHANGED(OUV_VehicleMasterStatus__c),
+ISPICKVAL(PRIORVALUE(OUV_VehicleMasterStatus__c),&apos;Handed In&apos;),
+ISPICKVAL(OUV_VehicleMasterStatus__c , &apos;Live&apos;) 
+)</errorConditionFormula>
+        <errorMessage>Insufficient permissions to change Master Status from &apos;Handed in&apos; to &apos;Live&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Check_Primary_Location</fullName>
+        <active>true</active>
+        <description>Before turning the vehicle Live, the Primary Location must be populated.</description>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),ISCHANGED(OUV_VehicleMasterStatus__c),OUV_PrimaryLocation__c = &apos;&apos;, (TEXT(OUV_VehicleMasterStatus__c) = &apos;Live&apos;))</errorConditionFormula>
+        <errorDisplayField>OUV_PrimaryLocation__c</errorDisplayField>
+        <errorMessage>Before turning Vehicle Status to Live, the Primary Location field must be populated.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Pre_Live_Status_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>( $UserRole.DeveloperName &lt;&gt; &apos;Global_OUV_Office&apos; &amp;&amp;
+NOT( ISCHANGED( OUV_ByPassValidation__c )) &amp;&amp;
+ISCHANGED( OUV_VehicleMasterStatus__c ) &amp;&amp; ISPICKVAL(PRIORVALUE(OUV_VehicleMasterStatus__c ),&apos;Pre-Live&apos;) ) 
+&amp;&amp;
+( TEXT(OUV_VehicleMasterStatus__c)  = &apos;Handed In&apos; ||
+( TEXT(OUV_VehicleMasterStatus__c) = &apos;Unavailable&apos; &amp;&amp; (TEXT(OUV_VehicleSubStatus__c) &lt;&gt; &apos;Return to Stock&apos; &amp;&amp; TEXT(OUV_VehicleSubStatus__c) &lt;&gt; &apos;In FMS&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>OUV_VehicleMasterStatus__c</errorDisplayField>
+        <errorMessage>Master status &quot;Pre-Live&quot; can be changed only to &quot;Live&quot; or &quot;Disposed&quot; with sub status &quot;Return to Stock&quot; or &quot;In FMS&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Handed_In_Status_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>$UserRole.DeveloperName &lt;&gt; &apos;Global_OUV_Office&apos; &amp;&amp;
+NOT( ISCHANGED( OUV_ByPassValidation__c )) &amp;&amp;
+ISCHANGED( OUV_VehicleMasterStatus__c ) &amp;&amp; 
+ISPICKVAL(PRIORVALUE(OUV_VehicleMasterStatus__c ),&apos;Handed In&apos;) &amp;&amp; 
+TEXT(OUV_VehicleMasterStatus__c) &lt;&gt; &apos;Live&apos; &amp;&amp; 
+TEXT(OUV_VehicleMasterStatus__c) &lt;&gt; &apos;Unavailable&apos;</errorConditionFormula>
+        <errorDisplayField>OUV_VehicleMasterStatus__c</errorDisplayField>
+        <errorMessage>Master status &quot;Handed in&quot; can only be changed to &quot;Live&quot; or &quot;Disposed&quot;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Remarketing_Edit</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+NOT( ISCHANGED( OUV_ByPassValidation__c ) ),
+Text(OUV_ATORequestFleet__c)&lt;&gt; &quot;Remarketing Fleet&quot;, 
+$Permission.OUV_Remarketing_Vehicle_Edit, 
+$User.Id &lt;&gt; Owner:User.Id, 
+OR( 
+ISCHANGED(OUV_SoldTo__c), 
+ISCHANGED(Name), 
+ISCHANGED(OUV_VistaVehicle__c), 
+ISCHANGED(OUV_HandinDate__c), 
+ISCHANGED(OUV_OrderNumber__c), 
+ISCHANGED(OUV_ProposedAddToFleetDate__c), 
+ISCHANGED(OUV_Justification__c), 
+ISCHANGED(OUV_VehicleMasterStatus__c), 
+ISCHANGED(OUV_VehicleSubStatus__c), 
+ISCHANGED(OUV_DeliveryDate__c), 
+ISCHANGED(OUV_AddToFleetDate__c), 
+ISCHANGED(OUV_BuildPhase__c), 
+ISCHANGED(OUV_ReportingCategory__c), 
+ISCHANGED(OUV_ReportingLevel1__c), 
+ISCHANGED(OUV_ReportingLevel2__c), 
+ISCHANGED(OUV_ReportingLevel3__c), 
+ISCHANGED(OUV_ATORequestFleet__c), 
+ISCHANGED(OUV_CostCentre__c), 
+ISCHANGED(OUV_ATORequestType__c), 
+ISCHANGED(OUV_Driver__c), 
+ISCHANGED(OUV_RegistrationRequired__c), 
+ISCHANGED(OUV_Registration__c), 
+ISCHANGED(OUV_DeRegistrationDate__c), 
+ISCHANGED(OUV_RoadTaxValidFrom__c), 
+ISCHANGED(OUV_InsuranceValidFrom__c), 
+ISCHANGED(OUV_Insurance__c), 
+ISCHANGED(OUV_NextMOTRequired__c), 
+ISCHANGED(OUV_PIINoticePlaced__c), 
+ISCHANGED(OUV_PrimaryLocation__c), 
+ISCHANGED(OUV_VehicleStatus__c), 
+ISCHANGED(OUV_RegistrationDocumentsUploaded__c), 
+ISCHANGED(OUV_DeRegistrationDate__c), 
+ISCHANGED(OUV_RoadTaxValidTo__c), 
+ISCHANGED(OUV_InsuranceValidTo__c), 
+ISCHANGED(OUV_InsuranceDocumentsUploaded__c), 
+ISCHANGED(OUV_ReplacementVehicleMileage__c), 
+ISCHANGED(OUV_IdentitySticker__c), 
+ISCHANGED(OUV_StatusCode__c), 
+ISCHANGED(OUV_CarKeysDeliveredToManager__c), 
+ISCHANGED(OUV_CarKeysReceivedByManager__c), 
+ISCHANGED(OUV_NoOfKeysTransferredToNewManager__c), 
+ISCHANGED(OUV_KeysTransfferedToNewManager__c), 
+ISCHANGED(OUV_NoOfKeysReceivedByNewManager__c), 
+ISCHANGED(OUV_KeysRecievedByNewManager__c), 
+ISCHANGED(OUV_DisposalRoute__c), 
+ISCHANGED(OUV_UpdatedDisposalRoute__c), 
+ISCHANGED(OUV_WriteOff__c), 
+ISCHANGED(OUV_CarCondition__c), 
+ISCHANGED(OUV_CustomerIdentifier__c), 
+ISCHANGED(OUV_FinalSalesPrice__c), 
+ISCHANGED(OUV_SalePriceDate__c), 
+ISCHANGED(OUV_FinanceClassification__c), 
+ISCHANGED(OUV_InitialRetailPrice__c), 
+ISCHANGED(OUV_InventoryStatus__c), 
+ISCHANGED(OUV_RetailPrice__c), 
+ISCHANGED(OUV_MaterialCosts__c), 
+ISCHANGED(CurrencyIsoCode), 
+ISCHANGED(OUV_Freight__c), 
+ISCHANGED(OUV_ResidualValuePercent__c), 
+ISCHANGED(OUV_InventoryValue__c), 
+ISCHANGED(OUV_TransferPrice__c), 
+ISCHANGED(OUV_ATONumber__c), 
+ISCHANGED(OUV_ATOLineItemName__c), 
+ISCHANGED(OUV_ATOJustification__c), 
+ISCHANGED(OUV_ReworkRoute__c), 
+ISCHANGED(OUV_TargetUtilisationPercentage__c), 
+ISCHANGED(OUV_IsReplacementVehicle__c), 
+ISCHANGED(OUV_ReplacementVehicleVINNumber__c), 
+ISCHANGED(OUV_ReplacementVehicleDescription__c), 
+ISCHANGED(OUV_ReplacementVehicleMileage__c), 
+ISCHANGED(OUV_ShortDescription__c) 
+) 
+)</errorConditionFormula>
+        <errorMessage>User has no access right to edit the record</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Transfer_Manager</fullName>
+        <active>true</active>
+        <description>When user changes the owner of OUV vehicle check if  No of Keys Transferred to New Manager pick list and Keys Transferred to New Manager checkbox should be populated</description>
+        <errorConditionFormula>AND 
+( NOT( ISCHANGED( OUV_ByPassValidation__c ) ),
+OR( 
+ISCHANGED( OwnerId ) , 
+AND( 
+ISCHANGED(OUV_VehicleMasterStatus__c), 
+ISPICKVAL(OUV_VehicleMasterStatus__c, &quot;Handed In&quot;)) 
+), 
+OUV_KeysTransfferedToNewManager__c = false , 
+OR 
+( 
+NOT(ISPICKVAL(OUV_NoOfKeysTransferredToNewManager__c, &quot;0&quot; )), 
+NOT(ISPICKVAL(OUV_NoOfKeysTransferredToNewManager__c, &quot;1&quot;)), 
+NOT(ISPICKVAL(OUV_NoOfKeysTransferredToNewManager__c, &quot;2&quot;)) 
+) 
+)</errorConditionFormula>
+        <errorMessage>Please ensure the fields &quot;Transfer - No of Keys Transferred&quot; &amp; &quot;Transfer - Keys transferred&quot; are completed before transferring the vehicle to New Manager</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Unavailable_Status_Change</fullName>
+        <active>true</active>
+        <errorConditionFormula>$UserRole.DeveloperName &lt;&gt; &apos;Global_OUV_Office&apos; &amp;&amp; 
+NOT( ISCHANGED( OUV_ByPassValidation__c )) &amp;&amp;
+ISCHANGED( OUV_VehicleMasterStatus__c ) &amp;&amp; ISPICKVAL(PRIORVALUE(OUV_VehicleMasterStatus__c ),&apos;Unavailable&apos;)</errorConditionFormula>
+        <errorDisplayField>OUV_VehicleMasterStatus__c</errorDisplayField>
+        <errorMessage>Master Status can not be changed for &quot;Disposed&quot; vehicles</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Road_Tax_Validity</fullName>
+        <active>true</active>
+        <description>Road Tax From Date should be less that Road Tax To Date</description>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),OUV_RoadTaxValidFrom__c &gt; OUV_RoadTaxValidTo__c)</errorConditionFormula>
+        <errorDisplayField>OUV_RoadTaxValidFrom__c</errorDisplayField>
+        <errorMessage>From Date cannot be greater than To Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Insurance_Validity</fullName>
+        <active>true</active>
+        <description>From date cannot be greater than To date</description>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),OUV_InsuranceValidFrom__c &gt; OUV_InsuranceValidTo__c)</errorConditionFormula>
+        <errorDisplayField>OUV_InsuranceValidTo__c</errorDisplayField>
+        <errorMessage>From date cannot be greater than To date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Reporting_Level_must_Match_Fleet</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+NOT( ISCHANGED( OUV_ByPassValidation__c ) ),
+  NOT(ISNULL(OUV_Fleet__c)),
+  TEXT( OUV_ReportingLevel1__c ) !=    TEXT(OUV_Fleet__r.OUV_Reporting_Category_1__c) 
+)</errorConditionFormula>
+        <errorDisplayField>OUV_ReportingLevel1__c</errorDisplayField>
+        <errorMessage>The reporting level 1 must match the reporting level defined on the selected Fleet.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_New_Requested_Hand_In_Date</fullName>
+        <active>false</active>
+        <description>New requested handed in date (Extended handed in date) should always be greater than Expected handed in</description>
+        <errorConditionFormula>IF(AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),( NOT(ISBLANK(OUV_NewRequestedHandedInDate__c)) &amp;&amp; (OUV_NewRequestedHandedInDate__c &lt; OUV_HandinDate__c ))),true,false)</errorConditionFormula>
+        <errorDisplayField>OUV_NewRequestedHandedInDate__c</errorDisplayField>
+        <errorMessage>New Requested Handed In Date should be greater than Expected Handed In</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>OUV_Vehicle_Required_Justification_Field</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT( ISCHANGED( OUV_ByPassValidation__c ) ),
+OR 
+	( 
+		AND 
+		( 
+			ISPICKVAL( OUV_VehicleMasterStatus__c , &quot;Unavailable&quot; ) , 
+			ISPICKVAL( OUV_VehicleSubStatus__c , &quot;Write-Off​&quot;),
+			ISCHANGED(OUV_VehicleMasterStatus__c),
+			ISCHANGED(OUV_VehicleSubStatus__c),
+			ISBLANK(OUV_Justification__c)
+
+		),
+		AND
+		(
+			ISPICKVAL( OUV_UpdatedDisposalRoute__c , &quot;Scrap&quot; ) ,
+			ISCHANGED(OUV_UpdatedDisposalRoute__c),
+			ISBLANK(OUV_Justification__c)
+		), 
+		AND
+		( 
+			ISPICKVAL( OUV_NewRequestedHandedInDateStatus__c , &quot;New&quot; ) , 
+			NOT(ISBLANK(OUV_NewRequestedHandedInDate__c)),
+			ISBLANK(OUV_Justification__c)
+		)
+	))</errorConditionFormula>
+        <errorDisplayField>OUV_Justification__c</errorDisplayField>
+        <errorMessage>Please add a justification to complete this update.</errorMessage>
+    </validationRules>
+</CustomObject>

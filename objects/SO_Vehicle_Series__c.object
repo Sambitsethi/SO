@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Vehicle_Series_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Vehicle_Series_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Vehicle Series</label>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Vehicle Series</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>SO_Model__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Model_Year_Start__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SO_Model_Year_End__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>SO_Model__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SO_Model_Year_Start__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SO_Model_Year_End__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Model__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Model_Year_End__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Model_Year_Start__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SO_Model__c</searchFilterFields>
+        <searchFilterFields>SO_Model_Year_Start__c</searchFilterFields>
+        <searchFilterFields>SO_Model_Year_End__c</searchFilterFields>
+        <searchResultsAdditionalFields>SO_Model__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Model_Year_Start__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Model_Year_End__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>SO_Model__c</fullName>
+        <description>Model that this series is associated with.</description>
+        <externalId>false</externalId>
+        <label>Model</label>
+        <referenceTo>SO_Vehicle_Model__c</referenceTo>
+        <relationshipLabel>Vehicle Series</relationshipLabel>
+        <relationshipName>SO_Vehicle_Series</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Year_End__c</fullName>
+        <externalId>false</externalId>
+        <label>Model Year End</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Year_Start__c</fullName>
+        <externalId>false</externalId>
+        <label>Model Year Start</label>
+        <length>4</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <validationRules>
+        <fullName>Prevent_End_Before_Start</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF ( OR( ISBLANK(SO_Model_Year_End__c ),ISBLANK(SO_Model_Year_Start__c ) ), FALSE,
+VALUE( SO_Model_Year_End__c ) &lt;  VALUE( SO_Model_Year_Start__c ) )</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_End__c</errorDisplayField>
+        <errorMessage>The model year end cannot be before the model year start.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Year_End_is_Valid_Number</fullName>
+        <active>true</active>
+        <description>The field must be text due to Salesforce number formatting adding a &quot;,&quot; thus validation rule to ensure entered value is a number.</description>
+        <errorConditionFormula>IF ( ISBLANK(SO_Model_Year_End__c ), FALSE, 
+NOT (  ISNUMBER( SO_Model_Year_End__c ) ) || 
+LEN ( SO_Model_Year_End__c ) &lt; 4    )</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_End__c</errorDisplayField>
+        <errorMessage>The model year end must be a number.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Year_Start_is_Valid_Number</fullName>
+        <active>true</active>
+        <description>The field must be text due to Salesforce number formatting adding a &quot;,&quot; thus validation rule to ensure entered value is a number.</description>
+        <errorConditionFormula>IF ( ISBLANK(SO_Model_Year_Start__c ), FALSE,
+NOT ( ISNUMBER( SO_Model_Year_Start__c ) ) || 
+LEN ( SO_Model_Year_Start__c ) &lt; 4  )</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_Start__c</errorDisplayField>
+        <errorMessage>The model year start must be a number.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Prevent_Creation_of_Series_for_SVO</fullName>
+        <active>true</active>
+        <description>Prevent creation of Series for Non-SVO Models</description>
+        <errorConditionFormula>ISNEW() &amp;&amp; ($Permission.SO_Bespoke || $Permission.SO_Private_Office ) &amp;&amp;  SO_Model__r.SO_Is_Available_SVO__c == FALSE</errorConditionFormula>
+        <errorMessage>You cannot create Series under the selected Model</errorMessage>
+    </validationRules>
+</CustomObject>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>OUV_Vehicle_Loan_Agreement_c__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>OUV Vehicle Loan Agreement</label>
+        <referenceTo>OUV_Vehicle_Loan_Agreement__c</referenceTo>
+        <relationshipLabel>S-Sign Envelopes</relationshipLabel>
+        <relationshipName>S_Sign_Envelopes</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Update_Opportunity_to_Contract_Signed__c</fullName>
+        <description>For SVO Bespoke and Classic Sales Opportunity</description>
+        <externalId>false</externalId>
+        <formula>NOT(ISBLANK(SSign__Opportunity__c)) &amp;&amp; 
+NOT(ISPICKVAL(SSign__Opportunity__r.StageName ,&apos;Contract Signed&apos;)) &amp;&amp;  NOT(ISPICKVAL(SSign__Opportunity__r.StageName ,&apos;Closed Won&apos;)) &amp;&amp;  NOT(ISPICKVAL(SSign__Opportunity__r.StageName ,&apos;Closed Lost&apos;)) &amp;&amp;  (SSign__Opportunity__r.RecordType.DeveloperName = &apos;SO_Bespoke&apos; || SSign__Opportunity__r.RecordType.DeveloperName = &apos;SO_Continuation&apos; || SSign__Opportunity__r.RecordType.DeveloperName = &apos;SO_Limited_Edition&apos; || SSign__Opportunity__r.RecordType.DeveloperName = &apos;SO_Reborn&apos; || SSign__Opportunity__r.RecordType.DeveloperName = &apos;SO_Classic_Bespoke&apos; )</formula>
+        <label>Update Opportunity to Contract Signed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

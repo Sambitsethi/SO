@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>SO_Vehicle_Model_Page_Layout</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Vehicle Model</label>
+    <nameField>
+        <label>Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Vehicle Models</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>SO_Manufacturer__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SO_Model_Year_Start__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SO_Model_Year_End__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Manufacturer__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Model_Year_Start__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SO_Model_Year_End__c</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>SO_Is_JLR_Classic__c</searchFilterFields>
+        <searchFilterFields>SO_Manufacturer__c</searchFilterFields>
+        <searchFilterFields>SO_Model_Year_End__c</searchFilterFields>
+        <searchFilterFields>SO_Model_Year_Start__c</searchFilterFields>
+        <searchResultsAdditionalFields>SO_Manufacturer__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Model_Year_Start__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SO_Model_Year_End__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>SO_Manufacturer__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Manufacturer</label>
+        <referenceTo>SO_Vehicle_Manufacturer__c</referenceTo>
+        <relationshipLabel>Models</relationshipLabel>
+        <relationshipName>Vehicle_Models</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SO_Is_JLR_Classic__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Is this model a JLR Classic?</description>
+        <externalId>false</externalId>
+        <label>Is JLR Classic?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Year_End__c</fullName>
+        <description>Last year that this model was available.</description>
+        <externalId>false</externalId>
+        <label>Model Year End</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SO_Is_Available_SVO__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Available SVO?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SO_Model_Year_Start__c</fullName>
+        <description>Calendar year that this model was first offered for sale.</description>
+        <externalId>false</externalId>
+        <label>Model Year Start</label>
+        <length>4</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>SO_JLR_Model</fullName>
+        <active>true</active>
+        <description>Capture Models of Jaguar Land Rover vehicles</description>
+        <label>JLR Model</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>SO_Non_JLR_Model</fullName>
+        <active>true</active>
+        <description>Capture Non-JLR vehicle models</description>
+        <label>Non-JLR Model</label>
+    </recordTypes>
+    <validationRules>
+        <fullName>Format_Year_End</fullName>
+        <active>true</active>
+        <description>Check that the string is a number so it displays as a year. Enforce 4 charcters and ensure it is &gt; 1890</description>
+        <errorConditionFormula>NOT(ISBLANK(SO_Model_Year_End__c )) &amp;&amp;(
+NOT(ISNUMBER(  SO_Model_Year_End__c )) || LEN( SO_Model_Year_End__c ) != 4 || VALUE( SO_Model_Year_End__c ) &lt; 1890)</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_End__c</errorDisplayField>
+        <errorMessage>The year must be a valid 4 digit year greater than 1889.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>End_before_Start</fullName>
+        <active>true</active>
+        <description>Check that the end is not before the start year</description>
+        <errorConditionFormula>NOT(ISBLANK( SO_Model_Year_End__c )) &amp;&amp; NOT(ISBLANK( SO_Model_Year_Start__c )) &amp;&amp; VALUE(SO_Model_Year_End__c ) &lt; VALUE(SO_Model_Year_Start__c )</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_End__c</errorDisplayField>
+        <errorMessage>You cannot enter a end year that is before the start year.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Manage_JLR_Model</fullName>
+        <active>true</active>
+        <errorConditionFormula>( ISNEW() || ISCHANGED(Name) || ISCHANGED(SO_Model_Year_End__c) || ISCHANGED(SO_Model_Year_Start__c) ) &amp;&amp; NOT(  $Permission.SO_Manage_JLR_Models ) &amp;&amp;  SO_Manufacturer__r.SO_JLR_Owned_Brand__c</errorConditionFormula>
+        <errorMessage>You are not authorised to make changes to JLR Models</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SO_Format_Year_Start</fullName>
+        <active>true</active>
+        <description>Check that the string is a number so it displays as a year. Enforce 4 charcters and ensure it is &gt; 1890</description>
+        <errorConditionFormula>NOT(ISBLANK(SO_Model_Year_Start__c )) &amp;&amp;(
+NOT(ISNUMBER( SO_Model_Year_Start__c )) ||  LEN(SO_Model_Year_Start__c) != 4 ||  VALUE(SO_Model_Year_Start__c) &lt; 1890)</errorConditionFormula>
+        <errorDisplayField>SO_Model_Year_Start__c</errorDisplayField>
+        <errorMessage>The year must be a valid 4 digit year greater than 1889.</errorMessage>
+    </validationRules>
+</CustomObject>

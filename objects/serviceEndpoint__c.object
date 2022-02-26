@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <label>serviceEndpoint</label>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>serviceEndpointURL__c</fullName>
+        <description>serviceEndpointURL</description>
+        <externalId>false</externalId>
+        <inlineHelpText>serviceEndpointURL</inlineHelpText>
+        <label>serviceEndpointURL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+</CustomObject>

@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>GFS Case Type</label>
+    <nameField>
+        <displayFormat>T-{00000}</displayFormat>
+        <label>Title</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>GFS Case Types</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>GFS_Team__c</fullName>
+        <externalId>false</externalId>
+        <label>GFS Team</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GFS_Team</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Help_Text__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Help Information to be displayed when the Picklist Value is selected on the Public Case Submission form.</inlineHelpText>
+        <label>Help Text</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Closed_SLA__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed SLA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GFS_SLA_Statuses</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GFS_Case_Type__c</fullName>
+        <description>Picklist Value that this record corresponds to.</description>
+        <externalId>false</externalId>
+        <label>GFS Case Type</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>GFS_Team__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>GFS_Case_Types</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Master Data</controllingFieldValue>
+                <valueName>Master Data - Finance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data</controllingFieldValue>
+                <valueName>Master Data - Customer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NAFs</controllingFieldValue>
+                <valueName>Submit New</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>NAFs</controllingFieldValue>
+                <valueName>Trading Division</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order to Cash</controllingFieldValue>
+                <valueName>Receivables and Billing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order to Cash</controllingFieldValue>
+                <valueName>Cash Collections</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Order to Cash</controllingFieldValue>
+                <valueName>Intercompany</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTISS</controllingFieldValue>
+                <valueName>Order Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTISS</controllingFieldValue>
+                <valueName>Pricing Templates</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTISS</controllingFieldValue>
+                <valueName>Budget/Forecast</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>Intercompany Payables</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>Invoice or Payment Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>Payables</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Queue_Dev_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Queue Dev. Name</label>
+        <length>120</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Thank_You_Text__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the HTML Text that will be displayed to Customers after they successfully submit Web-Cases.</inlineHelpText>
+        <label>Thank You Text</label>
+        <length>100000</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Reset_To_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Reset To Status</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GFS_Case_Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>GFS Case Sub Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>GFS_Case_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetName>GFS_Case_Sub_Types</valueSetName>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>ITESoft Access Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>One Time Vendor Remittance Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Rejected Payment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Payables</controllingFieldValue>
+                <valueName>STOP/Recall Pymt Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - Brazil</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - Distressed stock</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - FCO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - Fleet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - OUV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - SPR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pricing Templates</controllingFieldValue>
+                <valueName>Upload Type - TDMS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TAXI-VME Claim Processing</controllingFieldValue>
+                <controllingFieldValue>Order Query</controllingFieldValue>
+                <valueName>N/A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget/Forecast</controllingFieldValue>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <controllingFieldValue>Intercompany Payables</controllingFieldValue>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <controllingFieldValue>Master Data - Finance</controllingFieldValue>
+                <controllingFieldValue>Master Data - Customer</controllingFieldValue>
+                <controllingFieldValue>Master Data - Budget/Forecast</controllingFieldValue>
+                <valueName>Other Queries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD SCM Standard NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch Standard NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch P2 NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch P1 NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch TT Standard NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch TT P2 NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Launch TT P1 NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Import for TD PSA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trading Division</controllingFieldValue>
+                <valueName>TD Import WIPs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Audit Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Invoice / Credit Note Copy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <valueName>KD Invoices</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <valueName>Manual Vehicle Credits</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Receivables and Billing</controllingFieldValue>
+                <valueName>Miscellaneous Billing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>After Market Retailer Queries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Audit Requests - Importers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Audit Requests - UK &amp; Miscellaneous</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Bank details for payment of invoices</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Importers - Non existing credits expected from RO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Invoice Query: Importers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Invoice Query: UK &amp; Miscellaneous</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Non existing credits expected from RO (Importers Only)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Request Importers Customer Statement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cash Collections</controllingFieldValue>
+                <valueName>Request UK &amp; Miscellaneous Customer Statement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany Payables</controllingFieldValue>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Invoice Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany Payables</controllingFieldValue>
+                <valueName>Month End Balance Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany Payables</controllingFieldValue>
+                <valueName>Payment Status Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Intercompany Invoice Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Intercompany Journal Posting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Intercompany Payment Requests</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Intercompany Statement Queries</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Intercompany</controllingFieldValue>
+                <valueName>Request Intercompany interim Statement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Copy Document Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Debit Note Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Invoice Rejection Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Payment / Due Date Status Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>PO Balance Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Shopping Cart / GR Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Invoice or Payment Query</controllingFieldValue>
+                <valueName>Vendor Remittance Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data - Finance</controllingFieldValue>
+                <controllingFieldValue>Master Data - Budget/Forecast</controllingFieldValue>
+                <valueName>Budget/Forecast Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data - Finance</controllingFieldValue>
+                <valueName>Cost Centre Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data - Finance</controllingFieldValue>
+                <valueName>GL - Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data - Finance</controllingFieldValue>
+                <valueName>Shopping Cart Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Master Data - Customer</controllingFieldValue>
+                <valueName>Customer Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Automaterials</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Copper</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>BiW Raw Material M-0</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>EDS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>eNAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Ford</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>PGM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Scrap NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Standard Lump sum payable &lt; £300k</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Standard Lump sum receivable, Manual Invoice</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Standard Lump sum receivable, Purchase Order</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Standard POA cost increase (annual cost &lt; £300k)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Standard POA cost reduction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Trading Division</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Query</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Trading Division - Imports</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>Resource</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>SOX Check - WIPS claim no NAF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>SOX Check - SOX Check - NAF Claim not in WIPS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>SOX Check - SOX Check - SOX Check - Effective Date Mismatch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Submit New</controllingFieldValue>
+                <valueName>SOX Check - WIPS claim parts not in NAF</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Initial_Response_SLA__c</fullName>
+        <externalId>false</externalId>
+        <label>Initial Response SLA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GFS_SLA_Statuses</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Record_Type_Dev_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Record Type Dev. Name</label>
+        <length>120</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>In_Approval_Chain_SLA__c</fullName>
+        <externalId>false</externalId>
+        <label>In Approval Chain SLA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GFS_SLA_Statuses</valueSetName>
+        </valueSet>
+    </fields>
+</CustomObject>
